@@ -1,0 +1,185 @@
+{
+  "blogs": {
+    "title": "洞见与更新",
+    "subtitle": "来自团队与产品的新闻、指南与故事。",
+    "readMore": "阅读全文",
+    "by": "作者",
+    "tags": "标签",
+    "category": "分类",
+    "related": "相关文章",
+    "share": "分享",
+    "all": "全部",
+    "publishedOn": "发布时间",
+    "back": "返回文章列表"
+  },
+  "nav": {
+    "about": "关于我们",
+    "products": "产品",
+    "solutions": "解决方案",
+    "blogs": "博客",
+    "pricing": "定价",
+    "support": "支持",
+    "careers": "加入我们",
+    "searchPlaceholder": "搜索商品",
+    "shopNow": "立即购买",
+    "productCategories": {
+      "pos": "收银",
+      "online": "在线点餐",
+      "kiosk": "点餐大屏",
+      "kitchen": "后厨",
+      "queue": "叫号",
+      "smartCash": "自动钱箱",
+      "pad": "平板点单"
+    },
+    "solutionTypes": {
+      "fastFood": "快餐",
+      "teaCoffee": "茶饮咖啡",
+      "buffet": "自助餐",
+      "bakery": "烘焙",
+      "hotPot": "火锅",
+      "barbecue": "烧烤",
+      "fullServiceDining": "正餐",
+      "takeout": "外卖",
+      "delivery": "配送",
+      "bar": "酒吧"
+    }
+  },
+  "hero": {
+    "title1": "2016 新品到店",
+    "text1": "甄选系列 — 打造独特家居",
+    "title2": "我们懂技术 更懂生意",
+    "text2": "专注为欧洲华商提供数字化解决方案"
+  },
+  "features": {
+    "items": [
+      "创意",
+      "现代",
+      "舒适",
+      "经典"
+    ]
+  },
+  "products": {
+    "heading": "精选商品"
+  },
+  "jobs": {
+    "title": "职位发布",
+    "filter": {
+      "all": "全部",
+      "locations": "地区"
+    },
+    "card": {
+      "apply": "查看详情",
+      "location": "地点",
+      "posted": "发布时间",
+      "type": "类型"
+    },
+    "detail": {
+      "apply": "投递简历",
+      "back": "返回列表"
+    }
+  },
+  "careers": {
+    "banner": {
+      "title": "加入我们，共创餐饮科技未来",
+      "subtitle": "与一群热爱产品和客户的伙伴一起，把餐饮数字化做深做透。",
+      "viewJobs": "查看职位",
+      "learnMore": "了解我们"
+    },
+    "whoWeSeek": {
+      "title": "我们在寻找谁",
+      "items": [
+        "拥有共同价值观的伙伴",
+        "具备高效工作效率的团队成员",
+        "拥有专业能力的行业专家"
+      ]
+    },
+    "whyUnique": {
+      "title": "我们为何独特",
+      "vision": {
+        "title": "我们的愿景",
+        "content": "我们志在成为在欧洲各行业的数字化领导者。\n\n通过持续整合上下游供应链，通过我们软硬件的结合创造能力，引领创新技术，为客户提供高效、便捷的解决方案，推动整个行业的不断发展。\n\n我们渴望在数字化转型的浪潮中脱颖而出，成为业界的标杆，共同构建数字化时代的未来。"
+      },
+      "mission": {
+        "title": "我们的使命",
+        "content": "我们的使命是在各行业领域探索新的数字化边界。\n\n帕尔姆网络将打造行业反应的催化剂，为企业在数字时代充满变革的环境中抓住繁荣发展的机遇。\n\n我们致力于提供可持续、创新的行业解决方案，助力企业以更智慧的方式运营和发展。"
+      }
+    },
+    "ctaBanner": {
+      "title": "正在快速扩张，期待你的加入",
+      "button": "投递简历"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "关于帕尔姆网络 - 全球餐饮科技解决方案",
+      "description": "了解帕尔姆网络的全球布局，我们在青岛、杭州、巴塞罗那和巴黎设有办公室。探索我们革新餐饮科技的使命。"
+    },
+    "hero": {
+      "title": "关于帕尔姆网络",
+      "subtitle": "我们是一家全球科技公司，在四大洲设有办公室，致力于通过创新的数字解决方案革新餐饮行业。"
+    },
+    "map": {
+      "title": "我们的全球布局",
+      "subtitle": "探索我们在世界各地的办公室，了解我们的本地团队"
+    },
+    "offices": {
+      "qingdao": {
+        "name": "青岛办公室",
+        "description": "我们的总部和主要开发中心，在这里我们开发尖端的餐饮科技解决方案。"
+      },
+      "hangzhou": {
+        "name": "杭州办公室",
+        "description": "我们的创新实验室，专注于餐厅运营的AI和机器学习应用。"
+      },
+      "barcelona": {
+        "name": "巴塞罗那办公室",
+        "description": "我们的欧洲总部，为整个欧洲的客户提供本地化解决方案。"
+      },
+      "paris": {
+        "name": "巴黎办公室",
+        "description": "我们的法国运营中心，专门为高端餐饮和豪华餐厅提供解决方案。"
+      }
+    },
+    "stats": {
+      "title": "我们的全球影响",
+      "subtitle": "反映我们对卓越和成长承诺的数字",
+      "totalOffices": "总办公室数",
+      "teamMembers": "团队成员",
+      "countriesServed": "服务国家",
+      "yearsExperience": "行业经验",
+      "acrossContinents": "横跨3大洲",
+      "globalWorkforce": "全球员工",
+      "worldwidePresence": "全球布局",
+      "industryExpertise": "行业专长"
+    },
+    "features": {
+      "support24": "24/7支持",
+      "support24Desc": "跨所有时区的全天候技术支持",
+      "localExpertise": "本地专长",
+      "localExpertiseDesc": "对本地市场有深度理解的本土团队",
+      "fastImplementation": "快速实施",
+      "fastImplementationDesc": "快速部署，最小化对运营的干扰",
+      "provenSolutions": "成熟方案",
+      "provenSolutionsDesc": "经过实战验证的技术，被数千家餐厅信赖"
+    },
+    "story": {
+      "title": "我们的故事",
+      "content1": "怀着变革餐饮行业的愿景，帕尔姆网络从一家小公司成长为全球餐饮科技解决方案的领导者。我们的旅程始于一个简单的信念：技术应该让经营餐厅变得更容易，而不是更困难。",
+      "content2": "今天，我们为全球数千家餐厅提供服务，从小型家族企业到大型国际连锁店。我们全面的产品套件包括POS系统、在线点餐平台、厨房管理工具和智能收银解决方案。",
+      "content3": "在青岛、杭州、巴塞罗那和巴黎设有办公室，我们很自豪能够以本地专长和全球创新为我们的客户服务。"
+    },
+    "cta": {
+      "title": "准备与我们合作吗？",
+      "subtitle": "无论您是小型家族餐厅还是大型连锁店，我们都有专业知识和本地存在来帮助您成功。",
+      "contactUs": "联系我们",
+      "viewCareers": "查看职位"
+    }
+  },
+  "footer": {
+    "contact": "联系",
+    "newsletter": "订阅",
+    "subscribe": "订阅",
+    "about": "让你的家更独特，品质与现代感并存。",
+    "rights": "保留所有权利。"
+  }
+}

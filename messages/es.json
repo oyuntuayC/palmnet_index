@@ -1,0 +1,185 @@
+{
+  "blogs": {
+    "title": "Ideas y novedades",
+    "subtitle": "Noticias, guías y historias del equipo y productos.",
+    "readMore": "Leer más",
+    "by": "Por",
+    "tags": "Etiquetas",
+    "category": "Categoría",
+    "related": "Artículos relacionados",
+    "share": "Compartir",
+    "all": "Todos",
+    "publishedOn": "Publicado el",
+    "back": "Volver a todos"
+  },
+  "nav": {
+    "about": "Acerca de",
+    "products": "Productos",
+    "solutions": "Soluciones",
+    "blogs": "Blogs",
+    "pricing": "Precios",
+    "support": "Soporte",
+    "careers": "Empleos",
+    "searchPlaceholder": "Buscar Tienda",
+    "shopNow": "COMPRAR AHORA",
+    "productCategories": {
+      "pos": "POS",
+      "online": "Online",
+      "kiosk": "Kiosco",
+      "kitchen": "Cocina",
+      "queue": "Cola",
+      "smartCash": "Caja Inteligente",
+      "pad": "Tablet"
+    },
+    "solutionTypes": {
+      "fastFood": "COMIDA RÁPIDA",
+      "teaCoffee": "TÉ Y CAFÉ",
+      "buffet": "BUFFET",
+      "bakery": "PANADERÍA",
+      "hotPot": "OLLA CALIENTE",
+      "barbecue": "BARBACOA",
+      "fullServiceDining": "RESTAURANTE COMPLETO",
+      "takeout": "PARA LLEVAR",
+      "delivery": "DOMICILIO",
+      "bar": "BAR"
+    }
+  },
+  "hero": {
+    "title1": "NUEVA LLEGADA 2016",
+    "text1": "Mejor Colección — Haz tu interior único",
+    "title2": "INTERIOR MODERNO",
+    "text2": "Diseño atemporal con comodidad clásica"
+  },
+  "features": {
+    "items": [
+      "CREATIVO",
+      "MODERNO",
+      "CÓMODO",
+      "CLÁSICO"
+    ]
+  },
+  "products": {
+    "heading": "PRODUCTOS DESTACADOS"
+  },
+  "careers": {
+    "banner": {
+      "title": "Únete para crear el futuro de la tecnología restaurantera",
+      "subtitle": "Construye con un equipo que cuida el producto y al cliente.",
+      "viewJobs": "Ver Puestos",
+      "learnMore": "Conócenos"
+    },
+    "whoWeSeek": {
+      "title": "A quién buscamos",
+      "items": [
+        "Socios que compartan nuestros valores fundamentales",
+        "Miembros del equipo con excepcional eficiencia laboral",
+        "Expertos de la industria con competencias profesionales"
+      ]
+    },
+    "whyUnique": {
+      "title": "Por qué somos únicos",
+      "vision": {
+        "title": "Nuestra Visión",
+        "content": "Aspiramos a convertirnos en el líder digital en todas las industrias de Europa.\n\nA través de la integración continua de las cadenas de suministro ascendentes y descendentes, y combinando nuestras capacidades de software y hardware, lideramos la innovación tecnológica, proporcionando soluciones eficientes y convenientes para nuestros clientes, impulsando el desarrollo continuo en toda la industria.\n\nNos esforzamos por destacar en la ola de transformación digital, convirtiéndonos en un referente de la industria y construyendo colectivamente el futuro de la era digital."
+      },
+      "mission": {
+        "title": "Nuestra Misión",
+        "content": "Nuestra misión es explorar nuevas fronteras digitales en todos los sectores industriales.\n\nPalmnet servirá como catalizador para la transformación de la industria, ayudando a las empresas a aprovechar las oportunidades de prosperidad y crecimiento en el cambiante panorama digital.\n\nEstamos comprometidos a proporcionar soluciones industriales sostenibles e innovadoras que empoderen a las empresas para operar y desarrollarse de manera más inteligente."
+      }
+    },
+    "ctaBanner": {
+      "title": "Estamos creciendo rápido. Súmate a construir.",
+      "button": "Postular"
+    }
+  },
+  "jobs": {
+    "title": "Puestos Abiertos",
+    "filter": {
+      "all": "Todos",
+      "locations": "Ubicaciones"
+    },
+    "card": {
+      "apply": "Ver Detalles",
+      "location": "Ubicación",
+      "posted": "Publicado",
+      "type": "Tipo"
+    },
+    "detail": {
+      "apply": "Postular",
+      "back": "Volver a la lista"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Acerca de Palmnet - Soluciones Globales de Tecnología Restaurantera",
+      "description": "Conoce la presencia global de Palmnet con oficinas en Qingdao, Hangzhou, Barcelona y París. Descubre nuestra misión de revolucionar la tecnología restaurantera."
+    },
+    "hero": {
+      "title": "Acerca de Palmnet",
+      "subtitle": "Somos una empresa tecnológica global con oficinas en cuatro continentes, dedicada a revolucionar la industria restaurantera a través de soluciones digitales innovadoras."
+    },
+    "map": {
+      "title": "Nuestra Presencia Global",
+      "subtitle": "Descubre nuestras oficinas alrededor del mundo y conoce nuestros equipos locales"
+    },
+    "offices": {
+      "qingdao": {
+        "name": "Oficina de Qingdao",
+        "description": "Nuestra sede principal y centro de desarrollo, donde desarrollamos soluciones tecnológicas de vanguardia para restaurantes."
+      },
+      "hangzhou": {
+        "name": "Oficina de Hangzhou",
+        "description": "Nuestro laboratorio de innovación enfocado en aplicaciones de IA y aprendizaje automático para operaciones restauranteras."
+      },
+      "barcelona": {
+        "name": "Oficina de Barcelona",
+        "description": "Nuestra sede europea, sirviendo a clientes en toda Europa con soluciones localizadas."
+      },
+      "paris": {
+        "name": "Oficina de París",
+        "description": "Nuestro centro de operaciones francés, especializado en soluciones para restaurantes de alta cocina y lujo."
+      }
+    },
+    "stats": {
+      "title": "Nuestro Impacto Global",
+      "subtitle": "Números que reflejan nuestro compromiso con la excelencia y el crecimiento",
+      "totalOffices": "Oficinas Totales",
+      "teamMembers": "Miembros del Equipo",
+      "countriesServed": "Países Atendidos",
+      "yearsExperience": "Años de Experiencia",
+      "acrossContinents": "En 3 continentes",
+      "globalWorkforce": "Fuerza laboral global",
+      "worldwidePresence": "Presencia mundial",
+      "industryExpertise": "Experiencia de la industria"
+    },
+    "features": {
+      "support24": "Soporte 24/7",
+      "support24Desc": "Soporte técnico las 24 horas en todos los husos horarios",
+      "localExpertise": "Experiencia Local",
+      "localExpertiseDesc": "Equipos nativos con profundo entendimiento de los mercados locales",
+      "fastImplementation": "Implementación Rápida",
+      "fastImplementationDesc": "Despliegue rápido con mínima interrupción a las operaciones",
+      "provenSolutions": "Soluciones Probadas",
+      "provenSolutionsDesc": "Tecnología probada en batalla, confiada por miles de restaurantes"
+    },
+    "story": {
+      "title": "Nuestra Historia",
+      "content1": "Fundada con la visión de transformar la industria restaurantera, Palmnet ha crecido de una pequeña startup a un líder global en soluciones tecnológicas para restaurantes. Nuestro viaje comenzó con una creencia simple: la tecnología debería hacer que dirigir un restaurante sea más fácil, no más difícil.",
+      "content2": "Hoy, servimos a miles de restaurantes en todo el mundo, desde pequeños establecimientos familiares hasta grandes cadenas internacionales. Nuestro conjunto completo de productos incluye sistemas POS, plataformas de pedidos en línea, herramientas de gestión de cocina y soluciones de caja inteligente.",
+      "content3": "Con oficinas en Qingdao, Hangzhou, Barcelona y París, estamos orgullosos de servir a nuestros clientes con experiencia local e innovación global."
+    },
+    "cta": {
+      "title": "¿Listo para Asociarte con Nosotros?",
+      "subtitle": "Ya seas un pequeño restaurante familiar o una gran cadena, tenemos la experiencia y presencia local para ayudarte a tener éxito.",
+      "contactUs": "Contáctanos",
+      "viewCareers": "Ver Empleos"
+    }
+  },
+  "footer": {
+    "contact": "Contacto",
+    "newsletter": "Boletín",
+    "subscribe": "Suscribirse",
+    "about": "Haz tu interior único. Productos de calidad y estilo moderno.",
+    "rights": "Todos los derechos reservados."
+  }
+}

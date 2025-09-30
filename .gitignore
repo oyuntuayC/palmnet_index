@@ -1,0 +1,5 @@
+content/**/*.html
+*.DS_Store
+out
+.next
+node_modules

@@ -1,0 +1,185 @@
+{
+  "blogs": {
+    "title": "Insights & Updates",
+    "subtitle": "News, guides, and stories from our team and products.",
+    "readMore": "Read more",
+    "by": "By",
+    "tags": "Tags",
+    "category": "Category",
+    "related": "Related articles",
+    "share": "Share",
+    "all": "All",
+    "publishedOn": "Published on",
+    "back": "Back to all posts"
+  },
+  "nav": {
+    "about": "About",
+    "products": "Products",
+    "solutions": "Solutions",
+    "blogs": "Blogs",
+    "pricing": "Pricing",
+    "support": "Support",
+    "careers": "Careers",
+    "searchPlaceholder": "Search Shop",
+    "shopNow": "SHOP NOW",
+    "productCategories": {
+      "pos": "POS",
+      "online": "Online",
+      "kiosk": "Kiosk",
+      "kitchen": "Kitchen",
+      "queue": "Queue",
+      "smartCash": "Smart Cash",
+      "pad": "Pad"
+    },
+    "solutionTypes": {
+      "fastFood": "FAST FOOD",
+      "teaCoffee": "TEA & COFFEE",
+      "buffet": "BUFFET",
+      "bakery": "BAKERY",
+      "hotPot": "HOT POT",
+      "barbecue": "BARBECUE",
+      "fullServiceDining": "FULL SERVICE DINING",
+      "takeout": "TAKEOUT",
+      "delivery": "DELIVERY",
+      "bar": "BAR"
+    }
+  },
+  "hero": {
+    "title1": "NEW ARRIVAL 2016",
+    "text1": "Best Collection — Make your interior unique",
+    "title2": "MODERN INTERIOR",
+    "text2": "Timeless design with classic comfort"
+  },
+  "features": {
+    "items": [
+      "CREATIVE",
+      "MODERN",
+      "COMFORT",
+      "CLASSIC"
+    ]
+  },
+  "products": {
+    "heading": "FEATURED PRODUCTS"
+  },
+  "jobs": {
+    "title": "Open Positions",
+    "filter": {
+      "all": "All",
+      "locations": "Locations"
+    },
+    "card": {
+      "apply": "View Details",
+      "location": "Location",
+      "posted": "Posted",
+      "type": "Type"
+    },
+    "detail": {
+      "apply": "Apply",
+      "back": "Back to list"
+    }
+  },
+  "careers": {
+    "banner": {
+      "title": "Join us to shape the future of restaurant tech",
+      "subtitle": "Build with a team who cares deeply about product and customers.",
+      "viewJobs": "View Jobs",
+      "learnMore": "Learn More"
+    },
+    "whoWeSeek": {
+      "title": "Who we're looking for",
+      "items": [
+        "Partners who share our core values",
+        "Team members with exceptional work efficiency",
+        "Industry experts with professional expertise"
+      ]
+    },
+    "whyUnique": {
+      "title": "What makes us unique",
+      "vision": {
+        "title": "Our Vision",
+        "content": "We aspire to become the digital leader across all industries in Europe.\n\nThrough continuous integration of upstream and downstream supply chains, and by combining our software and hardware capabilities, we lead innovation in technology, providing efficient and convenient solutions for our clients, driving continuous development across the entire industry.\n\nWe strive to stand out in the wave of digital transformation, becoming an industry benchmark and collectively building the future of the digital era."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "content": "Our mission is to explore new digital boundaries across all industry sectors.\n\nPalmnet will serve as a catalyst for industry transformation, helping enterprises seize opportunities for prosperity and growth in the ever-changing digital landscape.\n\nWe are committed to providing sustainable, innovative industry solutions that empower businesses to operate and develop more intelligently."
+      }
+    },
+    "ctaBanner": {
+      "title": "We're growing fast. Come build with us.",
+      "button": "Apply Now"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About Palmnet - Global Restaurant Technology Solutions",
+      "description": "Learn about Palmnet's global presence with offices in Qingdao, Hangzhou, Barcelona, and Paris. Discover our mission to revolutionize restaurant technology."
+    },
+    "hero": {
+      "title": "About Palmnet",
+      "subtitle": "We are a global technology company with offices across four continents, dedicated to revolutionizing the restaurant industry through innovative digital solutions."
+    },
+    "map": {
+      "title": "Our Global Presence",
+      "subtitle": "Discover our offices around the world and learn about our local teams"
+    },
+    "offices": {
+      "qingdao": {
+        "name": "Qingdao Office",
+        "description": "Our headquarters and main development center, where we develop cutting-edge restaurant technology solutions."
+      },
+      "hangzhou": {
+        "name": "Hangzhou Office", 
+        "description": "Our innovation lab focused on AI and machine learning applications for restaurant operations."
+      },
+      "barcelona": {
+        "name": "Barcelona Office",
+        "description": "Our European headquarters, serving customers across Europe with localized solutions."
+      },
+      "paris": {
+        "name": "Paris Office",
+        "description": "Our French operations center, specializing in fine dining and luxury restaurant solutions."
+      }
+    },
+    "stats": {
+      "title": "Our Global Impact",
+      "subtitle": "Numbers that reflect our commitment to excellence and growth",
+      "totalOffices": "Total Offices",
+      "teamMembers": "Team Members", 
+      "countriesServed": "Countries Served",
+      "yearsExperience": "Years of Experience",
+      "acrossContinents": "Across 3 continents",
+      "globalWorkforce": "Global workforce",
+      "worldwidePresence": "Worldwide presence",
+      "industryExpertise": "Industry expertise"
+    },
+    "features": {
+      "support24": "24/7 Support",
+      "support24Desc": "Round-the-clock technical support across all time zones",
+      "localExpertise": "Local Expertise", 
+      "localExpertiseDesc": "Native teams with deep understanding of local markets",
+      "fastImplementation": "Fast Implementation",
+      "fastImplementationDesc": "Quick deployment with minimal disruption to operations",
+      "provenSolutions": "Proven Solutions",
+      "provenSolutionsDesc": "Battle-tested technology trusted by thousands of restaurants"
+    },
+    "story": {
+      "title": "Our Story",
+      "content1": "Founded with a vision to transform the restaurant industry, Palmnet has grown from a small startup to a global leader in restaurant technology solutions. Our journey began with a simple belief: technology should make running a restaurant easier, not harder.",
+      "content2": "Today, we serve thousands of restaurants worldwide, from small family-owned establishments to large international chains. Our comprehensive suite of products includes POS systems, online ordering platforms, kitchen management tools, and smart cash solutions.",
+      "content3": "With offices in Qingdao, Hangzhou, Barcelona, and Paris, we're proud to serve our customers with local expertise and global innovation."
+    },
+    "cta": {
+      "title": "Ready to Partner with Us?",
+      "subtitle": "Whether you're a small family restaurant or a large chain, we have the expertise and local presence to help you succeed.",
+      "contactUs": "Contact Us",
+      "viewCareers": "View Careers"
+    }
+  },
+  "footer": {
+    "contact": "Contact",
+    "newsletter": "Newsletter",
+    "subscribe": "Subscribe",
+    "about": "Make your interior unique. Quality products and modern style.",
+    "rights": "All rights reserved."
+  }
+}

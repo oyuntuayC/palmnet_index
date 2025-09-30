@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(14.705882352941176,0,0,14.705882352941176,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="68"><svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.64962 67.6396H58.3088L38.1458 47.4766H25.3397C22.8694 47.4766 20.8669 45.474 20.8669 43.0037V30.1976L0.703857 10.0346V58.6938C0.703857 63.6344 4.70901 67.6396 9.64962 67.6396Z" fill="black"></path>
+<path opacity="0.5" d="M58.8514 0.546466H10.1922L30.3552 20.7095H43.1612C45.6315 20.7095 47.6341 22.7121 47.6341 25.1824V37.9884L67.7971 58.1514V9.49222C67.7971 4.55162 63.792 0.546466 58.8514 0.546466Z" fill="black"></path>
+</svg></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(14.705882352941176,0,0,14.705882352941176,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="68"><svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.64949 67.6396H58.3087L38.1457 47.4766H25.3396C22.8693 47.4766 20.8667 45.474 20.8667 43.0037V30.1976L0.703735 10.0346V58.6938C0.703735 63.6344 4.70889 67.6396 9.64949 67.6396Z" fill="white"></path>
+<path opacity="0.5" d="M58.8512 0.546466H10.1921L30.3551 20.7095H43.1611C45.6314 20.7095 47.634 22.7121 47.634 25.1824V37.9884L67.797 58.1514V9.49222C67.797 4.55162 63.7918 0.546466 58.8512 0.546466Z" fill="white"></path>
+</svg></svg></g></g></svg></g></svg>

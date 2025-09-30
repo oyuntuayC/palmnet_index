@@ -1,0 +1,36 @@
+@import 'leaflet/dist/leaflet.css';
+
+/* 自定义Leaflet样式 */
+.leaflet-container {
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  padding: 0;
+}
+
+.leaflet-popup-tip {
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* 自定义标记样式 */
+.custom-marker {
+  background: #3b82f6;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.custom-marker:hover {
+  background: #2563eb;
+  transform: scale(1.2);
+  transition: all 0.2s ease;
+}
