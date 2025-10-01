@@ -140,11 +140,14 @@ export default function SharedMenu({
                       <ul className="group space-y-3">
                         {[
                           { key: 'pos', name: t('nav.productCategories.pos') },
+                          { key: 'tableOrder', name: t('nav.productCategories.tableOrder') },
                           { key: 'online', name: t('nav.productCategories.online') },
+                          { key: 'waiter', name: t('nav.productCategories.waiter') },
                           { key: 'kiosk', name: t('nav.productCategories.kiosk') },
-                          { key: 'kitchen', name: t('nav.productCategories.kitchen') },
+                          { key: 'advertise', name: t('nav.productCategories.advertise') },
                           { key: 'queue', name: t('nav.productCategories.queue') },
-                          { key: 'smartCash', name: t('nav.productCategories.smartCash') },
+                          { key: 'kitchen', name: t('nav.productCategories.kitchen') },
+                          // { key: 'smartCash', name: t('nav.productCategories.smartCash') },
                           { key: 'pad', name: t('nav.productCategories.pad') }
                         ].map((item, index)=> (
                           <li 

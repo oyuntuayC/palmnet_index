@@ -29,7 +29,10 @@
       "kitchen": "Kitchen",
       "queue": "Queue",
       "smartCash": "Smart Cash",
-      "pad": "Pad"
+      "pad": "Pad",
+      "tableOrder": "Table Order",
+      "waiter": "Waiter",
+      "advertise": "Advertise"
     },
     "solutionTypes": {
       "fastFood": "FAST FOOD",

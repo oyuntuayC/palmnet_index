@@ -30,8 +30,9 @@
       "pad": "大屏点餐",
       "queue": "叫号管理",
       "smartCash": "广告管理",
-      "kitchen": "后厨"
-         
+      "kitchen": "后厨",
+      "tableOrder": "桌台点餐",
+      "advertise": "广告管理"   
     },
     "solutionTypes": {
       "fastFood": "快餐",

@@ -29,7 +29,10 @@
       "kitchen": "Cocina",
       "queue": "Cola",
       "smartCash": "Caja Inteligente",
-      "pad": "Tablet"
+      "pad": "Tablet",
+      "tableOrder": "Pedido de Mesa",
+      "waiter": "Camarero",
+      "advertise": "Publicidad"
     },
     "solutionTypes": {
       "fastFood": "COMIDA RÁPIDA",
