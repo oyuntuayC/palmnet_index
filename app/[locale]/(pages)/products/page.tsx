@@ -28,13 +28,14 @@ export function generateStaticParams() {
 
 export default function ProductsPage(): React.ReactElement {
   const products = [
-    { key: 'pos', name: 'POS 收银系统', description: '专业的餐厅收银解决方案' },
-    { key: 'online', name: '在线点餐系统', description: '便捷的在线点餐解决方案' },
-    { key: 'kiosk', name: '自助点餐机', description: '智能自助点餐解决方案' },
-    { key: 'kitchen', name: '厨房管理系统', description: '高效的后厨管理解决方案' },
-    { key: 'queue', name: '叫号排队系统', description: '智能排队管理解决方案' },
-    { key: 'smartCash', name: '智能钱箱系统', description: '智能现金管理解决方案' },
-    { key: 'pad', name: '平板点单系统', description: '便携式点餐解决方案' }
+    { key: 'pos', name: '智能收银台', description: '专业的餐厅收银解决方案' },
+    { key: 'kiosk', name: '桌台扫码', description: '智能自助点餐解决方案' },
+    { key: 'online', name: '线上点餐', description: '便捷的在线点餐解决方案' },
+    { key: 'waiter', name: '大屏点餐', description: '便携式点餐解决方案' },
+    { key: 'pad', name: '大屏点餐', description: '便携式点餐解决方案' },
+    { key: 'queue', name: '叫号管理', description: '智能排队管理解决方案' },
+    { key: 'smartCash', name: '广告管理', description: '智能广告，精准触达' },
+    { key: 'kitchen', name: '后厨KDS', description: '高效的后厨管理解决方案' },
   ]
 
   return (

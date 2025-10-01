@@ -23,13 +23,15 @@
     "searchPlaceholder": "搜索商品",
     "shopNow": "立即购买",
     "productCategories": {
-      "pos": "收银",
-      "online": "在线点餐",
-      "kiosk": "点餐大屏",
-      "kitchen": "后厨",
-      "queue": "叫号",
-      "smartCash": "自动钱箱",
-      "pad": "平板点单"
+      "pos": "智能收银台",
+      "kiosk": "桌台扫码",
+      "online": "线上点餐",
+      "waiter": "跑堂点餐",
+      "pad": "大屏点餐",
+      "queue": "叫号管理",
+      "smartCash": "广告管理",
+      "kitchen": "后厨"
+         
     },
     "solutionTypes": {
       "fastFood": "快餐",
@@ -183,3 +185,5 @@
     "rights": "保留所有权利。"
   }
 }
+
+
