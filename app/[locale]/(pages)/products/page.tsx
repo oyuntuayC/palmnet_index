@@ -31,7 +31,7 @@ export default function ProductsPage(): React.ReactElement {
     { key: 'pos', name: '智能收银台', description: '专业的餐厅收银解决方案' },
     { key: 'kiosk', name: '桌台扫码', description: '智能自助点餐解决方案' },
     { key: 'online', name: '线上点餐', description: '便捷的在线点餐解决方案' },
-    { key: 'waiter', name: '大屏点餐', description: '便携式点餐解决方案' },
+    { key: 'waiter', name: '跑堂点餐', description: '便携式点餐解决方案' },
     { key: 'pad', name: '大屏点餐', description: '便携式点餐解决方案' },
     { key: 'queue', name: '叫号管理', description: '智能排队管理解决方案' },
     { key: 'smartCash', name: '广告管理', description: '智能广告，精准触达' },
