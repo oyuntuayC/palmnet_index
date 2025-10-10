@@ -3,7 +3,7 @@
 
 /* Theme variables */
 :root {
-  --color-bg: #ffffff;
+  --color-bg: #fbf9fa;
   --color-text: #141414;
   --color-primary: #ffe115;
   --color-muted: #777777;
@@ -122,6 +122,10 @@ img { max-width: 100%; height: auto; display: inline-block; }
   100% { transform: translateX(-50%); }
 }
 
+.animate-fadeIn {
+  animation: fadeIn var(--duration, .8s) var(--ease, ease-out) forwards;
+}
+
 .animate-scroll {
   animation: scroll 20s linear infinite;
   width: 200%;
@@ -145,3 +149,14 @@ img { max-width: 100%; height: auto; display: inline-block; }
 .markdown-body pre code { background: transparent; padding: 0; }
 .markdown-body blockquote { border-left: 3px solid #e5e7eb; padding-left: 12px; color: var(--color-muted); margin: 1em 0; }
 .markdown-body img { border-radius: 8px; margin: 10px 0; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.8;
+    transform: translateY(var(--translate-y, 20px));
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

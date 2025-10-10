@@ -1,7 +1,8 @@
 import { NextIntlClientProvider } from 'next-intl'
+import { locales, type Locale } from '@/lib/locales'
 import type { Metadata } from 'next'
 
-type Params = { locale: 'zh' | 'en' | 'es' }
+type Params = { locale: Locale }
 
 // 集中处理 hreflang 和基础 SEO metadata
 export function generateMetadata({ params }: { params: Params }): Metadata {
@@ -39,5 +40,5 @@ export default async function LocaleLayout({
 
 // Ensure static export for all locales
 export function generateStaticParams() {
-  return [{ locale: 'zh' }, { locale: 'en' }, { locale: 'es' }]
+  return locales.map((locale) => ({ locale }))
 }

@@ -1,8 +1,9 @@
 // server component (no client directive to allow generateStaticParams)
-import Link from 'next/link'
+import { Link } from '@/lib/navigation'
 import { getTranslations, getMessages } from 'next-intl/server'
+import type { Locale } from '@/lib/locales'
 
-export default async function CareersPage({ params }: { params: { locale: 'zh' | 'en' | 'es' } }): Promise<React.ReactElement> {
+export default async function CareersPage({ params }: { params: { locale: Locale } }): Promise<React.ReactElement> {
   const locale = params.locale
   const t = await getTranslations({ locale, namespace: 'careers' })
   // Read array content from messages for the current locale
@@ -19,7 +20,7 @@ export default async function CareersPage({ params }: { params: { locale: 'zh' |
           <h1 className="font-inter text-4xl md:text-6xl mb-4 max-w-4xl mx-auto">{t('banner.title')}</h1>
           <p className="font-montserrat text-base md:text-xl mb-8 max-w-2xl mx-auto">{t('banner.subtitle')}</p>
           <div className="flex items-center justify-center gap-3 md:gap-4">
-            <Link href={`/${locale}/jobs`} className="btn btn-round">{t('banner.viewJobs')}</Link>
+            <Link href="/jobs" className="btn btn-round">{t('banner.viewJobs')}</Link>
             <a href="#about" className="btn btn-outline btn-round">{t('banner.learnMore')}</a>
           </div>
         </div>
@@ -82,11 +83,9 @@ export default async function CareersPage({ params }: { params: { locale: 'zh' |
       <section className="relative bg-cover bg-center min-h-[50vh]" style={{ backgroundImage: 'url(/images/slide-bg-2.jpg)' }}>
         <div className="container mx-auto min-h-[50vh] flex flex-col items-center justify-center text-center text-white py-12 md:py-16">
           <h3 className="text-2xl md:text-3xl font-inter mb-4 max-w-3xl mx-auto">{t('ctaBanner.title')}</h3>
-          <Link href={`/${locale}/jobs`} className="btn btn-round mt-2 md:mt-3">{t('ctaBanner.button')}</Link>
+          <Link href="/jobs" className="btn btn-round mt-2 md:mt-3">{t('ctaBanner.button')}</Link>
         </div>
       </section>
     </main>
   )
 }
-
-

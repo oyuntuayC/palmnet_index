@@ -1,8 +1,9 @@
 import ContactForm from '../../../../components/ContactForm'
 import type { Metadata } from 'next'
+import type { Locale } from '@/lib/locales'
 
 // 页面独立的标题和描述
-export function generateMetadata({ params }: { params: { locale: 'zh' | 'en' | 'es' } }): Metadata {
+export function generateMetadata({ params }: { params: { locale: Locale } }): Metadata {
   const titles = {
     zh: '联系我们 - PalmNet',
     en: 'Contact Us - PalmNet', 

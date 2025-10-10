@@ -3,14 +3,15 @@ import HomePage from '../../components/HomePage'
 import DarkHeader from 'components/DarkHeader'
 import { getAllPosts } from '../../lib/blog'
 import type { Metadata } from 'next'
+import { locales, type Locale } from '@/lib/locales'
 
 // Required for output: 'export' to enumerate dynamic [locale] routes
 export function generateStaticParams() {
-  return [{ locale: 'zh' }, { locale: 'en' }, { locale: 'es' }]
+  return locales.map((locale) => ({ locale }))
 }
 
 // 主页独立的标题和描述
-export function generateMetadata({ params }: { params: { locale: 'zh' | 'en' | 'es' } }): Metadata {
+export function generateMetadata({ params }: { params: { locale: Locale } }): Metadata {
   const titles = {
     zh: 'PalmNet - 餐厅数字化解决方案',
     en: 'PalmNet - Restaurant Digital Solutions', 
@@ -29,7 +30,7 @@ export function generateMetadata({ params }: { params: { locale: 'zh' | 'en' | '
   }
 }
 
-export default function LocalizedPage({ params }: { params: { locale: 'zh' | 'en' | 'es' } }) {
+export default function LocalizedPage({ params }: { params: { locale: Locale } }) {
   const posts = getAllPosts(params.locale)
   
   return (
@@ -40,4 +41,3 @@ export default function LocalizedPage({ params }: { params: { locale: 'zh' | 'en
     </>
   )
 }
-

@@ -1,40 +1,96 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
+import React from 'react'
+import { getTranslations } from 'next-intl/server'
+import { FaPenFancy, FaSyncAlt, FaSearch, FaCheckCircle } from 'react-icons/fa'
 
-// 页面独立的标题和描述
-export function generateMetadata({ params }: { params: { locale: 'zh' | 'en' | 'es' } }): Metadata {
-  const titles = {
-    zh: '平板点单系统 - PalmNet',
-    en: 'Tablet Ordering System - PalmNet', 
-    es: 'Sistema de Pedidos con Tablet - PalmNet'
-  }
-  
-  const descriptions = {
-    zh: '便携式平板点单系统，服务员可随时为顾客点餐，提升服务体验',
-    en: 'Portable tablet ordering system allowing servers to take orders anytime, enhancing service experience',
-    es: 'Sistema de pedidos con tablet portátil que permite a los camareros tomar pedidos en cualquier momento, mejorando la experiencia del servicio'
-  }
+import { ProductsHero } from '@/components/products/ProductsHero'
+import { FeatureHighlights } from '@/components/products/FeatureHighlights'
+import { FeatureBento } from '@/components/products/FeatureBento'
+import { locales, type Locale } from '@/lib/locales'
+
+export async function generateMetadata({ params }: { params: { locale: Locale } }): Promise<Metadata> {
+  const t = await getTranslations({ locale: params.locale, namespace: 'products.waiter.meta' })
 
   return {
-    title: titles[params.locale],
-    description: descriptions[params.locale],
+    title: t('title'),
+    description: t('description')
   }
 }
 
-// 静态导出需要为动态段提供静态参数
 export function generateStaticParams() {
-  return [{ locale: 'zh' }, { locale: 'en' }, { locale: 'es' }]
+  return locales.map((locale) => ({ locale }))
 }
 
-export default function PadPage(): React.ReactElement {
+export default async function WaiterPage({ params }: { params: { locale: Locale } }): Promise<React.JSX.Element> {
+  const t = await getTranslations({ locale: params.locale, namespace: 'products.waiter' })
+
+  const highlights = [
+    { key: 'tableside', icon: FaPenFancy },
+    { key: 'sync', icon: FaSyncAlt },
+    { key: 'search', icon: FaSearch },
+    { key: 'accuracy', icon: FaCheckCircle }
+  ].map(({ key, icon }) => ({
+    icon,
+    title: t(`highlights.${key}.title`),
+    subtitle: t(`highlights.${key}.subtitle`)
+  }))
+
+  const features = [
+    {
+      title: t('features.multiScreen.title'),
+      description: t('features.multiScreen.description'),
+      backgroundImage: '/images/products/waiter/feature-1-bg.png',
+      deviceImage: '/images/products/waiter/feature-1-device.png',
+      backgroundOverlay: 'light'
+    },
+    {
+      title: t('features.orientation.title'),
+      description: t('features.orientation.description'),
+      backgroundImage: '/images/products/waiter/feature-2-bg.png',
+      deviceImage: '/images/products/waiter/feature-2-device.png',
+      backgroundOverlay: 'dark'
+    },
+    {
+      title: t('features.simple.title'),
+      description: t('features.simple.description'),
+      backgroundImage: '/images/products/waiter/feature-1-bg.png',
+      deviceImage: '/images/products/waiter/feature-3-device.png',
+      backgroundOverlay: 'gradient'
+    }
+  ]
+
   return (
     <div className="container mx-auto py-16">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">平板点单系统</h1>
-        <p className="text-lg text-gray-600 mb-8">便携式点餐解决方案</p>
-        <div className="bg-gray-100 p-8 rounded-lg">
-          <p className="text-gray-500">产品详情页面正在开发中...</p>
-        </div>
+      <div className="space-y-16">
+        <ProductsHero
+          pillLabel={t('hero.pillLabel')}
+          title={t('hero.title')}
+          description={t('hero.description')}
+          primaryButton={{
+            label: t('hero.primaryButton.label'),
+            href: '/contact'
+          }}
+          secondaryButton={{
+            label: t('hero.secondaryButton.label'),
+            href: '/products'
+          }}
+          imageBackgroundColor="#d8af33"
+        >
+          <Image
+            src="/images/products/waiter/hero.png"
+            alt={t('hero.imageAlt')}
+            width={480}
+            height={480}
+            priority
+            className="h-auto w-[40rem] md:w-[50rem] lg:w-[60rem] object-contain"
+          />
+        </ProductsHero>
       </div>
+
+      <FeatureHighlights highlights={highlights} />
+
+      <FeatureBento features={features} />
     </div>
   )
 }

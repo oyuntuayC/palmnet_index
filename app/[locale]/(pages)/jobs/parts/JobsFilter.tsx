@@ -1,5 +1,5 @@
 "use client"
-import Link from 'next/link'
+import { Link } from '@/lib/navigation'
 import React from 'react'
 import { useTranslations } from 'next-intl'
 
@@ -13,11 +13,9 @@ type Job = {
 }
 
 export default function JobsFilter({
-  locale,
   locations,
   jobs,
 }: {
-  locale: 'zh' | 'en' | 'es'
   locations: string[]
   jobs: Job[]
 }) {
@@ -43,12 +41,10 @@ export default function JobsFilter({
               <span>{t('card.type')}: {job.type}</span>
             </div>
             <p className="text-sm text-gray-800 mb-4 flex-1">{job.summary}</p>
-            <Link href={`/${locale}/jobs/${job.id}`} className="btn btn-small btn-round self-start">{t('card.apply')}</Link>
+            <Link href={`/jobs/${job.id}`} className="btn btn-small btn-round self-start">{t('card.apply')}</Link>
           </div>
         ))}
       </div>
     </>
   )
 }
-
-

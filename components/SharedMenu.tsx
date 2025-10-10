@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useRef, useLayoutEffect } from 'react'
-import Link from 'next/link'
-import { useTranslations, useLocale } from 'next-intl'
+import { Link } from '@/lib/navigation'
+import { useTranslations } from 'next-intl'
 import { SlUser, SlBasketLoaded, SlMagnifier } from 'react-icons/sl'
 import { FaBars } from 'react-icons/fa'
 
@@ -25,7 +25,6 @@ export default function SharedMenu({
   setSearchOpen
 }: SharedMenuProps): React.ReactElement {
   const t = useTranslations()
-  const locale = useLocale() as 'zh' | 'en' | 'es'
   const productsRef = useRef<HTMLDivElement>(null)
   const solutionsRef = useRef<HTMLDivElement>(null)
   const aboutRef = useRef<HTMLDivElement>(null)
@@ -85,10 +84,10 @@ export default function SharedMenu({
           </li>
           {/* About megamenu (after Solutions) - hover to open, click to navigate */}
           <li className="relative" onMouseEnter={() => handleMouseEnter('about')} onMouseLeave={handleMouseLeave}>
-            <Link href={`/${locale}/about`} className={`${getTextColor()} block px-6 py-2 transition-opacity duration-300 ${activeMegaMenu ? (activeMegaMenu === 'about' ? 'opacity-100' : 'opacity-50') : 'group-hover:opacity-50 hover:opacity-100'}`}>{t('nav.about')}</Link>
+            <Link href="/about" className={`${getTextColor()} block px-6 py-2 transition-opacity duration-300 ${activeMegaMenu ? (activeMegaMenu === 'about' ? 'opacity-100' : 'opacity-50') : 'group-hover:opacity-50 hover:opacity-100'}`}>{t('nav.about')}</Link>
           </li>
           {/* Blogs moved under About menu */}
-          <li><Link href={`/${locale}/contact`} className={`${getTextColor()} block px-6 py-2 transition-opacity duration-300 ${activeMegaMenu ? 'opacity-50' : 'group-hover:opacity-50 hover:opacity-100'}`}>{t('nav.support')}</Link></li>
+          <li><Link href="/contact" className={`${getTextColor()} block px-6 py-2 transition-opacity duration-300 ${activeMegaMenu ? 'opacity-50' : 'group-hover:opacity-50 hover:opacity-100'}`}>{t('nav.support')}</Link></li>
         </ul>
         <div 
           onMouseEnter={() => leaveTimer.current && clearTimeout(leaveTimer.current)} 
@@ -108,9 +107,9 @@ export default function SharedMenu({
                     <div className="col-span-12 md:col-span-3">
                       <ul className="group space-y-3">
                         {[
-                          { key: 'about', name: t('nav.about'), href: `/${locale}/about` },
-                          { key: 'blogs', name: t('nav.blogs'), href: `/${locale}/blogs` },
-                          { key: 'careers', name: t('nav.careers'), href: `/${locale}/careers` },
+                          { key: 'about', name: t('nav.about'), href: '/about' },
+                          { key: 'blogs', name: t('nav.blogs'), href: '/blogs' },
+                          { key: 'careers', name: t('nav.careers'), href: '/careers' },
                         ].map((item, index) => (
                           <li
                             key={item.key}
@@ -140,15 +139,15 @@ export default function SharedMenu({
                       <ul className="group space-y-3">
                         {[
                           { key: 'pos', name: t('nav.productCategories.pos') },
-                          { key: 'tableOrder', name: t('nav.productCategories.tableOrder') },
+                          // { key: 'tableOrder', name: t('nav.productCategories.tableOrder') },
                           { key: 'online', name: t('nav.productCategories.online') },
                           { key: 'waiter', name: t('nav.productCategories.waiter') },
                           { key: 'kiosk', name: t('nav.productCategories.kiosk') },
-                          { key: 'advertise', name: t('nav.productCategories.advertise') },
-                          { key: 'queue', name: t('nav.productCategories.queue') },
-                          { key: 'kitchen', name: t('nav.productCategories.kitchen') },
+                          // { key: 'advertise', name: t('nav.productCategories.advertise') },
+                          // { key: 'queue', name: t('nav.productCategories.queue') },
+                          // { key: 'kitchen', name: t('nav.productCategories.kitchen') },
                           // { key: 'smartCash', name: t('nav.productCategories.smartCash') },
-                          { key: 'pad', name: t('nav.productCategories.pad') }
+                          // { key: 'pad', name: t('nav.productCategories.pad') }
                         ].map((item, index)=> (
                           <li 
                             key={item.key} 
@@ -157,7 +156,7 @@ export default function SharedMenu({
                             onMouseEnter={() => handleProductHover(item.key)}
                             onMouseLeave={handleProductLeave}
                           >
-                            <Link href={`/${locale}/products/${item.key}`} className="block text-lg font-medium hover:text-primary transition-opacity duration-200 group-hover:opacity-50 hover:opacity-100">{item.name}</Link>
+                            <Link href={`/products/${item.key}`} className="block text-lg font-medium hover:text-primary transition-opacity duration-200 group-hover:opacity-50 hover:opacity-100">{item.name}</Link>
                           </li>
                         ))}
                       </ul>
@@ -178,7 +177,7 @@ export default function SharedMenu({
                     <div className="col-span-12 md:col-span-5">
                       <h5 className={`font-inter text-lg md:text-xl mb-2 transition-opacity duration-300 ${activeMegaMenu === 'products' ? 'opacity-100' : 'opacity-0'}`} style={{transitionDelay: activeMegaMenu === 'products' ? '150ms' : '0ms'}}>Complete Restaurant Solution</h5>
                       <p className={`text-sm md:text-base mb-3 transition-opacity duration-300 ${activeMegaMenu === 'products' ? 'opacity-100' : 'opacity-0'}`} style={{transitionDelay: activeMegaMenu === 'products' ? '170ms' : '0ms'}}>Streamline your restaurant operations with our comprehensive digital platform designed for European restaurants.</p>
-                      <Link href={`/${locale}/products`} className={`btn btn-small btn-round transition-opacity duration-300 ${activeMegaMenu === 'products' ? 'opacity-100' : 'opacity-0'}`} style={{transitionDelay: activeMegaMenu === 'products' ? '190ms' : '0ms'}}>View All Products</Link>
+                      <Link href="/products" className={`btn btn-small btn-round transition-opacity duration-300 ${activeMegaMenu === 'products' ? 'opacity-100' : 'opacity-0'}`} style={{transitionDelay: activeMegaMenu === 'products' ? '190ms' : '0ms'}}>View All Products</Link>
                     </div>
                   </div>
                 </div>
@@ -267,7 +266,6 @@ export function MobileMenu({
   setActiveMegaMenu,
 }: Omit<SharedMenuProps, 'searchOpen' | 'setSearchOpen'>): React.ReactElement {
   const t = useTranslations()
-  const locale = useLocale() as 'zh' | 'en' | 'es'
 
   const getTextColor = () => theme === 'light' ? 'text-gray-900' : 'text-white'
   const getHoverColor = () => theme === 'light' ? 'hover:text-primary' : 'hover:text-yellow-400'
@@ -295,13 +293,14 @@ export function MobileMenu({
             </button>
             {activeMegaMenu === 'products' && (
               <ul className="ml-4 mt-2 space-y-2 [list-style:none]">
-                <li><Link href={`/${locale}/products/pos`} className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.pos')}</Link></li>
-                <li><Link href={`/${locale}/products/online`} className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.online')}</Link></li>
-                <li><Link href={`/${locale}/products/kiosk`} className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.kiosk')}</Link></li>
-                <li><Link href={`/${locale}/products/kitchen`} className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.kitchen')}</Link></li>
-                <li><Link href={`/${locale}/products/queue`} className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.queue')}</Link></li>
-                <li><Link href={`/${locale}/products/smartCash`} className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.smartCash')}</Link></li>
-                <li><Link href={`/${locale}/products/pad`} className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.pad')}</Link></li>
+                <li><Link href="/products/pos" className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.pos')}</Link></li>
+                <li><Link href="/products/online" className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.online')}</Link></li>
+                <li><Link href="/products/kiosk" className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.kiosk')}</Link></li>
+                <li><Link href="/products/waiter" className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.waiter')}</Link></li>
+                {/* <li><Link href="/products/kitchen" className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.kitchen')}</Link></li> */}
+                {/* <li><Link href="/products/queue" className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.queue')}</Link></li> */}
+                {/* <li><Link href="/products/smartCash" className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.smartCash')}</Link></li> */}
+                {/* <li><Link href="/products/pad" className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.productCategories.pad')}</Link></li> */}
               </ul>
             )}
           </li>
@@ -340,13 +339,13 @@ export function MobileMenu({
             </button>
             {activeMegaMenu === 'about' && (
               <ul className="ml-4 mt-2 space-y-2 [list-style:none]">
-                <li><Link href={`/${locale}/about`} className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.about')}</Link></li>
-                <li><Link href={`/${locale}/blogs`} className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.blogs')}</Link></li>
-                <li><Link href={`/${locale}/careers`} className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.careers')}</Link></li>
+                <li><Link href="/about" className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.about')}</Link></li>
+                <li><Link href="/blogs" className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.blogs')}</Link></li>
+                <li><Link href="/careers" className={`block py-1 text-sm transition-colors ${getSubTextColor()} ${getHoverColor()}`}>{t('nav.careers')}</Link></li>
               </ul>
             )}
           </li>
-          <li><Link href={`/${locale}/contact`} className={`block py-1 transition-colors ${getTextColor()} ${getHoverColor()}`}>{t('nav.support')}</Link></li>
+          <li><Link href="/contact" className={`block py-1 transition-colors ${getTextColor()} ${getHoverColor()}`}>{t('nav.support')}</Link></li>
           {/* mobile account/cart inside menu */}
           <li><a href="#" aria-label="Account" className={`flex items-center gap-2 py-1 transition-colors ${getTextColor()} ${getHoverColor()}`}><SlUser className="icon-svg"/> Account</a></li>
           <li><a href="#" aria-label="Cart" className={`flex items-center gap-2 py-1 transition-colors ${getTextColor()} ${getHoverColor()}`}><SlBasketLoaded className="icon-svg"/> Cart</a></li>

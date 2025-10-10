@@ -15,11 +15,15 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
+
 export const metadata: Metadata = {
   title: 'EcoShop – Home',
   description: 'Multipurpose shop homepage built with Next.js',
   authors: [{ name: 'EcoShop' }],
-  viewport: 'width=device-width, initial-scale=1',
   appleWebApp: {
     title: 'Palmnet',
   },

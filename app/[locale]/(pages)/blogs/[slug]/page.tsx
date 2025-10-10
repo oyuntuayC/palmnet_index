@@ -3,15 +3,16 @@ import { getTranslations } from 'next-intl/server'
 import BlogMeta from '../../../../../components/blog/BlogMeta'
 import SocialShare from '../../../../../components/blog/SocialShare'
 import MarkdownRenderer from '../../../../../components/blog/MarkdownRenderer'
+import { Link } from '@/lib/navigation'
+import { locales, type Locale } from '@/lib/locales'
 
 export const dynamic = 'force-static'
 
 export function generateStaticParams() {
-  const locales: Array<'zh' | 'en' | 'es'> = ['zh', 'en', 'es']
   return locales.flatMap((locale) => getAllSlugs(locale).map((slug) => ({ locale, slug })))
 }
 
-export default async function BlogDetailPage({ params }: { params: { locale: 'zh' | 'en' | 'es'; slug: string } }) {
+export default async function BlogDetailPage({ params }: { params: { locale: Locale; slug: string } }) {
   const { locale, slug } = params
   const t = await getTranslations('blogs')
   const post = getPost(locale, slug)
@@ -55,10 +56,10 @@ export default async function BlogDetailPage({ params }: { params: { locale: 'zh
           <h2 className="font-inter text-2xl mb-6">{t('related')}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {related.map((p) => (
-              <a key={p.slug} className="block p-5 light-gray-bg rounded" href={`/${locale}/blogs/${p.slug}`}>
+              <Link key={p.slug} className="block p-5 light-gray-bg rounded" href={`/blogs/${p.slug}`}>
                 <div className="font-medium mb-2">{p.data.title}</div>
                 <div className="text-sm text-muted">{p.data.subtitle}</div>
-              </a>
+              </Link>
             ))}
           </div>
         </section>
@@ -66,5 +67,3 @@ export default async function BlogDetailPage({ params }: { params: { locale: 'zh
     </main>
   )
 }
-
-

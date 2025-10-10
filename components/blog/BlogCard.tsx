@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { Link } from '@/lib/navigation'
 
 type Props = {
   href: string
@@ -33,5 +33,3 @@ export default function BlogCard({ href, title, subtitle, banner, date, tags }: 
     </Link>
   )
 }
-
-

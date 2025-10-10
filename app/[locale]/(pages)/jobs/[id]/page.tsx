@@ -1,5 +1,6 @@
-import Link from 'next/link'
+import { Link } from '@/lib/navigation'
 import { getTranslations } from 'next-intl/server'
+import { locales, type Locale } from '@/lib/locales'
 
 const JOBS = {
   'se-berlin': {
@@ -53,12 +54,11 @@ Requirements
 } as const
 
 export function generateStaticParams() {
-  const locales = ['zh', 'en', 'es'] as const
   const ids = Object.keys(JOBS)
   return locales.flatMap((locale) => ids.map((id) => ({ locale, id })))
 }
 
-export default async function JobDetailPage({ params }: { params: { locale: 'zh' | 'en' | 'es', id: string } }) {
+export default async function JobDetailPage({ params }: { params: { locale: Locale; id: string } }) {
   const t = await getTranslations('jobs')
   const { locale, id } = params
   const job = (JOBS as Record<string, any>)[id]
@@ -67,7 +67,7 @@ export default async function JobDetailPage({ params }: { params: { locale: 'zh'
     return (
       <main className="container mx-auto py-12">
         <p>Not found.</p>
-        <Link href={`/${locale}/jobs`} className="btn btn-small btn-outline mt-4">{t('detail.back')}</Link>
+        <Link href="/jobs" className="btn btn-small btn-outline mt-4">{t('detail.back')}</Link>
       </main>
     )
   }
@@ -84,11 +84,9 @@ export default async function JobDetailPage({ params }: { params: { locale: 'zh'
         <pre className="whitespace-pre-wrap font-sans text-gray-800 mb-8">{job.description}</pre>
         <div className="flex gap-3">
           <a href={`mailto:hr@palmnet.ai?subject=Application%20-%20${encodeURIComponent(job.title)}`} className="btn btn-round">{t('detail.apply')}</a>
-          <Link href={`/${locale}/jobs`} className="btn btn-outline btn-round">{t('detail.back')}</Link>
+          <Link href="/jobs" className="btn btn-outline btn-round">{t('detail.back')}</Link>
         </div>
       </div>
     </main>
   )
 }
-
-

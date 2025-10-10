@@ -1,7 +1,7 @@
 // server component wrapper to support generateStaticParams
-import Link from 'next/link'
 import JobsFilter from './parts/JobsFilter'
 import { getTranslations } from 'next-intl/server'
+import { locales, type Locale } from '@/lib/locales'
 
 type Job = {
   id: string
@@ -18,8 +18,7 @@ const ALL_JOBS: Job[] = [
   { id: 'ae-paris', title: 'Account Executive', location: 'Paris, FR', postedAt: '2025-07-10', type: 'Full-time', summary: 'Drive growth with restaurants, from demo to close and onboarding.' },
 ]
 
-export default async function JobsPage({ params }: { params: { locale: 'zh' | 'en' | 'es' } }) {
-  const locale = params.locale
+export default async function JobsPage({ params: _ }: { params: { locale: Locale } }) {
   const t = await getTranslations('jobs')
   const locations = Array.from(new Set(ALL_JOBS.map(j => j.location)))
 
@@ -28,14 +27,12 @@ export default async function JobsPage({ params }: { params: { locale: 'zh' | 'e
       <div className="mb-6 flex items-center justify-between">
         <h1 className="text-2xl md:text-3xl font-inter">{t('title')}</h1>
       </div>
-      <JobsFilter locale={locale} locations={locations} jobs={ALL_JOBS} />
+      <JobsFilter locations={locations} jobs={ALL_JOBS} />
     </main>
   )
 }
 
 // 为静态导出提供 locale 取值
 export function generateStaticParams() {
-  return [{ locale: 'zh' }, { locale: 'en' }, { locale: 'es' }]
+  return locales.map((locale) => ({ locale }))
 }
-
-

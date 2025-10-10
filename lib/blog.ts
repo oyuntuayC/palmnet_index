@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import type { Locale } from '@/lib/locales'
 
 export type BlogFrontmatter = {
   title: string
@@ -18,14 +19,14 @@ export type BlogFrontmatter = {
 
 export type BlogPost = {
   slug: string
-  locale: 'zh' | 'en' | 'es'
+  locale: Locale
   content: string
   data: BlogFrontmatter
 }
 
 const CONTENT_DIR = path.join(process.cwd(), 'content', 'blogs')
 
-export function getAllSlugs(locale: 'zh' | 'en' | 'es'): string[] {
+export function getAllSlugs(locale: Locale): string[] {
   const dir = path.join(CONTENT_DIR, locale)
   if (!fs.existsSync(dir)) return []
   return fs
@@ -34,7 +35,7 @@ export function getAllSlugs(locale: 'zh' | 'en' | 'es'): string[] {
     .map((f) => f.replace(/\.md$/, ''))
 }
 
-export function getPost(locale: 'zh' | 'en' | 'es', slug: string): BlogPost | null {
+export function getPost(locale: Locale, slug: string): BlogPost | null {
   const filePath = path.join(CONTENT_DIR, locale, `${slug}.md`)
   if (!fs.existsSync(filePath)) return null
   const raw = fs.readFileSync(filePath, 'utf8')
@@ -47,7 +48,7 @@ export function getPost(locale: 'zh' | 'en' | 'es', slug: string): BlogPost | nu
   }
 }
 
-export function getAllPosts(locale: 'zh' | 'en' | 'es'): BlogPost[] {
+export function getAllPosts(locale: Locale): BlogPost[] {
   return getAllSlugs(locale)
     .map((slug) => getPost(locale, slug))
     .filter(Boolean)
@@ -67,5 +68,4 @@ export function getRelatedPosts(post: BlogPost, limit = 3): BlogPost[] {
     .slice(0, limit)
     .map((x) => x.post)
 }
-
 

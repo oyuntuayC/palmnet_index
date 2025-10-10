@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
-import Link from 'next/link'
-import { useTranslations, useLocale } from 'next-intl'
+import { Link } from '@/lib/navigation'
+import { useTranslations } from 'next-intl'
 import { BlogPost } from '../lib/blog'
 import BlogCard from './blog/BlogCard'
 
@@ -11,7 +11,6 @@ type Props = {
 
 export default function BlogsSection({ posts }: Props): React.ReactElement | null {
   const t = useTranslations('blogs')
-  const locale = useLocale() as 'zh' | 'en' | 'es'
   const displayPosts = posts.slice(0, 3) // Show only latest 3 posts
 
   if (posts.length === 0) {
@@ -25,7 +24,7 @@ export default function BlogsSection({ posts }: Props): React.ReactElement | nul
           <h2 className="font-inter text-3xl md:text-4xl mb-4">{t('title')}</h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-8">{t('subtitle')}</p>
           <Link 
-            href={`/${locale}/blogs`} 
+            href="/blogs"
             className="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors"
           >
             View All Posts
@@ -39,7 +38,7 @@ export default function BlogsSection({ posts }: Props): React.ReactElement | nul
           {displayPosts.map((post) => (
             <BlogCard
               key={post.slug}
-              href={`/${locale}/blogs/${post.slug}`}
+              href={`/blogs/${post.slug}`}
               title={post.data.title}
               subtitle={post.data.subtitle}
               banner={post.data.banner}

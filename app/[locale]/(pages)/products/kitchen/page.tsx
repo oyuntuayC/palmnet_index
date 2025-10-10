@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
+import { locales, type Locale } from '@/lib/locales'
 
 // 页面独立的标题和描述
-export function generateMetadata({ params }: { params: { locale: 'zh' | 'en' | 'es' } }): Metadata {
+export function generateMetadata({ params }: { params: { locale: Locale } }): Metadata {
   const titles = {
     zh: '厨房管理系统 - PalmNet',
     en: 'Kitchen Management System - PalmNet', 
@@ -21,7 +22,7 @@ export function generateMetadata({ params }: { params: { locale: 'zh' | 'en' | '
 }
 
 export function generateStaticParams() {
-  return [{ locale: 'zh' }, { locale: 'en' }, { locale: 'es' }]
+  return locales.map((locale) => ({ locale }))
 }
 
 export default function KitchenPage(): React.ReactElement {

@@ -1,9 +1,10 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import Link from 'next/link'
+import { Link, usePathname, useRouter } from '@/lib/navigation'
 import { useTranslations, useLocale } from 'next-intl'
 import { SlUser, SlBasketLoaded, SlMagnifier } from 'react-icons/sl'
 import { FaBars } from 'react-icons/fa'
+import type { Locale } from '@/lib/locales'
 
 interface HeaderProps {
   theme?: 'light' | 'dark'
@@ -11,7 +12,9 @@ interface HeaderProps {
 
 export default function Header({ theme = 'dark' }: HeaderProps): React.ReactElement {
   const t = useTranslations()
-  const locale = useLocale() as 'zh' | 'en' | 'es'
+  const locale = useLocale() as Locale
+  const router = useRouter()
+  const pathname = usePathname()
   const [open, setOpen] = useState(false)
   const [activeMegaMenu, setActiveMegaMenu] = useState<'products' | 'solutions' | null>(null)
   const [searchOpen, setSearchOpen] = useState(false)
@@ -43,7 +46,7 @@ export default function Header({ theme = 'dark' }: HeaderProps): React.ReactElem
         <div className="container relative flex items-center justify-between md:gap-4">
           {/* Logo */}
           <div className="flex-shrink-0 py-2">
-            <Link href={`/${locale}`}>
+            <Link href="/">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img className="h-9 w-auto" src="/images/logo-1.svg" alt="EcoShop" />
             </Link>
@@ -61,8 +64,8 @@ export default function Header({ theme = 'dark' }: HeaderProps): React.ReactElem
                 <li className="relative" onMouseEnter={()=>setActiveMegaMenu('solutions')} onMouseLeave={()=>setActiveMegaMenu(null)}>
                   <a href="#" onClick={(e)=>{e.preventDefault(); setActiveMegaMenu(activeMegaMenu === 'solutions' ? null : 'solutions')}}>{t('nav.solutions')}</a>
                 </li>
-                <li><Link href={`/${locale}/blogs`}>{t('nav.blogs')}</Link></li>
-                <li><Link href={`/${locale}/contact`}>{t('nav.support')}</Link></li>
+                <li><Link href="/blogs">{t('nav.blogs')}</Link></li>
+                <li><Link href="/contact">{t('nav.support')}</Link></li>
               </ul>
 
               <div 
@@ -165,7 +168,18 @@ export default function Header({ theme = 'dark' }: HeaderProps): React.ReactElem
                   </div>
                 )}
               </div>
-              <div className="ml-3"><Link href={locale === 'en' ? '/zh' : '/en'}>{locale === 'en' ? '中文' : 'EN'}</Link></div>
+              <div className="ml-3">
+                <button
+                  type="button"
+                  onClick={() => {
+                    const targetLocale = locale === 'en' ? 'zh' : 'en'
+                    router.push(pathname, { locale: targetLocale })
+                  }}
+                  className="underline-offset-4 hover:underline"
+                >
+                  {locale === 'en' ? '中文' : 'EN'}
+                </button>
+              </div>
             </div>
           </nav>
         </div>
@@ -215,8 +229,8 @@ export default function Header({ theme = 'dark' }: HeaderProps): React.ReactElem
                 </ul>
               )}
             </li>
-            <li><Link href={`/${locale}/blogs`} className={`block py-1 transition-colors ${theme === 'light' ? 'text-gray-900 hover:text-primary' : 'text-white hover:text-yellow-400'}`}>{t('nav.blogs')}</Link></li>
-            <li><Link href={`/${locale}#support`} className={`block py-1 transition-colors ${theme === 'light' ? 'text-gray-900 hover:text-primary' : 'text-white hover:text-yellow-400'}`}>{t('nav.support')}</Link></li>
+            <li><Link href="/blogs" className={`block py-1 transition-colors ${theme === 'light' ? 'text-gray-900 hover:text-primary' : 'text-white hover:text-yellow-400'}`}>{t('nav.blogs')}</Link></li>
+            <li><Link href="/contact" className={`block py-1 transition-colors ${theme === 'light' ? 'text-gray-900 hover:text-primary' : 'text-white hover:text-yellow-400'}`}>{t('nav.support')}</Link></li>
             {/* mobile account/cart inside menu */}
             <li><a href="#" aria-label="Account" className={`flex items-center gap-2 py-1 transition-colors ${theme === 'light' ? 'text-gray-900 hover:text-primary' : 'text-white hover:text-yellow-400'}`}><SlUser className="icon-svg"/> Account</a></li>
             <li><a href="#" aria-label="Cart" className={`flex items-center gap-2 py-1 transition-colors ${theme === 'light' ? 'text-gray-900 hover:text-primary' : 'text-white hover:text-yellow-400'}`}><SlBasketLoaded className="icon-svg"/> Cart</a></li>
@@ -226,4 +240,3 @@ export default function Header({ theme = 'dark' }: HeaderProps): React.ReactElem
     </>
   )
 }
-

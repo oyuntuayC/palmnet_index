@@ -62,7 +62,235 @@
     ]
   },
   "products": {
-    "heading": "PRODUCTOS DESTACADOS"
+    "heading": "PRODUCTOS DESTACADOS",
+    "kiosk": {
+      "meta": {
+        "title": "Kiosco de Autoservicio - PalmNet",
+        "description": "Kiosco de autoservicio inteligente que mejora la experiencia del cliente y reduce los tiempos de espera"
+      },
+      "hero": {
+        "pillLabel": "PalmNet Kiosk",
+        "title": "Autoservicio, Mayor Flujo",
+        "description": "Kioscos de autoservicio inteligentes que agilizan pedidos, reducen filas y mejoran la experiencia del cliente.",
+        "primaryButton": {
+          "label": "Solicitar demo"
+        },
+        "secondaryButton": {
+          "label": "Ver solución completa"
+        },
+        "imageAlt": "Demostración del kiosco de autoservicio PalmNet"
+      },
+      "highlights": {
+        "qr": {
+          "title": "Pedido y pago por QR",
+          "subtitle": "Admite múltiples métodos de pago y flujos por QR para reducir las filas."
+        },
+        "multilingual": {
+          "title": "Interfaz multilingüe",
+          "subtitle": "Una interfaz intuitiva en varios idiomas para distintos grupos de clientes."
+        },
+        "waitTimes": {
+          "title": "Menor tiempo de espera",
+          "subtitle": "Gestiona horas pico con pedidos de autoservicio rápidos y concurrentes."
+        },
+        "compliance": {
+          "title": "Seguridad y cumplimiento",
+          "subtitle": "Pagos y datos según normativas locales para privacidad y seguridad."
+        }
+      },
+      "featureCards": {
+        "smartOrdering": {
+          "title": "Experiencia de pedido inteligente",
+          "description": "Interfaz táctil intuitiva con soporte multilingüe para pedidos fluidos.",
+          "imageAlt": "Demostración de interfaz de pedido inteligente"
+        },
+        "paymentOptions": {
+          "title": "Múltiples opciones de pago",
+          "description": "Soporte para efectivo, tarjetas y pagos móviles para satisfacer preferencias diversas.",
+          "imageAlt": "Demostración de múltiples métodos de pago"
+        },
+        "realTimeOrders": {
+          "title": "Gestión de pedidos en tiempo real",
+          "description": "Los pedidos se sincronizan al instante con sistemas de cocina, reduciendo errores.",
+          "imageAlt": "Demostración de gestión de pedidos en tiempo real"
+        }
+      },
+      "hardware": {
+        "pillLabel": "Terminal S1",
+        "title": "Diseño todo metal",
+        "subtitle": "Resistente a aceite y polvo",
+        "description": "Diseño integrado de metal completo con resistencia al aceite y polvo, adaptándose a entornos adversos garantizando operación estable.",
+        "buttonLabel": "Comprar",
+        "imageAlt": "Demostración de hardware PalmNet Terminal S1"
+      },
+      "hardwareSecondary": {
+        "pillLabel": "Terminal S1",
+        "title": "Diseño todo metal",
+        "subtitle": "Resistente a aceite y polvo",
+        "description": "Diseño integrado de metal completo con resistencia al aceite y polvo, adaptándose a entornos adversos garantizando operación estable.",
+        "buttonLabel": "Comprar",
+        "imageAlt": "Demostración de hardware PalmNet Terminal S1"
+      }
+    },
+    "online": {
+      "meta": {
+        "title": "Sistema de Pedidos Online - PalmNet",
+        "description": "Sistema de pedidos online conveniente que permite a los clientes hacer pedidos en cualquier momento y lugar"
+      },
+      "hero": {
+        "pillLabel": "PalmNet Online",
+        "title": "Pedidos online multicanal para delivery y recogida",
+        "description": "Soporta pedidos por QR, agregadores de delivery y mini-apps. Pedidos e inventario se sincronizan automáticamente para una operación unificada.",
+        "primaryButton": {
+          "label": "Solicitar demo"
+        },
+        "secondaryButton": {
+          "label": "Ver todos los productos"
+        },
+        "imageAlt": "Sistema de pedidos online PalmNet"
+      },
+      "highlights": {
+        "sync": {
+          "title": "Sincronización automática de pedidos",
+          "subtitle": "Los clientes pueden pedir en casa, en la oficina o en movimiento; la tienda recibe los pedidos en caja sin pérdidas."
+        },
+        "devices": {
+          "title": "Compatibilidad multi-dispositivo",
+          "subtitle": "Móvil, tablet y ordenador pueden acceder al sistema; dominio personalizado para mayor marca."
+        },
+        "menu": {
+          "title": "Menú en tiempo real",
+          "subtitle": "Menú e inventario se actualizan en tiempo real para evitar sobreventa."
+        },
+        "payments": {
+          "title": "Pagos online integrados",
+          "subtitle": "Soporta WeChat, Alipay, Visa, Mastercard y más para un pago ágil."
+        }
+      },
+      "hardware": {
+        "pillLabel": "Terminal S1",
+        "title": "Diseño de Metal Completo",
+        "subtitle": "Resistente al Aceite y Polvo",
+        "description": "Diseño integrado de metal completo con resistencia al aceite y polvo, adaptándose a entornos hostiles mientras garantiza operación estable.",
+        "buttonLabel": "Comprar Ahora",
+        "imageAlt": "Demostración del hardware Terminal S1 de PalmNet"
+      },
+      "hardwareSecondary": {
+        "pillLabel": "Terminal S1",
+        "title": "Diseño de Metal Completo",
+        "subtitle": "Resistente al Aceite y Polvo",
+        "description": "Diseño integrado de metal completo con resistencia al aceite y polvo, adaptándose a entornos hostiles mientras garantiza operación estable.",
+        "buttonLabel": "Comprar Ahora",
+        "imageAlt": "Demostración del hardware Terminal S1 de PalmNet"
+      },
+      "hardwareTertiary": {
+        "pillLabel": "Terminal S1",
+        "title": "Diseño de Metal Completo",
+        "subtitle": "Resistente al Aceite y Polvo",
+        "description": "Diseño integrado de metal completo con resistencia al aceite y polvo, adaptándose a entornos hostiles mientras garantiza operación estable.",
+        "buttonLabel": "Comprar Ahora",
+        "imageAlt": "Demostración del hardware Terminal S1 de PalmNet"
+      }
+    },
+    "pos": {
+      "meta": {
+        "title": "Sistema de Caja Inteligente - PalmNet",
+        "description": "Solución de caja integrada que mejora la eficiencia operativa de la tienda, admite múltiples métodos de pago y análisis de datos inteligentes"
+      },
+      "hero": {
+        "pillLabel": "PalmNet POS",
+        "title": "Cobro Eficiente, Gestión Inteligente",
+        "description": "Solución de caja integrada que mejora la eficiencia operativa de la tienda, admite múltiples métodos de pago y análisis de datos inteligentes.",
+        "primaryButton": {
+          "label": "Solicitar demo"
+        },
+        "secondaryButton": {
+          "label": "Ver solución completa"
+        },
+        "imageAlt": "Demostración del producto de caja inteligente PalmNet"
+      },
+      "highlights": {
+        "sync": {
+          "title": "Sincronización en Tiempo Real",
+          "subtitle": "Los pedidos fluyen al instante desde la caja a la cocina, eliminando demoras y acelerando el servicio."
+        },
+        "analytics": {
+          "title": "Métricas en Tiempo Real",
+          "subtitle": "Ventas, tickets medios y productos estrella siempre actualizados, manteniendo el control operativo y facilitando decisiones precisas."
+        },
+        "invoice": {
+          "title": "Soporte de Factura Digital",
+          "subtitle": "Genera y envía facturas electrónicas automáticamente tras el pago, cumpliendo normativas fiscales europeas y optimizando la gestión financiera."
+        },
+        "marketing": {
+          "title": "Marketing y Promociones",
+          "subtitle": "El backend en la nube puede enviar actividades y anuncios de la tienda, promoviendo compras repetidas y conversión de miembros."
+        }
+      },
+      "hardware": {
+        "pillLabel": "Terminal S1",
+        "title": "Diseño integrado de metal completo Resistente al aceite y polvo, sin preocupaciones",
+        "description": "Descripción del producto aquí",
+        "features": {
+          "screenOptions": "Pantalla grande de 13.3 pulgadas, 15.6 pulgadas disponibles",
+          "design": "Simple, hermoso y estable",
+          "system": "Versión más reciente de Android 11 integrada, compatible internacionalmente",
+          "bracket": "Soporte de metal completo"
+        },
+        "buttonLabel": "Comprar Ahora",
+        "imageAlt": "Demostración del hardware Terminal S1"
+      }
+    },
+    "waiter": {
+      "meta": {
+        "title": "Sistema de Pedidos con Tablet - PalmNet",
+        "description": "Sistema de pedidos con tablet portátil que permite a los camareros tomar pedidos en cualquier momento, mejorando la experiencia del servicio"
+      },
+      "hero": {
+        "pillLabel": "PalmNet Waiter",
+        "title": "Pedidos móviles, flexibles y eficientes",
+        "description": "Pedidos con tablet permiten gestionar y enviar órdenes al instante, reduciendo esperas y aumentando la rotación.",
+        "primaryButton": {
+          "label": "Solicitar demo"
+        },
+        "secondaryButton": {
+          "label": "Ver solución completa"
+        },
+        "imageAlt": "Demostración del sistema de pedidos con tablet PalmNet"
+      },
+      "highlights": {
+        "tableside": {
+          "title": "Pedidos rápidos en mesa",
+          "subtitle": "Toma y ajusta pedidos en la mesa para minimizar desplazamientos y demoras."
+        },
+        "sync": {
+          "title": "Sincronización inmediata con cocina",
+          "subtitle": "Los pedidos llegan al KDS en tiempo real, reduciendo errores y acelerando el servicio."
+        },
+        "search": {
+          "title": "Búsqueda inteligente de menú",
+          "subtitle": "Encuentra platos y modificadores rápidamente para agilizar los pedidos."
+        },
+        "accuracy": {
+          "title": "Menos errores de pedido",
+          "subtitle": "Selección clara de artículos y modificadores reduce errores de escritura y voz."
+        }
+      },
+      "features": {
+        "multiScreen": {
+          "title": "Soporte para Pantallas de Múltiples Tamaños",
+          "description": "Los camareros pueden usar tablets, mini tablets y teléfonos para tomar pedidos"
+        },
+        "orientation": {
+          "title": "Funciona en Vertical y Horizontal",
+          "description": "Soporte flexible de orientación para diferentes preferencias de dispositivo y disposiciones de mesa"
+        },
+        "simple": {
+          "title": "Simple, Intuitivo, Eficiente",
+          "description": "Interfaz optimizada diseñada para toma de pedidos rápida y precisa en entornos de restaurante ocupados"
+        }
+      }
+    }
   },
   "careers": {
     "banner": {

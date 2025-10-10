@@ -62,7 +62,235 @@
     ]
   },
   "products": {
-    "heading": "FEATURED PRODUCTS"
+    "heading": "FEATURED PRODUCTS",
+    "kiosk": {
+      "meta": {
+        "title": "Self-Service Kiosk - PalmNet",
+        "description": "Smart self-service kiosk enhancing customer experience and reducing wait times"
+      },
+      "hero": {
+        "pillLabel": "PalmNet Kiosk",
+        "title": "Self-Order, Higher Throughput",
+        "description": "Smart self-service kiosks streamline ordering, reduce queues, and elevate the guest experience.",
+        "primaryButton": {
+          "label": "Book a Demo"
+        },
+        "secondaryButton": {
+          "label": "See Full Solution"
+        },
+        "imageAlt": "PalmNet self-service kiosk product showcase"
+      },
+      "highlights": {
+        "qr": {
+          "title": "Order & Pay by QR",
+          "subtitle": "Support multiple payment methods and QR-based flows to cut queue times."
+        },
+        "multilingual": {
+          "title": "Multilingual UI",
+          "subtitle": "Offer an intuitive multi-language interface for diverse customer groups."
+        },
+        "waitTimes": {
+          "title": "Reduced Wait Times",
+          "subtitle": "Handle peak-hour traffic with fast, concurrent self-ordering."
+        },
+        "compliance": {
+          "title": "Security & Compliance",
+          "subtitle": "Payments and data meet local compliance standards for privacy and safety."
+        }
+      },
+      "featureCards": {
+        "smartOrdering": {
+          "title": "Smart Ordering Experience",
+          "description": "Intuitive touch interface with multi-language support for seamless customer ordering.",
+          "imageAlt": "Smart ordering interface showcase"
+        },
+        "paymentOptions": {
+          "title": "Multiple Payment Options",
+          "description": "Support for cash, cards, and mobile payments to meet diverse customer preferences.",
+          "imageAlt": "Multiple payment methods showcase"
+        },
+        "realTimeOrders": {
+          "title": "Real-time Order Management",
+          "description": "Orders sync instantly to kitchen systems, reducing errors and improving efficiency.",
+          "imageAlt": "Real-time order management showcase"
+        }
+      },
+      "hardware": {
+        "pillLabel": "Terminal S1",
+        "title": "All-Metal Design",
+        "subtitle": "Oil & Dust Resistant",
+        "description": "Featuring an all-metal integrated design with oil and dust resistance, adapting to harsh environments while ensuring stable operation.",
+        "buttonLabel": "Buy Now",
+        "imageAlt": "PalmNet Terminal S1 hardware showcase"
+      },
+      "hardwareSecondary": {
+        "pillLabel": "Terminal S1",
+        "title": "All-Metal Design",
+        "subtitle": "Oil & Dust Resistant",
+        "description": "Featuring an all-metal integrated design with oil and dust resistance, adapting to harsh environments while ensuring stable operation.",
+        "buttonLabel": "Buy Now",
+        "imageAlt": "PalmNet Terminal S1 hardware showcase"
+      }
+    },
+    "online": {
+      "meta": {
+        "title": "Online Ordering System - PalmNet",
+        "description": "Convenient online ordering system allowing customers to place orders anytime, anywhere"
+      },
+      "hero": {
+        "pillLabel": "PalmNet Online",
+        "title": "Omnichannel online ordering for delivery and pickup",
+        "description": "Supports QR table ordering, delivery aggregators and mini-apps. Orders and inventory sync automatically for unified operations.",
+        "primaryButton": {
+          "label": "Book a Demo"
+        },
+        "secondaryButton": {
+          "label": "See All Products"
+        },
+        "imageAlt": "PalmNet Online Ordering System"
+      },
+      "highlights": {
+        "sync": {
+          "title": "Automatic Order Sync",
+          "subtitle": "Customers can order anywhere; the store receives orders at the register with no lost orders."
+        },
+        "devices": {
+          "title": "Multi-device Support",
+          "subtitle": "Phone, tablet and desktop access with optional custom domain for stronger branding."
+        },
+        "menu": {
+          "title": "Live Menu Display",
+          "subtitle": "Menu and inventory update in real time to prevent overselling."
+        },
+        "payments": {
+          "title": "Integrated Online Payments",
+          "subtitle": "Supports WeChat, Alipay, Visa, Mastercard and more for faster checkout."
+        }
+      },
+      "hardware": {
+        "pillLabel": "Terminal S1",
+        "title": "All-Metal Design",
+        "subtitle": "Oil & Dust Resistant",
+        "description": "Featuring an all-metal integrated design with oil and dust resistance, adapting to harsh environments while ensuring stable operation.",
+        "buttonLabel": "Buy Now",
+        "imageAlt": "PalmNet Terminal S1 hardware showcase"
+      },
+      "hardwareSecondary": {
+        "pillLabel": "Terminal S1",
+        "title": "All-Metal Design",
+        "subtitle": "Oil & Dust Resistant",
+        "description": "Featuring an all-metal integrated design with oil and dust resistance, adapting to harsh environments while ensuring stable operation.",
+        "buttonLabel": "Buy Now",
+        "imageAlt": "PalmNet Terminal S1 hardware showcase"
+      },
+      "hardwareTertiary": {
+        "pillLabel": "Terminal S1",
+        "title": "All-Metal Design",
+        "subtitle": "Oil & Dust Resistant",
+        "description": "Featuring an all-metal integrated design with oil and dust resistance, adapting to harsh environments while ensuring stable operation.",
+        "buttonLabel": "Buy Now",
+        "imageAlt": "PalmNet Terminal S1 hardware showcase"
+      }
+    },
+    "pos": {
+      "meta": {
+        "title": "Smart Cashier System - PalmNet",
+        "description": "Integrated cashier solution that enhances store operational efficiency, supports multiple payment methods and intelligent data analysis"
+      },
+      "hero": {
+        "pillLabel": "PalmNet POS",
+        "title": "Efficient Checkout, Smart Management",
+        "description": "Integrated cashier solution that enhances store operational efficiency, supports multiple payment methods and intelligent data analysis.",
+        "primaryButton": {
+          "label": "Book a Demo"
+        },
+        "secondaryButton": {
+          "label": "See Full Solution"
+        },
+        "imageAlt": "PalmNet smart cashier product showcase"
+      },
+      "highlights": {
+        "sync": {
+          "title": "Real-time Order Sync",
+          "subtitle": "Orders flow instantly from register to kitchen, cutting communication gaps and boosting service speed."
+        },
+        "analytics": {
+          "title": "Live Performance Stats",
+          "subtitle": "Track sales velocity, top items and checkout speed at a glance, keeping you in control of operations while enabling data-driven decisions."
+        },
+        "invoice": {
+          "title": "Digital Invoice Support",
+          "subtitle": "Auto-generate and send e-invoices after payment, meeting EU tax compliance and streamlining financial management."
+        },
+        "marketing": {
+          "title": "Marketing & Promotions",
+          "subtitle": "Cloud backend pushes store activities and ads, driving repeat purchases and member conversion."
+        }
+      },
+      "hardware": {
+        "pillLabel": "Terminal S1",
+        "title": "All-metal integrated design Oil and dust resistant, worry-free",
+        "description": "Product description goes here",
+        "features": {
+          "screenOptions": "13.3 inch, 15.6 inch large screen options available",
+          "design": "Simple, beautiful, and stable",
+          "system": "Built-in Android 11 latest version, internationally compatible",
+          "bracket": "All-metal bracket"
+        },
+        "buttonLabel": "Buy Now",
+        "imageAlt": "Terminal S1 hardware showcase"
+      }
+    },
+    "waiter": {
+      "meta": {
+        "title": "Tablet Ordering System - PalmNet",
+        "description": "Portable tablet ordering system allowing servers to take orders anytime, enhancing service experience"
+      },
+      "hero": {
+        "pillLabel": "PalmNet Waiter",
+        "title": "Mobile Ordering, Flexible & Efficient",
+        "description": "Portable tablet ordering lets servers place, modify and send orders instantly—reducing wait and boosting table turns.",
+        "primaryButton": {
+          "label": "Book a Demo"
+        },
+        "secondaryButton": {
+          "label": "See Full Solution"
+        },
+        "imageAlt": "PalmNet tablet ordering product showcase"
+      },
+      "highlights": {
+        "tableside": {
+          "title": "Fast Tableside Ordering",
+          "subtitle": "Place and adjust orders at the table to minimize walking and delays."
+        },
+        "sync": {
+          "title": "Instant Kitchen Sync",
+          "subtitle": "Orders flow to KDS in real time, cutting miscommunication and speeding service."
+        },
+        "search": {
+          "title": "Intelligent Menu Search",
+          "subtitle": "Quickly find items and modifiers to speed up ordering."
+        },
+        "accuracy": {
+          "title": "Fewer Ordering Errors",
+          "subtitle": "Clear item/modifier selection reduces handwriting and verbal mistakes."
+        }
+      },
+      "features": {
+        "multiScreen": {
+          "title": "Multi-Size Screen Support",
+          "description": "Waiters can use tablets, mini tablets, and phones for ordering"
+        },
+        "orientation": {
+          "title": "Works in Both Portrait and Landscape",
+          "description": "Flexible orientation support for different device preferences and table layouts"
+        },
+        "simple": {
+          "title": "Simple, Intuitive, Efficient",
+          "description": "Streamlined interface designed for quick and accurate order taking in busy restaurant environments"
+        }
+      }
+    }
   },
   "jobs": {
     "title": "Open Positions",

@@ -1,11 +1,11 @@
 import { getTranslations } from 'next-intl/server'
-import Link from 'next/link'
 import { getAllPosts } from '../../../../lib/blog'
 import BlogCard from '../../../../components/blog/BlogCard'
+import { locales, type Locale } from '@/lib/locales'
 
 export const dynamic = 'force-static'
 
-export default async function BlogsPage({ params }: { params: { locale: 'zh' | 'en' | 'es' } }) {
+export default async function BlogsPage({ params }: { params: { locale: Locale } }) {
   const { locale } = params
   const t = await getTranslations('blogs')
   const posts = getAllPosts(locale)
@@ -30,7 +30,7 @@ export default async function BlogsPage({ params }: { params: { locale: 'zh' | '
             {posts.map((p) => (
               <BlogCard
                 key={p.slug}
-                href={`/${locale}/blogs/${p.slug}`}
+                href={`/blogs/${p.slug}`}
                 title={p.data.title}
                 subtitle={p.data.subtitle}
                 banner={p.data.banner}
@@ -46,7 +46,5 @@ export default async function BlogsPage({ params }: { params: { locale: 'zh' | '
 }
 
 export function generateStaticParams() {
-  return [{ locale: 'zh' }, { locale: 'en' }, { locale: 'es' }]
+  return locales.map((locale) => ({ locale }))
 }
-
-

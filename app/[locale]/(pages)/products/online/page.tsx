@@ -1,38 +1,98 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
+import React from 'react'
+import { getTranslations } from 'next-intl/server'
+import { FaSyncAlt, FaMobileAlt, FaListAlt, FaCreditCard } from 'react-icons/fa'
 
-// 页面独立的标题和描述
-export function generateMetadata({ params }: { params: { locale: 'zh' | 'en' | 'es' } }): Metadata {
-  const titles = {
-    zh: '在线点餐系统 - PalmNet',
-    en: 'Online Ordering System - PalmNet', 
-    es: 'Sistema de Pedidos Online - PalmNet'
-  }
-  
-  const descriptions = {
-    zh: '便捷的在线点餐系统，让顾客随时随地轻松下单',
-    en: 'Convenient online ordering system allowing customers to place orders anytime, anywhere',
-    es: 'Sistema de pedidos online conveniente que permite a los clientes hacer pedidos en cualquier momento y lugar'
-  }
+import { ProductsHero } from '@/components/products/ProductsHero'
+import { FeatureHighlights } from '@/components/products/FeatureHighlights'
+import { HardwareSection1 } from '@/components/products/HardwareSection1'
+import { HardwareSection2 } from '@/components/products/HardwareSection2'
+import { HardwareSection3 } from '@/components/products/HardwareSection3'
+import { locales, type Locale } from '@/lib/locales'
+
+export async function generateMetadata({ params }: { params: { locale: Locale } }): Promise<Metadata> {
+  const t = await getTranslations({ locale: params.locale, namespace: 'products.online.meta' })
 
   return {
-    title: titles[params.locale],
-    description: descriptions[params.locale],
+    title: t('title'),
+    description: t('description')
   }
 }
 
 export function generateStaticParams() {
-  return [{ locale: 'zh' }, { locale: 'en' }, { locale: 'es' }]
+  return locales.map((locale) => ({ locale }))
 }
 
-export default function OnlinePage(): React.ReactElement {
+export default async function OnlinePage({ params }: { params: { locale: Locale } }): Promise<React.JSX.Element> {
+  const t = await getTranslations({ locale: params.locale, namespace: 'products.online' })
+
+  const highlights = [
+    { key: 'sync', icon: FaSyncAlt },
+    { key: 'devices', icon: FaMobileAlt },
+    { key: 'menu', icon: FaListAlt },
+    { key: 'payments', icon: FaCreditCard }
+  ].map(({ key, icon }) => ({
+    icon,
+    title: t(`highlights.${key}.title`),
+    subtitle: t(`highlights.${key}.subtitle`)
+  }))
+
   return (
     <div className="container mx-auto py-16">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">在线点餐系统</h1>
-        <p className="text-lg text-gray-600 mb-8">便捷的在线点餐解决方案</p>
-        <div className="bg-gray-100 p-8 rounded-lg">
-          <p className="text-gray-500">产品详情页面正在开发中...</p>
-        </div>
+      <div>
+        <ProductsHero
+          pillLabel={t('hero.pillLabel')}
+          title={t('hero.title')}
+          description={t('hero.description')}
+          primaryButton={{
+            label: t('hero.primaryButton.label'),
+            href: '/contact'
+          }}
+          secondaryButton={{
+            label: t('hero.secondaryButton.label'),
+            href: '/products'
+          }}
+          imageBackgroundColor="#0f172a"
+        >
+          <Image
+            src="/images/products/online/hero.png"
+            alt={t('hero.imageAlt')}
+            width={1180}
+            height={640}
+            className="h-auto w-[20rem] md:w-[30rem] lg:w-[40rem] object-contain"
+            priority
+          />
+        </ProductsHero>
+
+        <FeatureHighlights highlights={highlights} />
+
+        <HardwareSection1
+          pillLabel={t('hardware.pillLabel')}
+          title={t('hardware.title')}
+          subtitle={t('hardware.subtitle')}
+          description={t('hardware.description')}
+          buttonLabel={t('hardware.buttonLabel')}
+          imageAlt={t('hardware.imageAlt')}
+        />
+
+        <HardwareSection2
+          pillLabel={t('hardwareSecondary.pillLabel')}
+          title={t('hardwareSecondary.title')}
+          subtitle={t('hardwareSecondary.subtitle')}
+          description={t('hardwareSecondary.description')}
+          buttonLabel={t('hardwareSecondary.buttonLabel')}
+          imageAlt={t('hardwareSecondary.imageAlt')}
+        />
+
+        <HardwareSection3
+          pillLabel={t('hardwareTertiary.pillLabel')}
+          title={t('hardwareTertiary.title')}
+          subtitle={t('hardwareTertiary.subtitle')}
+          description={t('hardwareTertiary.description')}
+          buttonLabel={t('hardwareTertiary.buttonLabel')}
+          imageAlt={t('hardwareTertiary.imageAlt')}
+        />
       </div>
     </div>
   )

@@ -24,7 +24,7 @@
     "shopNow": "立即购买",
     "productCategories": {
       "pos": "智能收银台",
-      "kiosk": "桌台扫码",
+      "kiosk": "大屏点餐",
       "online": "线上点餐",
       "waiter": "跑堂点餐",
       "pad": "大屏点餐",
@@ -62,7 +62,235 @@
     ]
   },
   "products": {
-    "heading": "精选商品"
+    "heading": "精选商品",
+    "kiosk": {
+      "meta": {
+        "title": "自助点餐机 - PalmNet",
+        "description": "智能自助点餐机，提升顾客体验，减少排队等待时间"
+      },
+      "hero": {
+        "pillLabel": "PalmNet Kiosk",
+        "title": "自助点餐，提升效率",
+        "description": "智能自助点餐机，优化点单流程，缩短排队时间，提升顾客体验。",
+        "primaryButton": {
+          "label": "预约演示"
+        },
+        "secondaryButton": {
+          "label": "了解方案详情"
+        },
+        "imageAlt": "PalmNet 自助点餐机产品展示"
+      },
+      "highlights": {
+        "qr": {
+          "title": "扫码点单与支付",
+          "subtitle": "支持二维码点单与多种支付方式，减少排队，提高翻台率。"
+        },
+        "multilingual": {
+          "title": "多语言界面",
+          "subtitle": "界面支持多语言切换，方便不同客群自助完成下单。"
+        },
+        "waitTimes": {
+          "title": "缩短等候时间",
+          "subtitle": "高并发自助下单能力，显著降低高峰期等候时长。"
+        },
+        "compliance": {
+          "title": "安全与合规",
+          "subtitle": "支付与数据传输符合本地合规标准，保障用户隐私与资金安全。"
+        }
+      },
+      "featureCards": {
+        "smartOrdering": {
+          "title": "智能点餐体验",
+          "description": "直观的触屏界面，支持多语言切换，让顾客轻松完成点餐流程。",
+          "imageAlt": "智能点餐界面展示"
+        },
+        "paymentOptions": {
+          "title": "多种支付方式",
+          "description": "支持现金、银行卡、移动支付等多种支付方式，满足不同顾客需求。",
+          "imageAlt": "多种支付方式展示"
+        },
+        "realTimeOrders": {
+          "title": "实时订单管理",
+          "description": "订单实时同步到后厨系统，减少沟通误差，提升出餐效率。",
+          "imageAlt": "实时订单管理展示"
+        }
+      },
+      "hardware": {
+        "pillLabel": "Terminal S1",
+        "title": "全金属一体",
+        "subtitle": "防油防尘不惧意外",
+        "description": "采用全金属一体化设计，具备防油防尘功能，适应各种恶劣环境，确保设备稳定运行。",
+        "buttonLabel": "去购买",
+        "imageAlt": "PalmNet Terminal S1 硬件展示"
+      },
+      "hardwareSecondary": {
+        "pillLabel": "Terminal S1",
+        "title": "全金属一体",
+        "subtitle": "防油防尘不惧意外",
+        "description": "采用全金属一体化设计，具备防油防尘功能，适应各种恶劣环境，确保设备稳定运行。",
+        "buttonLabel": "去购买",
+        "imageAlt": "PalmNet Terminal S1 硬件展示"
+      }
+    },
+    "online": {
+      "meta": {
+        "title": "在线点餐系统 - PalmNet",
+        "description": "便捷的在线点餐系统，让顾客随时随地轻松下单"
+      },
+      "hero": {
+        "pillLabel": "PalmNet Online",
+        "title": "便捷下单 随时随地",
+        "description": "顾客通过线上平台自主点餐，无需排队等待，配合线上营销玩法，显著提升点餐效率和用户体验。",
+        "primaryButton": {
+          "label": "预约演示"
+        },
+        "secondaryButton": {
+          "label": "查看全部产品"
+        },
+        "imageAlt": "PalmNet 在线点餐系统效果图"
+      },
+      "highlights": {
+        "sync": {
+          "title": "自动订单同步",
+          "subtitle": "客户在家、在办公室、在路上都能够随时点单，店铺在收银端接收订单，无惧丢单漏单"
+        },
+        "devices": {
+          "title": "多终端支持",
+          "subtitle": "手机、平板、电脑均可访问点餐系统，支持自定义域名，灵活适配不同场景"
+        },
+        "menu": {
+          "title": "实时菜单展示",
+          "subtitle": "菜单与库存实时更新，避免超售，确保顾客点到现有商品"
+        },
+        "payments": {
+          "title": "在线支付集成",
+          "subtitle": "支持微信、支付宝、Visa、Mastercard等国际支付方式，结账更便捷"
+        }
+      },
+      "hardware": {
+        "pillLabel": "Terminal S1",
+        "title": "全金属一体",
+        "subtitle": "防油防尘不惧意外",
+        "description": "采用全金属一体化设计，具备防油防尘特性，适应恶劣环境，确保稳定运行。",
+        "buttonLabel": "立即购买",
+        "imageAlt": "PalmNet Terminal S1 硬件展示"
+      },
+      "hardwareSecondary": {
+        "pillLabel": "Terminal S1",
+        "title": "全金属一体",
+        "subtitle": "防油防尘不惧意外",
+        "description": "采用全金属一体化设计，具备防油防尘特性，适应恶劣环境，确保稳定运行。",
+        "buttonLabel": "立即购买",
+        "imageAlt": "PalmNet Terminal S1 硬件展示"
+      },
+      "hardwareTertiary": {
+        "pillLabel": "Terminal S1",
+        "title": "全金属一体",
+        "subtitle": "防油防尘不惧意外",
+        "description": "采用全金属一体化设计，具备防油防尘特性，适应恶劣环境，确保稳定运行。",
+        "buttonLabel": "立即购买",
+        "imageAlt": "PalmNet Terminal S1 硬件展示"
+      }
+    },
+    "pos": {
+      "meta": {
+        "title": "智能收银台 - PalmNet",
+        "description": "一体化收银解决方案，提升门店运营效率，支持多种支付方式与智能数据分析"
+      },
+      "hero": {
+        "pillLabel": "PalmNet POS",
+        "title": "高效收银，智慧管理",
+        "description": "一体化收银解决方案，提升门店运营效率，支持多种支付方式与智能数据分析。",
+        "primaryButton": {
+          "label": "预约演示"
+        },
+        "secondaryButton": {
+          "label": "了解方案详情"
+        },
+        "imageAlt": "PalmNet 智能收银台产品展示"
+      },
+      "highlights": {
+        "sync": {
+          "title": "实时订单同步",
+          "subtitle": "前台收银与后厨KDS系统实时联动，减少沟通误差，加快出餐速度。"
+        },
+        "analytics": {
+          "title": "实时经营洞察",
+          "subtitle": "销售、客单、热销排行一目了然，随时掌握运营动态，帮助商家精准决策。"
+        },
+        "invoice": {
+          "title": "支持电子发票",
+          "subtitle": "收款后自动生成并发送电子发票，符合欧洲税务合规要求，提升财务管理效率。"
+        },
+        "marketing": {
+          "title": "广告与促销管理",
+          "subtitle": "云后台可推送门店活动及广告，促进二次消费与会员转化。"
+        }
+      },
+      "hardware": {
+        "pillLabel": "Terminal S1",
+        "title": "全金属一体 防油防尘不惧意外",
+        "description": "这里填写产品描述",
+        "features": {
+          "screenOptions": "13,3 寸、15,6寸大屏按需选择",
+          "design": "简洁、美观、稳定",
+          "system": "系统内置Android 11最新版本，国际通用适配",
+          "bracket": "全金属支架"
+        },
+        "buttonLabel": "去购买",
+        "imageAlt": "Terminal S1 硬件展示"
+      }
+    },
+    "waiter": {
+      "meta": {
+        "title": "平板点单系统 - PalmNet",
+        "description": "便携式平板点单系统，服务员可随时为顾客点餐，提升服务体验"
+      },
+      "hero": {
+        "pillLabel": "PalmNet Waiter",
+        "title": "随身点单 灵活高效",
+        "description": "便携式平板点单系统，服务员可随时为顾客下单与加单，减少等待，提升翻台率。",
+        "primaryButton": {
+          "label": "预约演示"
+        },
+        "secondaryButton": {
+          "label": "了解方案详情"
+        },
+        "imageAlt": "PalmNet 平板点单系统产品展示"
+      },
+      "highlights": {
+        "tableside": {
+          "title": "桌边快速点单",
+          "subtitle": "服务员在桌边直接点单与加单，减少来回走动与等待。"
+        },
+        "sync": {
+          "title": "实时同步到后厨",
+          "subtitle": "订单即时同步至后厨KDS，减少沟通误差，加快出菜速度。"
+        },
+        "search": {
+          "title": "智能菜单检索",
+          "subtitle": "快速搜索菜品，提升点餐效率。"
+        },
+        "accuracy": {
+          "title": "减少点单错误",
+          "subtitle": "直观的菜品与修饰项选择，降低手写与口头传达错误率。"
+        }
+      },
+      "features": {
+        "multiScreen": {
+          "title": "多尺寸屏幕支持",
+          "description": "跑堂可以使用平板、mini平板、手机进行点餐"
+        },
+        "orientation": {
+          "title": "横屏竖屏都能用",
+          "description": "支持横屏和竖屏模式，适应不同设备偏好和桌台布局"
+        },
+        "simple": {
+          "title": "简单、直观、高效",
+          "description": "专为繁忙餐厅环境设计的简洁界面，实现快速准确的点餐体验"
+        }
+      }
+    }
   },
   "jobs": {
     "title": "职位发布",
@@ -186,5 +414,3 @@
     "rights": "保留所有权利。"
   }
 }
-
-

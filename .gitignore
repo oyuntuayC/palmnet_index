@@ -3,3 +3,5 @@ content/**/*.html
 out
 .next
 node_modules
+.tsconfig.tsbuildinfo
+.gitignore

@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
+import { Link } from '@/lib/navigation'
+import { locales, type Locale } from '@/lib/locales'
 
 // 页面独立的标题和描述
-export function generateMetadata({ params }: { params: { locale: 'zh' | 'en' | 'es' } }): Metadata {
+export function generateMetadata({ params }: { params: { locale: Locale } }): Metadata {
   const titles = {
     zh: '产品中心 - PalmNet',
     en: 'Products - PalmNet', 
@@ -23,7 +24,7 @@ export function generateMetadata({ params }: { params: { locale: 'zh' | 'en' | '
 
 // 为静态导出提供 locale 取值
 export function generateStaticParams() {
-  return [{ locale: 'zh' }, { locale: 'en' }, { locale: 'es' }]
+  return locales.map((locale) => ({ locale }))
 }
 
 export default function ProductsPage(): React.ReactElement {

@@ -1,13 +1,16 @@
 "use client"
 import React, { useState, useRef, useEffect } from 'react'
-import Link from 'next/link'
+import { Link, usePathname, useRouter } from '@/lib/navigation'
 import { SlSocialFacebook, SlSocialTwitter, SlSocialTumblr, SlSocialYoutube, SlSocialDribbble } from 'react-icons/sl'
 import { FaGlobe } from 'react-icons/fa'
 import { useTranslations, useLocale } from 'next-intl'
+import type { Locale } from '@/lib/locales'
 
 export default function Footer(): React.ReactElement {
   const t = useTranslations()
-  const locale = useLocale() as 'zh' | 'en' | 'es'
+  const locale = useLocale() as Locale
+  const router = useRouter()
+  const pathname = usePathname()
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false)
   const [hoveredLanguage, setHoveredLanguage] = useState<string | null>(null)
   const dropdownRef = useRef<HTMLDivElement>(null)
@@ -77,13 +80,13 @@ export default function Footer(): React.ReactElement {
                   <h3 className="text-white text-lg font-medium mb-4 text-left px-4" style={{ opacity: 0.6 }}>Select Language</h3>
                   <div className="space-y-2">
                     {languages.map((language) => (
-                      <Link
+                      <button
                         key={language.code}
-                        href={`/${language.code}`}
+                        type="button"
                         style={{
                           color: 'white'
                         }}
-                        className={`flex items-center gap-3 px-4 py-3 rounded-md transition-all duration-200 ${
+                        className={`flex w-full items-center gap-3 px-4 py-3 rounded-md transition-all duration-200 text-left ${
                           language.code === locale 
                             ? 'opacity-60' 
                             : hoveredLanguage && hoveredLanguage === language.code
@@ -92,9 +95,9 @@ export default function Footer(): React.ReactElement {
                             ? 'opacity-50'
                             : 'opacity-100'
                         }`}
-                        onClick={(e) => {
-                          if (language.code === locale) {
-                            e.preventDefault()
+                        onClick={() => {
+                          if (language.code !== locale) {
+                            router.push(pathname, { locale: language.code })
                           }
                           setIsLanguageDropdownOpen(false)
                         }}
@@ -105,7 +108,7 @@ export default function Footer(): React.ReactElement {
                         {language.code === locale && (
                           <span className="ml-auto text-primary text-sm">✓</span>
                         )}
-                      </Link>
+                      </button>
                     ))}
                   </div>
                 </div>
@@ -117,13 +120,13 @@ export default function Footer(): React.ReactElement {
           <div>
             <h6 style={{ fontSize: '14px', color: 'white', opacity: 0.6, marginBottom: '12px' }}>{t('nav.products')}</h6>
             <ul className="space-y-2">
-              <li><Link href={`/${locale}/products/pos`} style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.pos')}</Link></li>
-              <li><Link href={`/${locale}/products/online`} style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.online')}</Link></li>
-              <li><Link href={`/${locale}/products/kiosk`} style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.kiosk')}</Link></li>
-              <li><Link href={`/${locale}/products/kitchen`} style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.kitchen')}</Link></li>
-              <li><Link href={`/${locale}/products/queue`} style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.queue')}</Link></li>
-              <li><Link href={`/${locale}/products/smartCash`} style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.smartCash')}</Link></li>
-              <li><Link href={`/${locale}/products/pad`} style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.pad')}</Link></li>
+              <li><Link href="/products/pos" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.pos')}</Link></li>
+              <li><Link href="/products/online" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.online')}</Link></li>
+              <li><Link href="/products/kiosk" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.kiosk')}</Link></li>
+              <li><Link href="/products/kitchen" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.kitchen')}</Link></li>
+              <li><Link href="/products/queue" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.queue')}</Link></li>
+              <li><Link href="/products/smartCash" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.smartCash')}</Link></li>
+              <li><Link href="/products/pad" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.productCategories.pad')}</Link></li>
             </ul>
           </div>
 
@@ -145,16 +148,16 @@ export default function Footer(): React.ReactElement {
           <div>
             <h6 style={{ fontSize: '14px', color: 'white', opacity: 0.6, marginBottom: '12px' }}>{t('nav.support')}</h6>
             <ul className="space-y-2 mb-6">
-              <li><Link href={`/${locale}/blogs`} style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.blogs')}</Link></li>
-              <li><Link href={`/${locale}/contact`} style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.support')}</Link></li>
-              <li><Link href={`/${locale}/careers`} style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.careers')}</Link></li>
+              <li><Link href="/blogs" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.blogs')}</Link></li>
+              <li><Link href="/contact" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.support')}</Link></li>
+              <li><Link href="/careers" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.careers')}</Link></li>
             </ul>
             
             <h6 style={{ fontSize: '14px', color: 'white', opacity: 0.6, marginBottom: '12px' }}>Company</h6>
             <ul className="space-y-2">
-              <li><Link href={`/${locale}/about`} style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.about')}</Link></li>
+              <li><Link href="/about" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.about')}</Link></li>
               <li><a href="#" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">Partners</a></li>
-              <li><Link href={`/${locale}/careers`} style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.careers')}</Link></li>
+              <li><Link href="/careers" style={{ color: 'white', fontSize: '13px' }} className="hover:text-primary">{t('nav.careers')}</Link></li>
             </ul>
           </div>
         </div>
@@ -167,4 +170,3 @@ export default function Footer(): React.ReactElement {
     </footer>
   )
 }
-
