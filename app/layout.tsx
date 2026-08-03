@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Montserrat, Inter } from 'next/font/google'
+import { Inter, Montserrat, Noto_Sans_SC } from 'next/font/google'
 import './globals.css'
 
 // Configure Google Fonts
@@ -13,6 +13,12 @@ const inter = Inter({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-inter',
+})
+
+const notoSansSc = Noto_Sans_SC({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+  variable: '--font-noto-sans-sc',
 })
 
 export const viewport = {
@@ -48,7 +54,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="zh" className={`${montserrat.variable} ${inter.variable}`}>
+    <html lang="zh" className={`${montserrat.variable} ${inter.variable} ${notoSansSc.variable}`}>
       <body>
         {children}
       </body>

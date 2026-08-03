@@ -61,8 +61,7 @@ export default async function WaiterPage({ params }: { params: { locale: Locale 
   ]
 
   return (
-    <div className="container mx-auto py-16">
-      <div className="space-y-16">
+    <main className="bg-white text-[#0a0a0a]">
         <ProductsHero
           pillLabel={t('hero.pillLabel')}
           title={t('hero.title')}
@@ -86,11 +85,10 @@ export default async function WaiterPage({ params }: { params: { locale: Locale 
             className="h-auto w-[40rem] md:w-[50rem] lg:w-[60rem] object-contain"
           />
         </ProductsHero>
-      </div>
 
       <FeatureHighlights highlights={highlights} />
 
       <FeatureBento features={features} />
-    </div>
+    </main>
   )
 }

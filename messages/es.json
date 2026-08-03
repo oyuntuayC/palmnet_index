@@ -44,14 +44,15 @@
       "fullServiceDining": "RESTAURANTE COMPLETO",
       "takeout": "PARA LLEVAR",
       "delivery": "DOMICILIO",
-      "bar": "BAR"
+      "bar": "BAR",
+      "chainBrands": "MARCAS EN CADENA"
     }
   },
   "hero": {
-    "title1": "NUEVA LLEGADA 2016",
+    "title1": "Sabemos de negocios",
     "text1": "Mejor Colección — Haz tu interior único",
-    "title2": "INTERIOR MODERNO",
-    "text2": "Diseño atemporal con comodidad clásica"
+    "title2": "Dominamos la tecnología",
+    "text2": "Centrarnos en proporcionar soluciones digitales para negocios en Europa"
   },
   "features": {
     "items": [
@@ -66,130 +67,254 @@
     "kiosk": {
       "meta": {
         "title": "Kiosco de Autoservicio - PalmNet",
-        "description": "Kiosco de autoservicio inteligente que mejora la experiencia del cliente y reduce los tiempos de espera"
+        "description": "Palmnet Kiosk permite a los clientes explorar menús, elegir combos, añadir productos y pagar por sí mismos, reduciendo filas y mejorando el rendimiento en horas pico"
       },
       "hero": {
-        "pillLabel": "PalmNet Kiosk",
-        "title": "Autoservicio, Mayor Flujo",
-        "description": "Kioscos de autoservicio inteligentes que agilizan pedidos, reducen filas y mejoran la experiencia del cliente.",
-        "primaryButton": {
-          "label": "Solicitar demo"
-        },
-        "secondaryButton": {
-          "label": "Ver solución completa"
-        },
+        "eyebrow": "PALMNET Kiosk",
+        "title": "Kiosco inteligente de autoservicio",
+        "description": "Palmnet Kiosk permite a los clientes explorar menús, elegir combos, añadir productos y pagar en tienda por sí mismos, ayudando a reducir filas, aliviar el mostrador y mejorar el rendimiento en horas pico",
+        "primaryButton": "Solicitar demo",
+        "secondaryButton": "Contacto",
         "imageAlt": "Demostración del kiosco de autoservicio PalmNet"
       },
-      "highlights": {
-        "qr": {
-          "title": "Pedido y pago por QR",
-          "subtitle": "Admite múltiples métodos de pago y flujos por QR para reducir las filas."
+      "intro": {
+        "title": "Una experiencia de pedido más inteligente",
+        "line1": "Palm KIOSK está diseñado para restaurantes modernos y permite a los clientes explorar menús, hacer pedidos y pagar sin ayuda del personal.",
+        "line2": "Locales de comida rápida, teterías, cafeterías y cadenas pueden ofrecer una experiencia de pedido más rápida y cómoda."
+      },
+      "benefits": {
+        "wait": {
+          "title": "Reducir filas",
+          "description": "Los clientes no esperan al personal para pedir. Completan el pedido por sí mismos y el servicio sigue fluido en horas pico."
         },
-        "multilingual": {
-          "title": "Interfaz multilingüe",
-          "subtitle": "Una interfaz intuitiva en varios idiomas para distintos grupos de clientes."
+        "revenue": {
+          "title": "Aumentar ingresos",
+          "description": "Recomendaciones inteligentes de combos, añadidos y mejoras ayudan a elevar el ticket medio en cada pedido."
         },
-        "waitTimes": {
-          "title": "Menor tiempo de espera",
-          "subtitle": "Gestiona horas pico con pedidos de autoservicio rápidos y concurrentes."
+        "staff": {
+          "title": "Reducir presión del equipo",
+          "description": "El kiosco comparte el trabajo de pedidos y cobro para que el personal se concentre en preparación y atención."
         },
-        "compliance": {
-          "title": "Seguridad y cumplimiento",
-          "subtitle": "Pagos y datos según normativas locales para privacidad y seguridad."
+        "accuracy": {
+          "title": "Menos errores de pedido",
+          "description": "Los clientes confirman productos, opciones y cantidades, reduciendo errores de comunicación y mejorando la precisión."
+        },
+        "sync": {
+          "title": "Conexión con sistemas del restaurante",
+          "description": "Sincroniza en tiempo real con POS, KDS, socios y pedidos online para unificar pedidos, inventario y datos."
+        },
+        "easy": {
+          "title": "Fácil de usar",
+          "description": "Interfaz intuitiva con imágenes, cambio de idioma y categorías claras para que cualquier cliente pueda pedir fácilmente."
         }
       },
-      "featureCards": {
-        "smartOrdering": {
-          "title": "Experiencia de pedido inteligente",
-          "description": "Interfaz táctil intuitiva con soporte multilingüe para pedidos fluidos.",
-          "imageAlt": "Demostración de interfaz de pedido inteligente"
+      "flow": {
+        "title": "Un flujo de pedido más claro",
+        "description": "Desde explorar el menú y elegir opciones hasta pagar, usar promociones y sumar puntos, Palmnet Kiosk ayuda al cliente a completar todo el pedido de forma independiente.",
+        "tabs": {
+          "language": "Idioma",
+          "category": "Categorías",
+          "product": "Productos",
+          "offer": "Ofertas",
+          "member": "Socios",
+          "payment": "Pago"
         },
-        "paymentOptions": {
-          "title": "Múltiples opciones de pago",
-          "description": "Soporte para efectivo, tarjetas y pagos móviles para satisfacer preferencias diversas.",
-          "imageAlt": "Demostración de múltiples métodos de pago"
-        },
-        "realTimeOrders": {
-          "title": "Gestión de pedidos en tiempo real",
-          "description": "Los pedidos se sincronizan al instante con sistemas de cocina, reduciendo errores.",
-          "imageAlt": "Demostración de gestión de pedidos en tiempo real"
+        "imageAlt": "Interfaz del flujo de pedido Palmnet Kiosk",
+        "learnMore": "Más información",
+        "cards": {
+          "language": {
+            "title": "Menú multilingüe",
+            "items": [
+              "Cambio de idioma sencillo",
+              "Ideal para locales internacionales",
+              "Reduce explicaciones del personal"
+            ]
+          },
+          "category": {
+            "title": "Categorías claras",
+            "items": [
+              "Acceso rápido a populares y novedades",
+              "Bebidas, combos y snacks agrupados",
+              "El cliente encuentra productos más rápido"
+            ]
+          },
+          "product": {
+            "title": "Detalles y opciones del producto",
+            "items": [
+              "Muestra imágenes, precios y descripciones",
+              "Soporta tamaños, extras y notas",
+              "Recomienda combinaciones de menú"
+            ]
+          },
+          "offer": {
+            "title": "Promociones automáticas",
+            "items": [
+              "Soporta banners de imagen/video",
+              "Muestra precio rebajado y original",
+              "Aplica descuentos y regalos automáticamente"
+            ]
+          },
+          "member": {
+            "title": "Login de socio y puntos",
+            "items": [
+              "Reconoce el login de socios",
+              "Acumula y usa puntos",
+              "Usa cupones y beneficios de socio"
+            ]
+          },
+          "payment": {
+            "title": "Métodos de pago flexibles",
+            "items": [
+              "Soporta pagos online",
+              "Soporta tarjeta y pago por QR",
+              "Permite elegir pago en mostrador"
+            ]
+          }
         }
       },
-      "hardware": {
-        "pillLabel": "Terminal S1",
-        "title": "Diseño todo metal",
-        "subtitle": "Resistente a aceite y polvo",
-        "description": "Diseño integrado de metal completo con resistencia al aceite y polvo, adaptándose a entornos adversos garantizando operación estable.",
-        "buttonLabel": "Comprar",
-        "imageAlt": "Demostración de hardware PalmNet Terminal S1"
+      "terminals": {
+        "title": "Terminales de autoservicio para distintos espacios",
+        "subtitleLine1": "Desde dispositivos compactos de mostrador hasta terminales grandes, Palmnet Kiosk se configura según el espacio,",
+        "subtitleLine2": "el tráfico y la forma de pedido para que el cliente complete pedido y pago de forma independiente",
+        "learnMore": "Más información",
+        "quote": "Solicitar presupuesto",
+        "k01": {
+          "title": "PALMKit K01 terminal grande de autoservicio",
+          "description": "K01 es ideal para locales de alto tráfico, comida rápida, teterías y cadenas, permitiendo explorar menús, elegir combos, pagar y sincronizar pedidos desde una pantalla grande",
+          "alt": "PALMKit K01 terminal grande de autoservicio"
+        },
+        "mk01": {
+          "title": "PALMKit MK01 terminal compacto de autoservicio",
+          "description": "MK01 encaja en mostradores, zonas de recogida o áreas auxiliares con poco espacio, ayudando a completar pedidos, escanear identificación y pagar rápidamente",
+          "alt": "PALMKit MK01 terminal compacto de autoservicio"
+        }
       },
-      "hardwareSecondary": {
-        "pillLabel": "Terminal S1",
-        "title": "Diseño todo metal",
-        "subtitle": "Resistente a aceite y polvo",
-        "description": "Diseño integrado de metal completo con resistencia al aceite y polvo, adaptándose a entornos adversos garantizando operación estable.",
-        "buttonLabel": "Comprar",
-        "imageAlt": "Demostración de hardware PalmNet Terminal S1"
+      "consultCta": {
+        "title": "Deja que el cliente complete pedido y pago por sí mismo",
+        "description": "Según el espacio, tráfico y métodos de cobro de tu local, Palmnet puede recomendar el terminal y la configuración de autoservicio adecuados",
+        "button": "Consultar solución Kiosk"
+      },
+      "brands": {
+        "title": "Marcas líderes eligen PALMNET"
+      },
+      "cta": {
+        "titleLine1": "Has creado algo único.",
+        "titleLine2": "Te ayudamos a crecer.",
+        "button": "Contacto"
       }
     },
     "online": {
       "meta": {
-        "title": "Sistema de Pedidos Online - PalmNet",
-        "description": "Sistema de pedidos online conveniente que permite a los clientes hacer pedidos en cualquier momento y lugar"
+        "title": "Sistema de pedidos móviles - PalmNet",
+        "description": "PalmNet Ordering permite pedidos por QR o enlace con ubicación de tienda, membresía, promociones, pago online y sincronización de pedidos."
       },
       "hero": {
-        "pillLabel": "PalmNet Online",
-        "title": "Pedidos online multicanal para delivery y recogida",
-        "description": "Soporta pedidos por QR, agregadores de delivery y mini-apps. Pedidos e inventario se sincronizan automáticamente para una operación unificada.",
-        "primaryButton": {
-          "label": "Solicitar demo"
-        },
-        "secondaryButton": {
-          "label": "Ver todos los productos"
-        },
-        "imageAlt": "Sistema de pedidos online PalmNet"
+        "eyebrow": "PALMKIT Ordering",
+        "title": "Sistema digital de pedidos móviles",
+        "description": "Los clientes entran al pedido mediante un código QR o enlace. Sin descargar una app, pueden ver el menú, elegir opciones, iniciar sesión como miembros y completar el pedido y el pago para consumo en sala, recoger, delivery y cadenas con varias tiendas.",
+        "primaryButton": "Iniciar demo",
+        "secondaryButton": "Contáctanos",
+        "imageAlt": "Pantallas móviles de Palmkit Ordering"
       },
-      "highlights": {
+      "intro": {
+        "title": "Permite que los clientes pidan desde su propio móvil",
+        "description": "Palmnet Ordering conecta menú, membresía, promociones, pagos y selección de tienda en el móvil para que el cliente pueda pedir en cualquier momento y el restaurante reduzca la toma manual de pedidos.",
+        "imageAlt": "Cliente usando el móvil para pedir en una mesa de restaurante"
+      },
+      "benefits": {
+        "entry": {
+          "title": "Múltiples entradas al pedido",
+          "description": "El cliente puede empezar desde códigos QR en mesa, carteles, enlaces sociales o la web del restaurante."
+        },
+        "store": {
+          "title": "Selección automática de tienda",
+          "description": "Recomienda tiendas cercanas por ubicación o permite elegir manualmente, ideal para operaciones multi ciudad y multi tienda."
+        },
+        "member": {
+          "title": "Membresía y promociones conectadas",
+          "description": "Tras iniciar sesión, el cliente ve niveles, puntos, cupones y campañas exclusivas para aumentar la recompra."
+        },
         "sync": {
-          "title": "Sincronización automática de pedidos",
-          "subtitle": "Los clientes pueden pedir en casa, en la oficina o en movimiento; la tienda recibe los pedidos en caja sin pérdidas."
-        },
-        "devices": {
-          "title": "Compatibilidad multi-dispositivo",
-          "subtitle": "Móvil, tablet y ordenador pueden acceder al sistema; dominio personalizado para mayor marca."
-        },
-        "menu": {
-          "title": "Menú en tiempo real",
-          "subtitle": "Menú e inventario se actualizan en tiempo real para evitar sobreventa."
-        },
-        "payments": {
-          "title": "Pagos online integrados",
-          "subtitle": "Soporta WeChat, Alipay, Visa, Mastercard y más para un pago ágil."
+          "title": "Pedidos sincronizados con tienda",
+          "description": "Los pedidos móviles se sincronizan con POS, KDS o back office para reducir carga manual y acelerar la preparación."
         }
       },
-      "hardware": {
-        "pillLabel": "Terminal S1",
-        "title": "Diseño de Metal Completo",
-        "subtitle": "Resistente al Aceite y Polvo",
-        "description": "Diseño integrado de metal completo con resistencia al aceite y polvo, adaptándose a entornos hostiles mientras garantiza operación estable.",
-        "buttonLabel": "Comprar Ahora",
-        "imageAlt": "Demostración del hardware Terminal S1 de PalmNet"
+      "flow": {
+        "title": "Un flujo de pedido más claro",
+        "description": "Desde navegar el menú y elegir opciones hasta pagar, aplicar promociones y acumular puntos, Palmnet Ordering ayuda al cliente a completar todo el proceso de forma autónoma.",
+        "imageAlt": "Pantallas del flujo de pedidos móviles de Palmnet Ordering",
+        "learnMore": "Más información",
+        "tabs": {
+          "entrance": "Entrada",
+          "location": "Ubicación",
+          "menu": "Menú",
+          "product": "Producto",
+          "member": "Miembro",
+          "payment": "Pago"
+        },
+        "cards": {
+          "entrance": {
+            "title": "Entrar por QR o enlace",
+            "items": [
+              "Sin descargar app",
+              "Abrir la página H5 por QR",
+              "Compatible con QR de mesa, carteles y enlaces sociales"
+            ]
+          },
+          "location": {
+            "title": "Detectar tiendas cercanas automáticamente",
+            "items": [
+              "Compatible con geolocalización",
+              "Recomienda tiendas cercanas",
+              "Pensado para cadenas multi tienda"
+            ]
+          },
+          "menu": {
+            "title": "Explorar el menú móvil",
+            "items": [
+              "Soporta menús multilingües",
+              "Categorías claras y fáciles de navegar",
+              "Muestra imágenes, precios y descripciones"
+            ]
+          },
+          "product": {
+            "title": "Elegir opciones y combos",
+            "items": [
+              "Soporta opciones, extras y notas",
+              "Soporta combinaciones y recomendaciones",
+              "Muestra precio promocional y precio tachado"
+            ]
+          },
+          "member": {
+            "title": "Inicio de sesión de miembro sencillo",
+            "items": [
+              "Soporta Google, Apple y correo electrónico",
+              "Muestra nivel y puntos de miembro",
+              "Usa cupones y beneficios de membresía"
+            ]
+          },
+          "payment": {
+            "title": "Pedido y pago online",
+            "items": [
+              "Soporta pagos online",
+              "Soporta pago en tienda",
+              "Los pedidos se sincronizan automáticamente con tienda"
+            ]
+          }
+        }
       },
-      "hardwareSecondary": {
-        "pillLabel": "Terminal S1",
-        "title": "Diseño de Metal Completo",
-        "subtitle": "Resistente al Aceite y Polvo",
-        "description": "Diseño integrado de metal completo con resistencia al aceite y polvo, adaptándose a entornos hostiles mientras garantiza operación estable.",
-        "buttonLabel": "Comprar Ahora",
-        "imageAlt": "Demostración del hardware Terminal S1 de PalmNet"
+      "consultCta": {
+        "title": "Integra pedidos móviles en tu operación",
+        "description": "Para una tienda, cadenas, multi marca o flujos de takeaway, Palmnet puede configurar pedidos, membresía, pagos y sincronización según tus necesidades.",
+        "button": "Consultar Ordering"
       },
-      "hardwareTertiary": {
-        "pillLabel": "Terminal S1",
-        "title": "Diseño de Metal Completo",
-        "subtitle": "Resistente al Aceite y Polvo",
-        "description": "Diseño integrado de metal completo con resistencia al aceite y polvo, adaptándose a entornos hostiles mientras garantiza operación estable.",
-        "buttonLabel": "Comprar Ahora",
-        "imageAlt": "Demostración del hardware Terminal S1 de PalmNet"
+      "brands": {
+        "title": "Marcas líderes eligen PALMNET"
+      },
+      "cta": {
+        "titleLine1": "Has creado algo único.",
+        "titleLine2": "Te ayudamos a crecer.",
+        "button": "Contacto"
       }
     },
     "pos": {
@@ -227,6 +352,138 @@
           "subtitle": "El backend en la nube puede enviar actividades y anuncios de la tienda, promoviendo compras repetidas y conversión de miembros."
         }
       },
+      "tabs": {
+        "pos": "POS",
+        "ordering": "Ordering",
+        "kiosk": "Kiosk",
+        "kds": "Kitchen display system",
+        "ads": "ADS",
+        "marketing": "Marketing"
+      },
+      "newHero": {
+        "titleLine1": "Palm POS",
+        "titleLine2": "Un sistema para la operación del restaurante",
+        "description": "Desde pedidos, caja y pagos hasta inventario, socios, informes y cumplimiento fiscal, Palmnet POS conecta la operación diaria del restaurante.",
+        "primaryButton": "Solicitar demo",
+        "secondaryButton": "Contacto",
+        "imageAlt": "Sistema Palm POS para la operación del restaurante"
+      },
+      "benefits": {
+        "wait": {
+          "title": "Reducir esperas",
+          "description": "Permite que los clientes gestionen y paguen pedidos más rápido, optimizando el ritmo del equipo y mejorando el servicio."
+        },
+        "staff": {
+          "title": "Optimizar el tiempo del equipo",
+          "description": "Al reducir colas, el personal puede concentrarse en ofrecer un mejor servicio."
+        },
+        "revenue": {
+          "title": "Generar más ingresos",
+          "description": "Añade complementos, menús y opciones a cada pedido sin generar incomodidad en el mostrador."
+        },
+        "sync": {
+          "title": "Sincronizar todo",
+          "description": "Pedidos, actualizaciones y cocina se conectan con PALMNET KDS para que sala y cocina trabajen siempre alineadas."
+        }
+      },
+      "featuresTitle": "Un sistema POS potente y estable",
+      "featureCards": {
+        "checkout": {
+          "title": "Pedidos y caja",
+          "description": "Ayuda al equipo a completar pedidos, cambios de precio, descuentos, cobros e impresión de tickets con más rapidez.",
+          "items": [
+            "Pedidos agregados de todos los canales",
+            "Tickets personalizados",
+            "Gestión flexible de productos"
+          ],
+          "alt": "Interfaz de pedidos y caja"
+        },
+        "tables": {
+          "title": "Gestión de pedidos y mesas",
+          "description": "Gestiona mesas, añadidos, cambios de mesa, uniones, divisiones y estados de pedido para restaurantes de sala.",
+          "items": [
+            "Estados de pedido sincronizados",
+            "Reservas autoservicio y manuales",
+            "Ocupación y rotación de mesas visible"
+          ],
+          "alt": "Interfaz de gestión de pedidos y mesas"
+        },
+        "members": {
+          "title": "Conexión con socios",
+          "description": "Identifica socios en caja, acumula puntos, emite promociones y conecta clientes con el sistema de fidelización.",
+          "items": [
+            "Identificación y historial de socios",
+            "Puntos, cupones y saldo",
+            "Estados de pedido sincronizados"
+          ],
+          "alt": "Interfaz de conexión con socios"
+        },
+        "inventory": {
+          "title": "Gestión de productos e inventario",
+          "description": "Sincroniza productos, menús, ingredientes e inventario con ventas para reducir recuentos manuales.",
+          "items": [
+            "Gestión de productos y menús",
+            "Actualización automática de stock",
+            "Alertas de ingredientes e inventario"
+          ],
+          "alt": "Interfaz de productos e inventario"
+        },
+        "reports": {
+          "title": "Informes de datos",
+          "description": "Consulta ventas, productos destacados, rendimiento del equipo y pagos en tiempo real para tomar mejores decisiones.",
+          "items": [
+            "Tendencias de ventas y pedidos",
+            "Productos principales y métodos de pago",
+            "Datos de tienda y rendimiento del equipo"
+          ],
+          "alt": "Interfaz de informes"
+        }
+      },
+      "solutionCards": {
+        "tax": {
+          "title": "Cumplimiento fiscal",
+          "description": "Soporte para tickets electrónicos, VAT/IVA, cumplimiento fiscal y reglas específicas por país.",
+          "link": "Ver cumplimiento fiscal"
+        },
+        "payment": {
+          "title": "Soluciones de pago",
+          "description": "Compatible con los principales métodos de pago en mercados globales.",
+          "link": "Ver pagos"
+        }
+      },
+      "terminals": {
+        "title": "Terminales POS para distintos negocios",
+        "subtitle": "Desde caja principal hasta cobros móviles, Palmnet ofrece dispositivos adaptados a distintos tamaños de tienda y escenarios de servicio.",
+        "learnMore": "Más información",
+        "quote": "Cotizar",
+        "d3": {
+          "title": "Palm D3",
+          "description": "Diseñado como terminal principal para pedidos, caja, pagos, identificación de socios e impresión de tickets.",
+          "alt": "Terminal Palm D3"
+        },
+        "mpos": {
+          "title": "Palm mPOS",
+          "description": "Ideal para pedidos en mesa, cobros móviles, pedidos en cola y servicio exterior, permitiendo al equipo completar pedidos y pagos en cualquier lugar.",
+          "alt": "Terminal móvil Palm mPOS"
+        }
+      },
+      "toolkit": {
+        "titleLine1": "Kit POS",
+        "titleLine2": "completo",
+        "description": "El kit incluye dispositivos PALMNET, cajón portamonedas, impresora de tickets y papel.",
+        "button": "Cotizar",
+        "accessories": "Ver accesorios completos",
+        "compatibility": "Consultar compatibilidad de accesorios",
+        "alt": "Kit POS Palmnet"
+      },
+      "brands": {
+        "title": "Marcas líderes eligen PALMNET"
+      },
+      "cta": {
+        "titleLine1": "Has creado algo único.",
+        "titleLine2": "Te ayudamos a crecer.",
+        "button": "Contacto"
+      },
       "hardware": {
         "pillLabel": "Terminal S1",
         "title": "Diseño integrado de metal completo Resistente al aceite y polvo, sin preocupaciones",
@@ -239,6 +496,234 @@
         },
         "buttonLabel": "Comprar Ahora",
         "imageAlt": "Demostración del hardware Terminal S1"
+      }
+    },
+    "kds": {
+      "meta": {
+        "title": "Sistema de Pantalla de Cocina (KDS) - PalmNet",
+        "description": "Sistema inteligente de pantalla de cocina que envía pedidos de mostrador, QR, quiosco y delivery a pantallas de cocina para una preparación más clara"
+      },
+      "hero": {
+        "eyebrow": "PALMNET KDS",
+        "title": "Sistema inteligente de pantalla de cocina",
+        "description": "Envía pedidos de mostrador, QR, autoservicio y delivery a pantallas de cocina para que el equipo reciba, divida y sirva con claridad",
+        "primaryButton": "Iniciar demo",
+        "secondaryButton": "Contáctanos",
+        "imageAlt": "Demostración del sistema KDS de Palm"
+      },
+      "benefits": {
+        "display": {
+          "title": "Visualización clara de pedidos",
+          "lines": [
+            "Toda la información del pedido en un solo lugar",
+            "Reduce pedidos omitidos y platos incorrectos",
+            "Menos comunicación verbal"
+          ]
+        },
+        "speed": {
+          "title": "Procesamiento más rápido",
+          "lines": [
+            "Los pedidos aparecen al instante en pantalla",
+            "Sin esperar tickets en papel",
+            "Mejora la velocidad general de servicio"
+          ]
+        },
+        "collaboration": {
+          "title": "Colaboración eficiente en cocina",
+          "lines": [
+            "Varias estaciones trabajan en sincronía",
+            "Cada estación ve solo sus tareas",
+            "Aumenta la productividad de cocina"
+          ]
+        },
+        "paperless": {
+          "title": "Adiós a los pedidos en papel",
+          "lines": [
+            "Reduce el desperdicio de papel",
+            "Evita tickets perdidos",
+            "Más sostenible y eficiente"
+          ]
+        }
+      },
+      "featuresTitle": "De pedido a servicio: un flujo de cocina más claro",
+      "featuresSubtitle": "Sin gritos ni tickets en papel. Gestiona cada pedido por secuencia, estación y estado.",
+      "featureCards": {
+        "sync": {
+          "title": "Sincronización en tiempo real",
+          "description": "Todas las fuentes de pedidos llegan al KDS — la cocina no espera al mostrador.",
+          "items": [
+            "Sincronización de pedidos POS",
+            "Sincronización de pedidos QR",
+            "Sincronización de quiosco y delivery"
+          ],
+          "alt": "Función de sincronización en tiempo real"
+        },
+        "routing": {
+          "title": "Asignación inteligente de pedidos",
+          "description": "Los platos se envían automáticamente a la estación correcta para que cada rol vea solo lo relevante.",
+          "items": [
+            "Dividir por categoría de plato",
+            "Dividir por estación de cocina",
+            "Colaboración multi-pantalla"
+          ],
+          "alt": "Función de asignación inteligente"
+        },
+        "status": {
+          "title": "Gestión de estado de pedidos",
+          "description": "Actualiza el estado de preparación en tiempo real para que mostrador y recogida conozcan el progreso.",
+          "items": [
+            "Pendiente / En preparación / Completado",
+            "Menos comunicación entre equipos",
+            "Facilita la expedición"
+          ],
+          "alt": "Función de gestión de estado"
+        },
+        "priority": {
+          "title": "Gestión de prioridades",
+          "description": "En horas punta, ordena por tiempo, tipo o urgencia.",
+          "items": [
+            "Ordenar por tiempo",
+            "Soporte para pedidos prioritarios",
+            "Reduce el caos en horas punta"
+          ],
+          "alt": "Función de gestión de prioridades"
+        },
+        "timing": {
+          "title": "Estadísticas de tiempo de servicio",
+          "description": "Registra tiempos de espera y preparación para detectar cuellos de botella.",
+          "items": [
+            "Ver tiempo medio de preparación",
+            "Analizar eficiencia en horas punta",
+            "Optimizar personal"
+          ],
+          "alt": "Función de estadísticas de tiempo"
+        }
+      },
+      "terminals": {
+        "title": "Terminales de pantalla para colaboración en cocina",
+        "subtitle": "Los pedidos se muestran en pantallas de cocina o recogida con mesa, notas, hora y estado — reduciendo pedidos perdidos y malentendidos",
+        "learnMore": "Conocer producto",
+        "quote": "Solicitar presupuesto",
+        "x1": {
+          "title": "Pantalla de cocina PALMKIT X1",
+          "description": "Muestra detalles del pedido, mesa, notas, hora y estado de preparación — ideal para cocina y recogida",
+          "alt": "Pantalla de cocina PALMKIT X1"
+        },
+        "sSeries": {
+          "title": "Serie PALMNET S",
+          "description": "Pedidos, caja, turnos, impresión, pagos, informes, inventario y cumplimiento fiscal",
+          "alt": "Terminal serie PALMNET S"
+        }
+      },
+      "consultCta": {
+        "title": "Pedidos más claros en cocina, servicio más eficiente",
+        "description": "Según tu tipo de local, distribución de cocina y fuentes de pedidos, Palmnet configura el KDS adecuado para ti",
+        "button": "Consultar configuración KDS"
+      },
+      "brands": {
+        "title": "Por qué las marcas líderes eligen PALMNET"
+      },
+      "cta": {
+        "titleLine1": "Has creado algo único.",
+        "titleLine2": "Te ayudamos a crecer.",
+        "button": "Contacto"
+      }
+    },
+    "ads": {
+      "meta": {
+        "title": "Sistema de pantallas ADS - PalmNet",
+        "description": "Palmnet ADS sincroniza contenido publicitario con rapidez en pantallas, facilitando la gestión de anuncios, menús digitales y avisos de llamada"
+      },
+      "hero": {
+        "eyebrow": "PALMNET ADS",
+        "title": "Sistema inteligente de pantallas",
+        "description": "Palmnet ADS sincroniza contenido publicitario con rapidez en pantallas, facilitando la gestión de anuncios, menús digitales y avisos de llamada",
+        "primaryButton": "Iniciar demo",
+        "secondaryButton": "Contacto",
+        "imageAlt": "Demostración de pantallas inteligentes Palm ADS"
+      },
+      "highlights": {
+        "publish": {
+          "title": "Contenido en línea rápido",
+          "description": "Sube imágenes, videos promocionales o menús desde el back office del POS y sincroniza con las pantallas seleccionadas al guardar"
+        },
+        "devices": {
+          "title": "Compatible con varios dispositivos",
+          "description": "Pantallas publicitarias, menús digitales, tablets u otros displays: instala Palmnet ADS para conectarlos al sistema de contenido"
+        },
+        "modes": {
+          "title": "Modos publicitario y de llamada",
+          "description": "Reproduce anuncios, menús y promociones a diario; en horas pico cambia a pantalla de llamada integrada con KDS"
+        }
+      },
+      "contentIntro": {
+        "title": "Mantén el contenido de pantalla siempre actualizado",
+        "description": "Ya sean anuncios de nuevos productos, carteles de eventos, menús digitales o números de llamada, Palmnet ADS centraliza y sincroniza el contenido en distintas pantallas"
+      },
+      "showcaseAlt": "Escena de pantallas publicitarias y de menú en tienda",
+      "featureColumns": {
+        "upload": {
+          "title": "Subida de imágenes y video",
+          "items": [
+            "Anuncios en imagen",
+            "Contenido en video",
+            "Gestión desde el back office del POS"
+          ]
+        },
+        "sync": {
+          "title": "Sincronización rápida",
+          "items": [
+            "Baja latencia de actualización",
+            "Sincronización multi-pantalla",
+            "Sin cambios manuales en tienda"
+          ]
+        },
+        "displayModes": {
+          "title": "Modos publicitario y menú",
+          "items": [
+            "Para pantallas publicitarias",
+            "Para menús digitales",
+            "Muestra novedades, combos y promos"
+          ]
+        },
+        "queue": {
+          "title": "Pantalla de llamada",
+          "items": [
+            "Cambio a modo llamada",
+            "Integración con KDS",
+            "Llamada automática al completar pedidos"
+          ]
+        }
+      },
+      "terminals": {
+        "title": "Un sistema de pantallas para cada espacio de tu local",
+        "subtitleLine1": "Palmnet ADS no se limita a un solo tipo de dispositivo: despliega en TVs, menús digitales,",
+        "subtitleLine2": "pantallas publicitarias y tablets según el espacio y las necesidades de tu local",
+        "learnMore": "Más información",
+        "quote": "Solicitar presupuesto",
+        "a132": {
+          "title": "A132 Pantalla publicitaria mural 32''",
+          "description": "Ideal en paredes, zonas de recogida o puntos visibles para anuncios de marca, novedades y promos; también como menú o pantalla de llamada",
+          "alt": "Pantalla publicitaria mural A132"
+        },
+        "a123": {
+          "title": "A123 Pantalla de menú de mostrador 24''",
+          "description": "Colócala en mostrador o zona de pedidos para mostrar menús, combos, precios y promos, o reproducir anuncios en imagen o video",
+          "alt": "Pantalla de menú de mostrador A123"
+        }
+      },
+      "consultCta": {
+        "title": "Convierte cada pantalla en una herramienta de negocio",
+        "description": "Con Palmnet ADS, publica anuncios, menús y contenido de llamada desde un solo lugar: más flexible y fácil de gestionar",
+        "button": "Consultar solución ADS"
+      },
+      "brands": {
+        "title": "Por qué las marcas líderes eligen PALMNET"
+      },
+      "cta": {
+        "titleLine1": "Has creado algo único.",
+        "titleLine2": "Te ayudamos a crecer.",
+        "button": "Contacto"
       }
     },
     "waiter": {
@@ -289,6 +774,120 @@
           "title": "Simple, Intuitivo, Eficiente",
           "description": "Interfaz optimizada diseñada para toma de pedidos rápida y precisa en entornos de restaurante ocupados"
         }
+      }
+    },
+    "marketing": {
+      "meta": {
+        "title": "Sistema de marketing de miembros y recompra - PalmNet",
+        "description": "Palmnet Marketing conecta cuentas de miembro, puntos, cupones y tarjetas de sellos para aumentar recompra y actividad."
+      },
+      "hero": {
+        "eyebrow": "PALMKIT Marketing",
+        "title": "Sistema de marketing de miembros y recompra",
+        "description": "Palmnet Marketing conecta pedidos móviles, cuentas de miembro, puntos, cupones y tarjetas de sellos para convertir clientes ocasionales en miembros recurrentes.",
+        "primaryButton": "Iniciar demo",
+        "secondaryButton": "Contáctanos",
+        "imageAlt": "Pantallas móviles de Palmkit Marketing"
+      },
+      "intro": {
+        "title": "Convierte cada pedido en la siguiente visita",
+        "description": "El cliente puede iniciar sesión, ver su nivel, recibir cupones, canjear puntos y usar tarjetas de sellos dentro del flujo H5 de Ordering, mientras la tienda crea campañas según niveles y reglas de actividad.",
+        "imageAlt": "Escena de mostrador con sistema de marketing de miembros"
+      },
+      "benefits": {
+        "login": {
+          "title": "Múltiples métodos de acceso",
+          "description": "El cliente puede registrarse o iniciar sesión con Google, Apple o correo electrónico y entrar rápidamente al sistema de miembros."
+        },
+        "level": {
+          "title": "Crear niveles de miembro",
+          "description": "Acumula puntos por gasto, número de pedidos o reglas de campaña para impulsar el crecimiento del nivel."
+        },
+        "coupon": {
+          "title": "Cupones y canje",
+          "description": "Los puntos pueden canjearse por cupones para productos, descuentos o campañas específicas."
+        },
+        "wallet": {
+          "title": "Tarjetas de sellos y Wallet",
+          "description": "Crea tarjetas de sellos para incentivar visitas repetidas y permite añadirlas a Wallet para mayor retención."
+        }
+      },
+      "flow": {
+        "title": "Un flujo de marketing más claro",
+        "description": "Desde el acceso, niveles y puntos hasta cupones, sellos y beneficios, Palmnet Marketing convierte el comportamiento del cliente en activos de membresía accionables.",
+        "imageAlt": "Pantallas móviles del flujo de membresía de Palmnet Marketing",
+        "learnMore": "Más información",
+        "tabs": {
+          "login": "Acceso",
+          "member": "Miembro",
+          "points": "Puntos",
+          "coupon": "Cupón",
+          "stamp": "Sellos",
+          "benefits": "Beneficios"
+        },
+        "cards": {
+          "login": {
+            "title": "Acceso",
+            "items": [
+              "Soporta Google, Apple y correo electrónico",
+              "Entrada rápida al sistema de miembros",
+              "Identifica clientes antes o después del pedido"
+            ]
+          },
+          "member": {
+            "title": "Miembro",
+            "items": [
+              "Muestra el nivel de miembro",
+              "Muestra puntos y progreso",
+              "Recoge datos de recompra"
+            ]
+          },
+          "points": {
+            "title": "Puntos",
+            "items": [
+              "Acumula puntos tras la compra",
+              "Soporta reglas de canje de puntos",
+              "Motiva el próximo pedido"
+            ]
+          },
+          "coupon": {
+            "title": "Cupones",
+            "items": [
+              "Soporta cupones de descuento y producto",
+              "Canjea productos o descuentos",
+              "Aplica promociones automáticamente al pagar"
+            ]
+          },
+          "stamp": {
+            "title": "Tarjeta de sellos",
+            "items": [
+              "Sello automático tras la compra",
+              "Canjea recompensas al completar la tarjeta",
+              "Soporta añadir a Wallet"
+            ]
+          },
+          "benefits": {
+            "title": "Beneficios",
+            "items": [
+              "Configura beneficios por nivel",
+              "Define ofertas temporales de producto",
+              "Aumenta recompra y actividad"
+            ]
+          }
+        }
+      },
+      "consultCta": {
+        "title": "Haz que cada pedido lleve al siguiente",
+        "description": "Conecta membresía, puntos, cupones, tarjetas de sellos y pedidos móviles para crear ciclos sostenibles de recompra.",
+        "button": "Consultar marketing"
+      },
+      "brands": {
+        "title": "Marcas líderes eligen PALMNET"
+      },
+      "cta": {
+        "titleLine1": "Has creado algo único.",
+        "titleLine2": "Te ayudamos a crecer.",
+        "button": "Contacto"
       }
     }
   },
@@ -406,11 +1005,914 @@
       "viewCareers": "Ver Empleos"
     }
   },
+  "homeLanding": {
+    "hero": {
+      "titleLine1": "Un solo sistema.",
+      "titleLine2": "Toda tu operación conectada.",
+      "primaryCta": "Empezar",
+      "secondaryCta": "Contactar con el equipo de Ventas",
+      "imageAlt": "Sistema de operaciones PalmNet mostrado en una tablet"
+    },
+    "solutions": {
+      "title": "Tecnología más inteligente que se adapta a tu empresa",
+      "subtitle": "Sean cuales sean las tareas propias de tu negocio, descubre soluciones que te ayudan a hacerlas."
+    },
+    "products": {
+      "learnMore": "Más información",
+      "pos": {
+        "title": "POS",
+        "description": "El TPV en la nube que impulsa una gestión más eficiente.",
+        "alt": "Producto PalmNet POS"
+      },
+      "ads": {
+        "title": "ADS",
+        "description": "Avisos en tiempo real y por voz para agilizar la recogida.",
+        "alt": "Producto PalmNet ADS"
+      },
+      "kds": {
+        "title": "KDS",
+        "description": "KDS inteligente para una gestión más eficiente de la cocina.",
+        "alt": "Producto PalmNet KDS"
+      },
+      "ordering": {
+        "title": "Ordering",
+        "description": "Pedidos multicanal para sala, delivery y autoservicio.",
+        "alt": "Producto PalmNet Ordering"
+      }
+    },
+    "scenes": {
+      "title": "La mejor solución para todo tipo de restaurantes",
+      "subtitle": "Soluciones digitales adaptadas a cada tipo de negocio.",
+      "restaurant": {
+        "title": "Restaurante",
+        "description": "El TPV de nueva generación que aumenta la eficiencia de tu negocio.",
+        "cta": "Más sobre restaurantes",
+        "alt": "Escena de restaurante"
+      },
+      "fastFood": {
+        "title": "Comida rápida",
+        "description": "Gestión de horas punta, pedidos de autoservicio y sistema de llamada de pedidos.",
+        "alt": "Escena de comida rápida"
+      },
+      "teaCafe": {
+        "title": "Té, café y bubble tea",
+        "description": "Pedidos multicanal, fidelización de clientes y gestión de inventario y recetas.",
+        "alt": "Escena de té y café"
+      },
+      "buffetSushi": {
+        "title": "Buffet y Sushi",
+        "description": "Gestión de franjas horarias, pedidos adicionales y programa de fidelización.",
+        "alt": "Escena de buffet y sushi"
+      }
+    },
+    "pricingCta": {
+      "title": "Mejor precio, mejor experiencia",
+      "subtitle": "Herramientas modernas que reducen costes sin comprometer la calidad.",
+      "button": "Solicitar demo",
+      "alt": "Fondo de terminal PalmNet"
+    },
+    "brands": {
+      "title": "La elección de miles de marcas en toda Europa",
+      "alt": "Muro de marcas de restaurantes PalmNet"
+    },
+    "faq": {
+      "title": "FAQ",
+      "storeTypes": "¿Para qué tipo de tiendas sirve PalmNet?",
+      "singleStore": "¿Es adecuado para una sola tienda?",
+      "chainBrands": "¿Es adecuado para cadenas?",
+      "multiLanguage": "¿Admite varios idiomas?",
+      "taxCompliance": "¿Cumple la fiscalidad europea?",
+      "deliveryPlatforms": "¿Puede conectarse a plataformas de delivery?",
+      "installationTraining": "¿Ofrecen instalación y formación?",
+      "pricing": "¿Cómo se calcula el precio?",
+      "customization": "¿Se pueden personalizar funciones?",
+      "gettingStarted": "¿Cómo empezar?"
+    },
+    "footerLead": {
+      "titleLine1": "Has creado algo único.",
+      "titleLine2": "Te ayudamos a crecer.",
+      "button": "Contacto"
+    }
+  },
   "footer": {
     "contact": "Contacto",
     "newsletter": "Boletín",
     "subscribe": "Suscribirse",
-    "about": "Haz tu interior único. Productos de calidad y estilo moderno.",
-    "rights": "Todos los derechos reservados."
+    "about": "Haz que tu restaurante sea único, con calidad y modernidad.",
+    "language": "Idioma",
+    "selectLanguage": "Seleccionar idioma",
+    "columns": {
+      "products": "Productos",
+      "scenes": "Escenarios",
+      "solutions": "Soluciones",
+      "more": "Más",
+      "contact": "Contacto"
+    },
+    "links": {
+      "posCheckout": "TPV / POS",
+      "onlineOrdering": "Pedidos online",
+      "kioskDisplay": "Pantalla de pedidos",
+      "queue": "Gestión de colas",
+      "waiterOrdering": "Pedidos de camarero",
+      "kitchenDisplay": "KDS cocina",
+      "smartAds": "Gestión de anuncios",
+      "padOrdering": "Pedidos en tablet",
+      "fastFood": "Comida rápida",
+      "teaCoffee": "Té y café",
+      "buffet": "Buffet",
+      "bakery": "Pastelería y panadería",
+      "hotPot": "Hot pot",
+      "fullServiceDining": "Restaurante tradicional",
+      "delivery": "Takeout & delivery",
+      "barBistro": "Bar & Bistro",
+      "deliveryAggregation": "Agregación delivery",
+      "payment": "Cobros y pagos",
+      "taxCompliance": "Cumplimiento fiscal local",
+      "cashChanger": "Cambio automático",
+      "kitchenEquipment": "Equipos inteligentes de cocina",
+      "blogs": "Noticias & blog",
+      "about": "Sobre nosotros",
+      "careers": "Únete a nosotros",
+      "contact": "Contacto"
+    },
+    "legal": {
+      "cookies": "Política de cookies",
+      "privacy": "Privacidad",
+      "terms": "Condiciones de servicio"
+    },
+    "rights": "All Right Reserved"
+  },
+  "legal": {
+    "lastUpdated": "Última actualización: {date}",
+    "notFound": "Documento no encontrado"
+  },
+  "solutionsPage": {
+    "meta": {
+      "title": "Solución para té y café - PalmNet",
+      "description": "Palmnet ofrece una solución digital integrada para tiendas de té y café: pedidos, cobro, producción, entrega y recompra."
+    },
+    "hero": {
+      "titleLine1": "Tiendas de té y café",
+      "titleLine2": "Solución digital",
+      "descriptionLine1": "Desde pedidos, cobro, producción y entrega",
+      "descriptionLine2": "hasta recompra de miembros, Palmnet ayuda a trabajar más rápido",
+      "descriptionLine3": "en horas pico con menos errores manuales.",
+      "button": "Consultar solución",
+      "imageAlt": "Empleado de tienda de té y café con terminal de auto pedido"
+    },
+    "challenges": {
+      "title": "Retos comunes de tiendas de té y café",
+      "items": {
+        "queue": {
+          "title": "Colas en horas pico",
+          "description": "Los pedidos se concentran en horas de mayor demanda y saturan el mostrador y la caja."
+        },
+        "complexity": {
+          "title": "Opciones complejas",
+          "description": "Sabores, toppings, notas y detalles de pedido son fáciles de omitir manualmente."
+        },
+        "mistakes": {
+          "title": "Errores de pedido",
+          "description": "Azúcar, hielo, toppings y combos necesitan un flujo de pedido más claro."
+        },
+        "retention": {
+          "title": "Difícil fidelizar",
+          "description": "Tras la compra, muchas tiendas no logran volver a contactar al cliente ni convertir ofertas en recompra."
+        }
+      }
+    },
+    "growth": {
+      "title": "Descubre cómo Palmnet ayuda a crecer tu tienda",
+      "description": "Elige una etapa operativa para ver cómo Palmnet conecta pedidos, cobro, producción, entrega y recompra."
+    },
+    "tabs": {
+      "ordering": {
+        "label": "Pedido",
+        "title": "Múltiples entradas reducen la espera",
+        "description": "Soporta pedido en mostrador, autoservicio, QR y H5 móvil para que el cliente elija el canal más conveniente.",
+        "items": [
+          "Soporta POS, Kiosk y Ordering",
+          "Gestiona azúcar, hielo, toppings y notas",
+          "Unifica sala, takeaway y pedidos online"
+        ],
+        "imageAlt": "Escena de pedido multicanal en tienda de té"
+      },
+      "cashier": {
+        "label": "Cobro",
+        "title": "Cobro rápido para mejorar el mostrador",
+        "description": "Los pedidos se sincronizan con POS, pagos, recibos y confirmación para reducir trabajo manual repetido.",
+        "items": [
+          "Pedidos y cobro conectados",
+          "Soporta tarjeta, QR y pagos online",
+          "Sincroniza pedido, recibo y estado de pago"
+        ],
+        "imageAlt": "Escena de cobro en tienda de té"
+      },
+      "making": {
+        "label": "Preparación",
+        "title": "Pedidos sincronizados con cocina",
+        "description": "Tras el pedido, puede entrar al KDS para mostrar productos, opciones, notas y estado de preparación.",
+        "items": [
+          "Pedidos en cocina en tiempo real",
+          "Menos pedidos perdidos y comunicación verbal",
+          "Gestión de estado de preparación"
+        ],
+        "imageAlt": "Escena de preparación en tienda de té"
+      },
+      "pickup": {
+        "label": "Entrega",
+        "title": "Llamado y pantalla de entrega",
+        "description": "Al finalizar, pantallas de llamado o anuncios muestran la información de recogida junto con menú y promociones.",
+        "items": [
+          "Modo de llamado por número",
+          "Conexión con estado de KDS",
+          "Cambio flexible entre menú y anuncios"
+        ],
+        "imageAlt": "Escena de pantalla de entrega"
+      },
+      "retention": {
+        "label": "Recompra",
+        "title": "Marketing de miembros para la próxima compra",
+        "description": "El cliente inicia sesión en H5 para ver puntos, niveles y cupones, mientras la tienda usa sellos y beneficios.",
+        "items": [
+          "Niveles y puntos de miembro",
+          "Cupones y sellos impulsan recompra",
+          "Campañas para retener clientes"
+        ],
+        "imageAlt": "Escena de recompra de miembros"
+      }
+    },
+    "products": {
+      "title": "Productos esenciales para tiendas de té",
+      "subtitle": "Mejora la experiencia y reduce costes operativos",
+      "learnMore": "Más información",
+      "items": {
+        "pos": {
+          "title": "PalmPOS",
+          "description": "POS en la nube para una gestión más eficiente.",
+          "imageAlt": "Imagen de PalmPOS"
+        },
+        "kiosk": {
+          "title": "PalmKIOSK",
+          "description": "Terminales de autoservicio para reducir presión en horas pico.",
+          "imageAlt": "Imagen de PalmKIOSK"
+        },
+        "ads": {
+          "title": "PalmADS",
+          "description": "Pantallas de menú, llamado y publicidad para mejorar la entrega.",
+          "imageAlt": "Imagen de PalmADS"
+        },
+        "marketing": {
+          "title": "Palm MARKETING",
+          "description": "Miembros, puntos, cupones y sellos para crear recompra.",
+          "imageAlt": "Imagen de Palm Marketing"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "Haz que cada pedido lleve al siguiente",
+      "description": "Con niveles, puntos, cupones y sellos, Palmnet Marketing ayuda a crear un sistema propio de fidelización.",
+      "button": "Consultar marketing de miembros"
+    },
+    "cta": {
+      "titleLine1": "Has creado algo único.",
+      "titleLine2": "Te ayudamos a crecer.",
+      "button": "Contacto"
+    }
+  },
+  "solutionsChinesePage": {
+    "meta": {
+      "title": "Solución para restaurante chino - PalmNet",
+      "description": "Palmnet conecta mesas, pedidos, cocina, cobro y datos para restaurantes chinos de servicio completo."
+    },
+    "hero": {
+      "titleLine1": "Restaurante chino",
+      "titleLine2": "Solución digital",
+      "description": "Desde pedidos en mesa y cobro hasta cocina, entrega, pago y gestión, Palmnet ayuda a mejorar la eficiencia, reducir errores de comunicación y operar mejor el servicio en sala.",
+      "button": "Consultar solución",
+      "imageAlt": "Escena de restaurante chino de servicio completo"
+    },
+    "challenges": {
+      "title": "Retos comunes de restaurantes de servicio completo",
+      "items": {
+        "tables": {
+          "title": "Gestión compleja de mesas y pedidos",
+          "description": "Con muchas mesas, abrir, mover, unir, dividir y añadir pedidos puede volverse confuso."
+        },
+        "communication": {
+          "title": "Alta comunicación entre sala y cocina",
+          "description": "Pedidos verbales o tickets en papel causan pedidos perdidos, errores y menor eficiencia."
+        },
+        "peak": {
+          "title": "Respuesta lenta en horas pico",
+          "description": "Pedidos, seguimiento de platos, cobro y pagos se acumulan cuando hay mucha demanda."
+        },
+        "checkout": {
+          "title": "Presión de cobro y conciliación",
+          "description": "Los pedidos de sala incluyen extras, devoluciones, división de cuenta y pagos múltiples."
+        }
+      }
+    },
+    "intro": {
+      "title": "Colaboración más clara entre sala y cocina",
+      "description": "Un restaurante de servicio completo implica mesas, pedidos de varias personas, extras y devoluciones, división en cocina, ritmo de salida, cuentas separadas e informes. Palmnet conecta pedidos, cobro, cocina y datos para reducir comunicación manual y mejorar rotación y servicio."
+    },
+    "growth": {
+      "title": "Descubre cómo Palmnet ayuda a restaurantes chinos",
+      "description": "Elige una etapa operativa para ver cómo Palmnet conecta mesas, pedidos, cocina, cobro y datos."
+    },
+    "tabs": {
+      "table": {
+        "label": "Mesas",
+        "title": "Gestión de mesas más clara",
+        "description": "Usa una vista digital de mesas para que el equipo vea ocupación, cambios y estado de cobro en tiempo real.",
+        "items": [
+          "Abrir, mover, unir y dividir mesas",
+          "Ver estado de mesa en tiempo real",
+          "Ideal para sala y reservados"
+        ],
+        "imageAlt": "Escena de gestión de mesas"
+      },
+      "ordering": {
+        "label": "Pedido",
+        "title": "Varios métodos de pedido",
+        "description": "Soporta pedido con dispositivo de camarero, QR de cliente y pedidos adicionales, sincronizados con caja y cocina.",
+        "items": [
+          "Pedido con dispositivo de camarero",
+          "QR y pedidos adicionales",
+          "Sincronización con caja y cocina"
+        ],
+        "imageAlt": "Escena de pedido en mesa"
+      },
+      "kitchen": {
+        "label": "Cocina",
+        "title": "Recepción y división más eficiente",
+        "description": "Los pedidos entran en pantallas KDS y pueden dividirse por plato o estación, reduciendo errores y comunicación repetida.",
+        "items": [
+          "Pedidos sincronizados a KDS",
+          "División por plato o estación",
+          "Menos errores y comunicación repetida"
+        ],
+        "imageAlt": "Escena de cocina con pedidos"
+      },
+      "checkout": {
+        "label": "Cobro",
+        "title": "Cobro más flexible",
+        "description": "Soporta cuenta completa, cuenta dividida y pagos múltiples conectando pedidos, recibos, facturas y estado de pago.",
+        "items": [
+          "Cuenta completa, dividida y pagos múltiples",
+          "Recibos, facturas y estado sincronizados",
+          "Más eficiencia en horas pico"
+        ],
+        "imageAlt": "Escena de cobro de restaurante"
+      },
+      "data": {
+        "label": "Datos",
+        "title": "Datos de negocio más claros",
+        "description": "Ventas, pedidos, platos y franjas horarias ayudan a entender el rendimiento y optimizar menú, personal y operación.",
+        "items": [
+          "Ver ventas y pedidos",
+          "Analizar platos y horarios destacados",
+          "Ayudar a optimizar la gestión"
+        ],
+        "imageAlt": "Escena de datos de restaurante"
+      }
+    },
+    "products": {
+      "title": "Combinación recomendada para restaurantes",
+      "subtitle": "Según tamaño, mesas y zonas de cocina, configura POS, pedido móvil, KDS, QR y marketing de miembros.",
+      "learnMore": "Más información",
+      "items": {
+        "pos": {
+          "title": "Sistema POS de caja",
+          "description": "Para cobro, gestión de pedidos, pagos y cuentas.",
+          "imageAlt": "Imagen de sistema POS"
+        },
+        "handheld": {
+          "title": "Dispositivo de pedido móvil",
+          "description": "Para pedido en mesa, extras, seguimiento y cobro móvil.",
+          "imageAlt": "Imagen de dispositivo de pedido"
+        },
+        "kds": {
+          "title": "Pantalla KDS de cocina",
+          "description": "Para división de cocina, estado de preparación y coordinación.",
+          "imageAlt": "Imagen de KDS"
+        },
+        "ordering": {
+          "title": "Ordering QR",
+          "description": "Para pedidos adicionales, consulta de menú y menor presión del personal.",
+          "imageAlt": "Imagen de Ordering QR"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "Configura el sistema adecuado para tu restaurante",
+      "description": "Cuéntanos tus mesas, zonas de cocina, métodos de pedido y pagos. Palmnet puede recomendar una solución digital adecuada.",
+      "button": "Consultar esta solución"
+    },
+    "cta": {
+      "titleLine1": "Has creado algo único.",
+      "titleLine2": "Te ayudamos a crecer.",
+      "button": "Contacto"
+    }
+  },
+  "solutionsBuffetPage": {
+    "meta": {
+      "title": "Solución para buffet - PalmNet",
+      "description": "Palmnet conecta entrada, mesas, pedidos adicionales, cocina y reportes para restaurantes buffet."
+    },
+    "hero": {
+      "titleLine1": "Restaurante buffet",
+      "titleLine2": "Solución digital",
+      "description": "Desde cobro de entrada, gestión de mesas y pedidos adicionales hasta reposición de cocina, llamado y datos, Palmnet ayuda a atender mejor los picos y mejorar la experiencia de sala, cocina y clientes.",
+      "button": "Consultar solución",
+      "imageAlt": "Escena de restaurante buffet"
+    },
+    "challenges": {
+      "title": "Retos comunes de restaurantes buffet",
+      "items": {
+        "pricing": {
+          "title": "Reglas de entrada complejas",
+          "description": "Personas, precio infantil, precio por horario y paquetes hacen que caja tarde más."
+        },
+        "replenishment": {
+          "title": "Pedidos y reposición tardíos",
+          "description": "Pedidos extra, reposición de cocina y comunicación con sala dependen del trabajo manual."
+        },
+        "turnover": {
+          "title": "Alta presión de rotación",
+          "description": "En horas pico, abrir mesa, cambiar mesa, cobrar y limpiar afecta la rotación."
+        },
+        "data": {
+          "title": "Datos dispersos",
+          "description": "Flujo de clientes, paquetes, pedidos extra y pagos están separados y dificultan la gestión."
+        }
+      }
+    },
+    "intro": {
+      "title": "Recepción, pedidos y salida más eficientes",
+      "description": "Un buffet implica cobro por personas, horarios, estado de mesas, pedidos extra, reposición, llamado y reportes. Palmnet conecta POS, pedidos QR, KDS, pantallas ADS y reportes para reducir comunicación manual y mejorar recepción y rotación."
+    },
+    "growth": {
+      "title": "Descubre cómo Palmnet ayuda a restaurantes buffet",
+      "description": "Elige una etapa para ver cómo Palmnet conecta entrada, mesas, pedidos extra, cocina y datos."
+    },
+    "tabs": {
+      "entry": {
+        "label": "Entrada",
+        "title": "Cobro de entrada más claro",
+        "description": "Gestiona personas, horarios y paquetes desde POS para reducir confirmaciones repetidas en caja.",
+        "items": [
+          "Soporta personas, horarios y paquetes",
+          "Adultos, niños y otras reglas",
+          "Caja y apertura de mesa sincronizadas"
+        ],
+        "imageAlt": "Escena de entrada buffet"
+      },
+      "table": {
+        "label": "Mesas",
+        "title": "Estado de mesas en tiempo real",
+        "description": "El equipo puede ver mesas ocupadas, libres, en servicio y en cobro para mejorar la rotación.",
+        "items": [
+          "Ver mesas ocupadas y libres",
+          "Abrir, cambiar mesa y cobrar",
+          "Mejorar rotación de sala"
+        ],
+        "imageAlt": "Escena de mesas buffet"
+      },
+      "addon": {
+        "label": "Extra",
+        "title": "Pedidos QR más cómodos",
+        "description": "Los clientes escanean en mesa para pedir bebidas, base, sashimi o productos extra, sincronizados con caja y cocina.",
+        "items": [
+          "Pedido QR en mesa",
+          "Bebidas, bases y sashimi",
+          "Sincronización con caja y cocina"
+        ],
+        "imageAlt": "Escena de pedido extra QR"
+      },
+      "kitchen": {
+        "label": "Cocina",
+        "title": "Reposición más ordenada",
+        "description": "Los pedidos extra entran en KDS y se asignan por estación, reduciendo tickets manuales y pedidos perdidos.",
+        "items": [
+          "Pedidos extra sincronizados a KDS",
+          "Asignación por estación",
+          "Menos pedidos perdidos"
+        ],
+        "imageAlt": "Escena de cocina buffet"
+      },
+      "data": {
+        "label": "Datos",
+        "title": "Datos de negocio más claros",
+        "description": "Consulta flujo, paquetes, pedidos extra, pagos y horas pico para optimizar la operación.",
+        "items": [
+          "Ver flujo y ventas juntos",
+          "Analizar horas pico y rotación",
+          "Ayudar a optimizar la tienda"
+        ],
+        "imageAlt": "Escena de datos buffet"
+      }
+    },
+    "products": {
+      "title": "Combinación recomendada para buffet",
+      "subtitle": "Según tipo de tienda, mesas, pedidos extra y cocina, configura POS, QR, KDS, ADS y reportes.",
+      "learnMore": "Más información",
+      "items": {
+        "pos": {
+          "title": "Sistema POS de caja",
+          "description": "Para entrada, apertura de mesa, personas, paquetes y cobro.",
+          "imageAlt": "Imagen de POS"
+        },
+        "ordering": {
+          "title": "Ordering QR",
+          "description": "Para pedidos extra en mesa, bebidas y productos fuera de paquete.",
+          "imageAlt": "Imagen de Ordering QR"
+        },
+        "kds": {
+          "title": "Pantalla KDS de cocina",
+          "description": "Para recibir pedidos extra, dividir por estación y gestionar estados.",
+          "imageAlt": "Imagen de KDS"
+        },
+        "ads": {
+          "title": "Pantalla ADS",
+          "description": "Para mostrar platos destacados e información por horario.",
+          "imageAlt": "Imagen de ADS"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "Configura el sistema adecuado para tu buffet",
+      "description": "Cuéntanos tus mesas, modelo de servicio, pedidos extra y cocina. Palmnet puede recomendar una solución digital adecuada.",
+      "button": "Consultar buffet"
+    },
+    "cta": {
+      "titleLine1": "Has creado algo único.",
+      "titleLine2": "Te ayudamos a crecer.",
+      "button": "Contacto"
+    }
+  },
+  "solutionsChainPage": {
+    "meta": {
+      "title": "Solución digital para cadenas - PalmNet",
+      "description": "Palmnet ayuda a cadenas de restaurantes a unificar POS, pedidos, miembros, productos, marketing y datos."
+    },
+    "hero": {
+      "titleLine1": "Marcas en cadena",
+      "titleLine2": "Solución digital",
+      "description": "Desde una tienda hasta múltiples locales, Palmnet ayuda a unificar caja, pedidos, miembros, productos, marketing y datos para que la central gestione mejor y las tiendas ejecuten de forma estándar.",
+      "button": "Consultar solución",
+      "imageAlt": "Escena de tienda de cadena de restaurantes"
+    },
+    "challenges": {
+      "title": "Retos comunes de marcas en cadena",
+      "items": {
+        "stores": {
+          "title": "Gestión desigual entre tiendas",
+          "description": "Productos, precios, campañas y procesos varían por tienda y dificultan el control central."
+        },
+        "data": {
+          "title": "Datos dispersos para decidir",
+          "description": "Ventas, pedidos, miembros, pagos e inventario están dispersos y la dirección no ve rápido el rendimiento."
+        },
+        "members": {
+          "title": "Sistema de miembros desconectado",
+          "description": "Si puntos, niveles, cupones y beneficios no están unificados, la experiencia entre tiendas se rompe."
+        },
+        "expansion": {
+          "title": "Coste alto de expansión",
+          "description": "Cada nueva tienda necesita copiar sistemas, menús, permisos y reglas, y hacerlo manualmente genera errores."
+        }
+      }
+    },
+    "intro": {
+      "title": "Conecta mejor central y tiendas",
+      "description": "Una cadena necesita gestionar múltiples tiendas, ciudades, dispositivos, precios, beneficios de miembros, campañas y datos. Palmnet conecta POS, pedidos móviles, marketing de miembros, productos, inventario y back office para mejorar gestión y expansión."
+    },
+    "growth": {
+      "title": "Descubre cómo Palmnet ayuda a cadenas",
+      "description": "Elige una etapa para ver cómo Palmnet conecta central, tiendas, productos, miembros y datos."
+    },
+    "tabs": {
+      "headquarters": {
+        "label": "Central",
+        "title": "Control central más claro",
+        "description": "La central puede gestionar permisos, configuración, precios de menú y reglas de operación para múltiples regiones y tiendas.",
+        "items": [
+          "Permisos y configuración centralizados",
+          "Sincronizar menús, precios y reglas",
+          "Gestión multi-región y multi-tienda"
+        ],
+        "imageAlt": "Escena de gestión central de cadena"
+      },
+      "stores": {
+        "label": "Tiendas",
+        "title": "Ejecución más estándar",
+        "description": "Sistemas y procesos unificados ayudan a cada tienda a ejecutar caja, pedidos, marketing y servicio de forma consistente.",
+        "items": [
+          "Unificar procesos de tienda",
+          "Reducir configuración y formación",
+          "Mejorar consistencia de ejecución"
+        ],
+        "imageAlt": "Escena de ejecución en tienda"
+      },
+      "products": {
+        "label": "Productos",
+        "title": "Gestión unificada de productos y precios",
+        "description": "Mantén productos, paquetes y opciones de forma central, con estrategias de precio por tienda y campañas sincronizadas.",
+        "items": [
+          "Productos, paquetes y opciones centralizados",
+          "Precios distintos por tienda",
+          "Sincronización rápida de novedades"
+        ],
+        "imageAlt": "Escena de gestión de productos"
+      },
+      "members": {
+        "label": "Miembros",
+        "title": "Miembros y beneficios unificados",
+        "description": "Soporta niveles, puntos, cupones, sellos e identificación entre tiendas para aumentar recompra.",
+        "items": [
+          "Niveles, puntos y cupones",
+          "Identificación entre tiendas",
+          "Campañas para impulsar recompra"
+        ],
+        "imageAlt": "Escena de marketing de miembros"
+      },
+      "data": {
+        "label": "Datos",
+        "title": "Datos de negocio en tiempo real",
+        "description": "La central puede ver ventas, pedidos, productos destacados y rendimiento de tiendas para tomar mejores decisiones.",
+        "items": [
+          "Ventas y pedidos multi-tienda",
+          "Analizar productos y rendimiento",
+          "Apoyar decisiones de central"
+        ],
+        "imageAlt": "Escena de datos de cadena"
+      }
+    },
+    "products": {
+      "title": "Combinación recomendada para cadenas",
+      "subtitle": "Según escala, número de tiendas y modelo operativo, configura POS, pedidos móviles, terminales, marketing, ADS y datos de central.",
+      "learnMore": "Más información",
+      "items": {
+        "pos": {
+          "title": "Sistema POS de caja",
+          "description": "Para caja, pedidos, pagos y operación diaria de cada tienda.",
+          "imageAlt": "Imagen de POS"
+        },
+        "ordering": {
+          "title": "Ordering QR",
+          "description": "Para H5 propio de la marca, QR y captación online.",
+          "imageAlt": "Imagen de Ordering QR"
+        },
+        "marketing": {
+          "title": "Marketing de miembros",
+          "description": "Para niveles, puntos, cupones, sellos y campañas de recompra.",
+          "imageAlt": "Imagen de Marketing"
+        },
+        "ads": {
+          "title": "Sistema ADS",
+          "description": "Para publicar menús, anuncios, campañas y contenido de pantallas.",
+          "imageAlt": "Imagen de ADS"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "Construye un sistema digital unificado para tu cadena",
+      "description": "Cuéntanos tus tiendas, regiones, modelo y necesidades de miembros. Palmnet puede diseñar una solución para expansión.",
+      "button": "Consultar cadenas"
+    },
+    "cta": {
+      "titleLine1": "Has creado algo único.",
+      "titleLine2": "Te ayudamos a crecer.",
+      "button": "Contacto"
+    }
+  },
+  "solutionsFastFoodPage": {
+    "meta": {
+      "title": "Solución para comida rápida - PalmNet",
+      "description": "Palmnet conecta autoservicio, cobro, cocina, llamado y marketing para restaurantes de comida rápida."
+    },
+    "hero": {
+      "titleLine1": "Comida rápida",
+      "titleLine2": "Solución digital",
+      "description": "Desde autoservicio y caja hasta cocina, llamado, marketing de miembros y gestión de cadena, Palmnet ayuda a mejorar la eficiencia en horas pico, reducir colas y estandarizar operaciones.",
+      "button": "Consultar solución",
+      "imageAlt": "Escena de restaurante de comida rápida"
+    },
+    "challenges": {
+      "title": "Retos comunes de comida rápida",
+      "items": {
+        "queue": {
+          "title": "Colas en horas pico",
+          "description": "Almuerzo, cena y fines de semana concentran clientes y generan colas en pedido y caja."
+        },
+        "combo": {
+          "title": "Combos y extras complejos",
+          "description": "Hamburguesas, bebidas, snacks y combos ralentizan la confirmación manual."
+        },
+        "kitchen": {
+          "title": "Ritmo de cocina confuso",
+          "description": "Muchas fuentes de pedido y producción rápida pueden causar pedidos perdidos o retrasos."
+        },
+        "membership": {
+          "title": "Difícil unificar recompra y cadena",
+          "description": "Varias tiendas necesitan miembros, campañas, menús y datos unificados."
+        }
+      }
+    },
+    "intro": {
+      "title": "Salida estable incluso en horas pico",
+      "description": "La comida rápida requiere velocidad, combos, cocina ágil, llamado frecuente y gestión estándar. Palmnet conecta POS, Kiosk, Ordering, KDS, ADS y marketing para mejorar eficiencia y expansión."
+    },
+    "growth": {
+      "title": "Descubre cómo Palmnet ayuda a comida rápida",
+      "description": "Elige una etapa para ver cómo Palmnet conecta pedido, cobro, cocina, llamado y recompra."
+    },
+    "tabs": {
+      "ordering": {
+        "label": "Pedido",
+        "title": "Múltiples entradas reducen colas",
+        "description": "Soporta Kiosk, QR y H5 móvil para que los clientes pidan más rápido.",
+        "items": [
+          "Kiosk de autoservicio",
+          "QR y H5 móvil",
+          "Sala, takeaway y online"
+        ],
+        "imageAlt": "Escena de autoservicio"
+      },
+      "cashier": {
+        "label": "Cobro",
+        "title": "Cobro rápido y pagos múltiples",
+        "description": "Los pedidos entran automáticamente al POS con tarjeta, QR y pagos online.",
+        "items": [
+          "Pedidos entran al POS",
+          "Tarjeta, QR y online",
+          "Menos entrada manual"
+        ],
+        "imageAlt": "Escena de cobro"
+      },
+      "kitchen": {
+        "label": "Cocina",
+        "title": "Pedidos sincronizados con cocina",
+        "description": "Pedidos en KDS en tiempo real y distribución por tipo de producto.",
+        "items": [
+          "Pedidos en KDS en tiempo real",
+          "Distribución por tipo",
+          "Menos errores y confusión"
+        ],
+        "imageAlt": "Escena de cocina"
+      },
+      "pickup": {
+        "label": "Llamado",
+        "title": "Llamado de recogida más claro",
+        "description": "Al terminar, el número se llama y muestra en pantallas ADS para recoger rápido.",
+        "items": [
+          "Llamado automático",
+          "Números en ADS",
+          "Ideal para horas pico"
+        ],
+        "imageAlt": "Escena de llamado"
+      },
+      "member": {
+        "label": "Miembros",
+        "title": "Marketing para recompra",
+        "description": "Clientes ven puntos, niveles y cupones en H5, mientras la tienda usa campañas y beneficios.",
+        "items": [
+          "Login y puntos",
+          "Cupones y campañas",
+          "Operación de cadena unificada"
+        ],
+        "imageAlt": "Escena de miembros"
+      }
+    },
+    "products": {
+      "title": "Combinación recomendada para comida rápida",
+      "subtitle": "Según tráfico, método de pedido y escala, configura autoservicio, POS, KDS, pantallas, pedidos móviles y marketing.",
+      "learnMore": "Más información",
+      "items": {
+        "kiosk": {
+          "title": "Kiosk autoservicio",
+          "description": "Reduce colas en horas pico.",
+          "imageAlt": "Imagen de Kiosk"
+        },
+        "kds": {
+          "title": "Pantalla KDS",
+          "description": "Para recibir pedidos, distribuir producción y gestionar estado.",
+          "imageAlt": "Imagen de KDS"
+        },
+        "ads": {
+          "title": "Pantalla ADS y llamado",
+          "description": "Para menús, campañas y números de recogida.",
+          "imageAlt": "Imagen de ADS"
+        },
+        "marketing": {
+          "title": "Marketing de miembros",
+          "description": "Para puntos, cupones, niveles y recompra.",
+          "imageAlt": "Imagen de Marketing"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "Configura un sistema eficiente para tu fast food",
+      "description": "Cuéntanos tu tipo de tienda, tráfico, método de pedido y escala. Palmnet puede recomendar una solución adecuada.",
+      "button": "Consultar fast food"
+    },
+    "cta": {
+      "titleLine1": "Has creado algo único.",
+      "titleLine2": "Te ayudamos a crecer.",
+      "button": "Contacto"
+    }
+  },
+  "aboutNew": {
+    "meta": {
+      "title": "Sobre nosotros - PalmNet",
+      "description": "Conoce cómo PalmNet impulsa el crecimiento sostenible de restaurantes con tecnología digital."
+    },
+    "hero": {
+      "title": "Especializados en restauración, impulsamos crecimiento sostenible con tecnología digital",
+      "imageAlt": "Dispositivos PalmNet"
+    },
+    "story": {
+      "kicker": "Sobre PALMNET",
+      "title": "Redefinimos los límites de la restauración para que el crecimiento fluya",
+      "paragraphs": [
+        "Nacimos en Barcelona y desarrollamos un ecosistema integrado de software y hardware para conectar sala, cocina, cadena de suministro y marketing en tiempo real.",
+        "Comenzamos con sistemas de pedidos y TPV estables, y ampliamos hacia inventario inteligente, marketing omnicanal y gestión centralizada multi-tienda.",
+        "Hoy, PALMKIT es una plataforma tecnológica de confianza en Europa y el Sudeste Asiático.",
+        "Desde restaurantes de barrio hasta cadenas internacionales, PALMKIT ayuda a vender en cualquier lugar, coordinar cocina, controlar pérdidas e impulsar relaciones con clientes.",
+        "Simplificamos la restauración y ampliamos el crecimiento, abriendo nuevas posibilidades para operadores de todo el mundo."
+      ]
+    },
+    "capabilities": {
+      "learnMore": "Más información",
+      "payments": {
+        "title": "Aceptar pagos",
+        "description": "Del TPV de mostrador al QR en mesa, cobra de forma segura en cualquier lugar.",
+        "imageAlt": "Escena de pago"
+      },
+      "operations": {
+        "title": "Controla tu tienda",
+        "description": "Conecta sala, cocina, inventario y datos multi-tienda para mantener el orden incluso en días intensos.",
+        "imageAlt": "Escena de operaciones"
+      },
+      "retention": {
+        "title": "Fideliza clientes",
+        "description": "Marketing SMS/WhatsApp y sistema de miembros para convertir visitas puntuales en clientes frecuentes.",
+        "imageAlt": "Escena de fidelización"
+      }
+    },
+    "mission": {
+      "title": "Creamos un ecosistema digital integral para restaurantes",
+      "description": "Con soluciones integradas de software y hardware, ayudamos a reducir complejidad operativa y lograr crecimiento sostenible.",
+      "imageAlt": "Sistema digital de restaurante"
+    },
+    "offices": {
+      "title": "Presencia global, servicio local",
+      "items": {
+        "europe": {
+          "title": "Sede europea",
+          "location": "Barcelona, España",
+          "description": "Especializados en restaurantes de servicio completo, buffet, hot pot y barbacoa.\n\nCobertura: España, Francia, Alemania, Italia, Portugal y más."
+        },
+        "asia": {
+          "title": "Centro de operaciones del Sudeste Asiático",
+          "location": "Bangkok, Tailandia",
+          "description": "Especializados en té y café, fast food occidental, bakery premium y formatos de alta frecuencia.\n\nCobertura: Tailandia, Malasia, Singapur y más."
+        },
+        "tech": {
+          "title": "Centro tecnológico global",
+          "location": "Hangzhou, China",
+          "description": "Arquitectura cloud de alta concurrencia, seguridad de datos e iteración global de PALMKIT."
+        }
+      }
+    },
+    "resources": {
+      "title": "Más información de restauración",
+      "subtitle": "Historias de éxito, tecnología de vanguardia y últimas tendencias del sector.",
+      "learnMore": "Más información",
+      "items": {
+        "tech": {
+          "title": "Tecnología y herramientas de restauración para 2026",
+          "imageAlt": "Portada de tecnología"
+        },
+        "pos": {
+          "title": "El mejor sistema POS Apple para restaurantes",
+          "imageAlt": "Portada POS"
+        },
+        "offline": {
+          "title": "Modo offline POS para operaciones estables",
+          "imageAlt": "Portada POS offline"
+        }
+      }
+    },
+    "brands": {
+      "title": "Marcas líderes eligen PALMNET"
+    },
+    "cta": {
+      "titleLine1": "Has creado algo único.",
+      "titleLine2": "Te ayudamos a crecer.",
+      "button": "Contacto"
+    }
   }
 }

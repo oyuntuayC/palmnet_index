@@ -45,24 +45,22 @@ export function PartnersGrid({ locale }: PartnersGridProps) {
   const currentContent = content[locale]
 
   return (
-    <section className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4">
-        {/* Section Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+    <section className="section-space-tight bg-gray-50">
+      <div className="layout-page">
+        <div className="section-head-gap mx-auto max-w-2xl text-center">
+          <h2 className="type-display-md text-gray-900">
             {currentContent.title}
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="type-body stack-title-body text-gray-600">
             {currentContent.subtitle}
           </p>
         </div>
 
-        {/* Partners Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 space-y-4 items-center">
+        <div className="grid grid-cols-2 items-center gap-[var(--space-xl)] lg:grid-cols-4">
           {partners.map((partner, index) => (
             <div
               key={index}
-              className="flex items-center justify-center lg:p-4"
+              className="flex items-center justify-center p-[var(--space-md)] lg:p-[var(--space-lg)]"
             >
               <Image
                 src={partner.logo}
@@ -73,10 +71,6 @@ export function PartnersGrid({ locale }: PartnersGridProps) {
               />
             </div>
           ))}
-        </div>
-
-        {/* Additional Info */}
-        <div className="text-center mt-12">
         </div>
       </div>
     </section>

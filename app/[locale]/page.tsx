@@ -1,7 +1,6 @@
 import Footer from 'components/Footer'
 import HomePage from '../../components/HomePage'
-import DarkHeader from 'components/DarkHeader'
-import { getAllPosts } from '../../lib/blog'
+import Header from 'components/Header'
 import type { Metadata } from 'next'
 import { locales, type Locale } from '@/lib/locales'
 
@@ -31,12 +30,10 @@ export function generateMetadata({ params }: { params: { locale: Locale } }): Me
 }
 
 export default function LocalizedPage({ params }: { params: { locale: Locale } }) {
-  const posts = getAllPosts(params.locale)
-  
   return (
     <>
-      <DarkHeader />
-        <HomePage posts={posts} />
+      <Header theme="light" />
+      <HomePage />
       <Footer />
     </>
   )

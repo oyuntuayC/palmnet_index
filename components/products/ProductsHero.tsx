@@ -1,6 +1,5 @@
 import { Link } from '@/lib/navigation'
-import Image from 'next/image'
-import { ReactElement, ReactNode } from 'react'
+import { ReactNode } from 'react'
 
 type ButtonConfig = {
   label: string
@@ -33,27 +32,27 @@ export function ProductsHero({
   children
 }: ProductsHeroProps): React.ReactElement {
   return (
-    <section className="gap-12 text-center">
-      <div className="lg:pr-8">
-        <span className="inline-flex items-center rounded-full bg-gray-200 px-4 py-1 text-sm font-medium text-gray-700">
+    <section className="section-space gap-[var(--space-xxl)] text-center">
+      <div className="layout-page lg:pr-[var(--space-xl)]">
+        <span className="type-caption-strong inline-flex items-center rounded-full bg-gray-200 px-[var(--space-md)] py-[var(--space-xs)] uppercase tracking-[0.23em] text-gray-700">
           {pillLabel}
         </span>
-        <h1 className="mt-6 text-4xl font-bold tracking-tight text-gray-900 md:text-5xl lg:text-[44px]">
+        <h1 className="type-hero-display stack-title-body text-gray-900">
           {title}
         </h1>
         {description ? (
-          <p className="mt-6 text-base text-gray-500 md:text-lg">{description}</p>
+          <p className="type-body stack-title-body text-gray-500">{description}</p>
         ) : null}
-        <div className="mt-10 flex gap-3 justify-center">
+        <div className="stack-body-action flex justify-center gap-[var(--space-sm)]">
           <Link
             href={primaryButton.href}
-            className="inline-flex items-center justify-center bg-black !text-white rounded-md px-6 py-3 font-semibold"
+            className="type-body inline-flex min-h-[44px] items-center justify-center rounded-full bg-black px-[22px] py-[11px] !text-white hover:bg-[#222]"
           >
             {primaryButton.label}
           </Link>
           <Link
             href={secondaryButton.href}
-            className="inline-flex items-center justify-center rounded-md border border-gray-300 px-6 py-3 text-base font-semibold text-gray-700 transition-colors duration-200 hover:bg-gray-100"
+            className="type-body inline-flex min-h-[44px] items-center justify-center rounded-full border border-gray-300 px-[22px] py-[11px] text-gray-700 transition-colors duration-200 hover:bg-gray-100"
           >
             {secondaryButton.label}
           </Link>
@@ -61,7 +60,7 @@ export function ProductsHero({
       </div>
       <div className="relative flex w-full items-center justify-center">
         <div 
-          className="group relative w-full max-w-[1180px] h-96 mt-32 md:mt-42 lg:mt-64 p-6 animate-fadeIn motion-reduce:animate-none motion-reduce:translate-y-0"
+          className="group relative mt-[var(--space-section)] h-96 w-full max-w-[1180px] animate-fadeIn p-[var(--space-lg)] motion-reduce:animate-none motion-reduce:translate-y-0 md:mt-[var(--space-section)] lg:mt-[var(--space-section)]"
           style={{
             background: imageBackgroundColor,
             borderTopLeftRadius: '36px',
@@ -71,7 +70,7 @@ export function ProductsHero({
           }}
         >
           <div className="absolute bottom-0 left-0 right-0 mx-auto overflow-hidden ">
-            <div className="translate-y-0 md:translate-y-24 opacity-0 animate-fadeIn [--translate-y:48px] [--duration:600ms]">
+            <div className="translate-y-0 opacity-0 animate-fadeIn [--translate-y:48px] [--duration:600ms] md:translate-y-24">
               {children}
             </div>
           </div>

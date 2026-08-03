@@ -1,4 +1,4 @@
-import LightHeader from '../../../components/LightHeader'
+import Header from '../../../components/Header'
 import Footer from '../../../components/Footer'
 
 export default async function PagesLayout({
@@ -8,7 +8,7 @@ export default async function PagesLayout({
 }) {
   return (
     <div id="wrap">
-      <LightHeader />
+      <Header theme="light" />
       {children}
       <Footer />
     </div>

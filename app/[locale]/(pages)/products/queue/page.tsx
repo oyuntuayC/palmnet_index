@@ -28,14 +28,16 @@ export function generateStaticParams() {
 
 export default function QueuePage(): React.ReactElement {
   return (
-    <div className="container mx-auto py-16">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">叫号排队系统</h1>
-        <p className="text-lg text-gray-600 mb-8">智能排队管理解决方案</p>
-        <div className="bg-gray-100 p-8 rounded-lg">
-          <p className="text-gray-500">产品详情页面正在开发中...</p>
+    <main className="bg-white text-[#0a0a0a]">
+      <section className="section-space">
+        <div className="layout-page layout-page-narrow text-center">
+          <h1 className="type-display-md text-black">叫号排队系统</h1>
+          <p className="type-body stack-title-body text-[#71717b]">智能排队管理解决方案</p>
+          <div className="stack-body-action rounded-[var(--rounded-sm)] bg-[#f1f5f9] p-[var(--space-xl)]">
+            <p className="type-body text-[#71717b]">产品详情页面正在开发中...</p>
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   )
 }

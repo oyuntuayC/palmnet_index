@@ -15,15 +15,15 @@ interface FeatureBentoProps {
 
 export function FeatureBento({ features }: FeatureBentoProps): React.ReactElement {
   return (
-    <section className="bg-white relative w-full">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="flex flex-col lg:flex-row gap-8">
+    <section className="section-space bg-white">
+      <div className="layout-page">
+        <div className="flex flex-col gap-[var(--space-xl)] lg:flex-row">
           {/* Desktop Layout: 2+1 layout on md+ */}
           <div className="hidden md:block w-full">
             {/* First two cards side by side */}
-            <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div className="mb-[var(--space-xl)] grid gap-[var(--space-xl)] md:grid-cols-3">
               {/* First card - narrow (1 column) */}
-              <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-[var(--space-lg)]">
                 {/* Image Container */}
                 <div className="relative h-[208px] w-full overflow-hidden rounded-2xl">
                   {/* Background Image */}
@@ -59,18 +59,14 @@ export function FeatureBento({ features }: FeatureBentoProps): React.ReactElemen
                 </div>
                 
                 {/* Text Content */}
-                <div className="flex flex-col gap-2">
-                  <h3 className="text-xl font-semibold text-gray-900 tracking-tight">
-                    {features[0].title}
-                  </h3>
-                  <p className="text-base text-gray-600 leading-relaxed">
-                    {features[0].description}
-                  </p>
+                <div className="flex flex-col gap-[var(--space-xs)]">
+                  <h3 className="type-tagline text-gray-900">{features[0].title}</h3>
+                  <p className="type-body text-gray-600">{features[0].description}</p>
                 </div>
               </div>
 
               {/* Second card - wide (2 columns) */}
-              <div className="md:col-span-2 flex flex-col gap-6">
+              <div className="flex flex-col gap-[var(--space-lg)] md:col-span-2">
                 {/* Image Container */}
                 <div className="relative h-[208px] w-full overflow-hidden rounded-2xl">
                   {/* Background Image */}
@@ -106,19 +102,15 @@ export function FeatureBento({ features }: FeatureBentoProps): React.ReactElemen
                 </div>
                 
                 {/* Text Content */}
-                <div className="flex flex-col gap-2">
-                  <h3 className="text-xl font-semibold text-gray-900 tracking-tight">
-                    {features[1].title}
-                  </h3>
-                  <p className="text-base text-gray-600 leading-relaxed">
-                    {features[1].description}
-                  </p>
+                <div className="flex flex-col gap-[var(--space-xs)]">
+                  <h3 className="type-tagline text-gray-900">{features[1].title}</h3>
+                  <p className="type-body text-gray-600">{features[1].description}</p>
                 </div>
               </div>
             </div>
 
             {/* Third card - full width below */}
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-[var(--space-lg)]">
               {/* Image Container */}
               <div className="relative h-[208px] w-full overflow-hidden rounded-2xl">
                 {/* Background Image */}
@@ -154,21 +146,17 @@ export function FeatureBento({ features }: FeatureBentoProps): React.ReactElemen
               </div>
               
               {/* Text Content */}
-              <div className="flex flex-col gap-2">
-                <h3 className="text-xl font-semibold text-gray-900 tracking-tight">
-                  {features[2].title}
-                </h3>
-                <p className="text-base text-gray-600 leading-relaxed">
-                  {features[2].description}
-                </p>
+              <div className="flex flex-col gap-[var(--space-xs)]">
+                <h3 className="type-tagline text-gray-900">{features[2].title}</h3>
+                <p className="type-body text-gray-600">{features[2].description}</p>
               </div>
             </div>
           </div>
 
           {/* Mobile Layout: Stacked cards on sm only */}
-          <div className="flex flex-col gap-8 md:hidden w-full">
+          <div className="flex w-full flex-col gap-[var(--space-xl)] md:hidden">
             {features.map((feature, index) => (
-              <div key={index} className="flex flex-col gap-6">
+              <div key={index} className="flex flex-col gap-[var(--space-lg)]">
                 {/* Image Container */}
                 <div className="relative h-[208px] w-full overflow-hidden rounded-2xl">
                   {/* Background Image */}
@@ -204,13 +192,9 @@ export function FeatureBento({ features }: FeatureBentoProps): React.ReactElemen
                 </div>
                 
                 {/* Text Content */}
-                <div className="flex flex-col gap-2">
-                  <h3 className="text-xl font-semibold text-gray-900 tracking-tight">
-                    {feature.title}
-                  </h3>
-                  <p className="text-base text-gray-600 leading-relaxed">
-                    {feature.description}
-                  </p>
+                <div className="flex flex-col gap-[var(--space-xs)]">
+                  <h3 className="type-tagline text-gray-900">{feature.title}</h3>
+                  <p className="type-body text-gray-600">{feature.description}</p>
                 </div>
               </div>
             ))}

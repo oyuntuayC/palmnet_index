@@ -32,7 +32,7 @@
       "smartCash": "广告管理",
       "kitchen": "后厨",
       "tableOrder": "桌台点餐",
-      "advertise": "广告管理"   
+      "advertise": "广告管理"
     },
     "solutionTypes": {
       "fastFood": "快餐",
@@ -44,13 +44,14 @@
       "fullServiceDining": "正餐",
       "takeout": "外卖",
       "delivery": "配送",
-      "bar": "酒吧"
+      "bar": "酒吧",
+      "chainBrands": "连锁品牌"
     }
   },
   "hero": {
-    "title1": "2016 新品到店",
+    "title1": "我们懂生意",
     "text1": "甄选系列 — 打造独特家居",
-    "title2": "我们懂技术 更懂生意",
+    "title2": "更懂技术",
     "text2": "专注为欧洲华商提供数字化解决方案"
   },
   "features": {
@@ -66,130 +67,254 @@
     "kiosk": {
       "meta": {
         "title": "自助点餐机 - PalmNet",
-        "description": "智能自助点餐机，提升顾客体验，减少排队等待时间"
+        "description": "Palmnet Kiosk 让顾客自助浏览菜单、选择套餐、完成加购和支付，帮助门店减少排队并提升高峰期出单效率"
       },
       "hero": {
-        "pillLabel": "PalmNet Kiosk",
-        "title": "自助点餐，提升效率",
-        "description": "智能自助点餐机，优化点单流程，缩短排队时间，提升顾客体验。",
-        "primaryButton": {
-          "label": "预约演示"
-        },
-        "secondaryButton": {
-          "label": "了解方案详情"
-        },
+        "eyebrow": "PALMNET Kiosk",
+        "title": "智能自助点餐机",
+        "description": "Palmnet Kiosk 让顾客在门店自助浏览菜单、选择套餐、完成加购和支付，帮助门店减少排队、降低人工压力并提升高峰期出单效率",
+        "primaryButton": "开始Demo演示",
+        "secondaryButton": "联系我们",
         "imageAlt": "PalmNet 自助点餐机产品展示"
       },
-      "highlights": {
-        "qr": {
-          "title": "扫码点单与支付",
-          "subtitle": "支持二维码点单与多种支付方式，减少排队，提高翻台率。"
+      "intro": {
+        "title": "更智能的点餐体验",
+        "line1": "Palm KIOSK 自助点餐机专为现代餐厅打造，支持顾客自主浏览菜单、下单、支付，全流程无需人工协助。",
+        "line2": "无论是快餐店、奶茶店、咖啡馆还是连锁餐厅，都能提供更快速、更便捷的点餐体验。"
+      },
+      "benefits": {
+        "wait": {
+          "title": "缩短排队时间",
+          "description": "顾客无需等待人工点餐，自助完成下单，大幅提升点餐效率，高峰时段依然保持流畅。"
         },
-        "multilingual": {
-          "title": "多语言界面",
-          "subtitle": "界面支持多语言切换，方便不同客群自助完成下单。"
+        "revenue": {
+          "title": "提高营业额",
+          "description": "通过智能推荐套餐、加购商品和升级选项，提高客单价，让每一笔订单创造更多价值。"
         },
-        "waitTimes": {
-          "title": "缩短等候时间",
-          "subtitle": "高并发自助下单能力，显著降低高峰期等候时长。"
+        "staff": {
+          "title": "减少人工成本",
+          "description": "分担收银和点餐工作，降低前台压力，让员工专注于出餐和顾客服务。"
         },
-        "compliance": {
-          "title": "安全与合规",
-          "subtitle": "支付与数据传输符合本地合规标准，保障用户隐私与资金安全。"
+        "accuracy": {
+          "title": "降低点单错误",
+          "description": "顾客自行确认商品、规格和数量，减少沟通误差，提高订单准确率。"
+        },
+        "sync": {
+          "title": "无缝连接餐厅系统",
+          "description": "与 POS、KDS、会员系统及在线点餐平台实时同步，实现订单、库存和数据统一管理。"
+        },
+        "easy": {
+          "title": "操作简单易用",
+          "description": "直观的界面设计，支持图片展示、多语言切换和清晰的分类导航，任何顾客都能轻松使用。"
         }
       },
-      "featureCards": {
-        "smartOrdering": {
-          "title": "智能点餐体验",
-          "description": "直观的触屏界面，支持多语言切换，让顾客轻松完成点餐流程。",
-          "imageAlt": "智能点餐界面展示"
+      "flow": {
+        "title": "更清晰的点单流程",
+        "description": "从浏览菜单、选择规格到支付、优惠和会员积分，Palmnet Kiosk 帮助顾客独立完成完整点单流程，减少排队并提升门店出单效率。",
+        "tabs": {
+          "language": "语言",
+          "category": "分类",
+          "product": "商品",
+          "offer": "优惠",
+          "member": "会员",
+          "payment": "支付"
         },
-        "paymentOptions": {
-          "title": "多种支付方式",
-          "description": "支持现金、银行卡、移动支付等多种支付方式，满足不同顾客需求。",
-          "imageAlt": "多种支付方式展示"
-        },
-        "realTimeOrders": {
-          "title": "实时订单管理",
-          "description": "订单实时同步到后厨系统，减少沟通误差，提升出餐效率。",
-          "imageAlt": "实时订单管理展示"
+        "imageAlt": "Palmnet Kiosk 点单流程界面",
+        "learnMore": "了解产品",
+        "cards": {
+          "language": {
+            "title": "多语言菜单浏览",
+            "items": [
+              "支持多语言切换",
+              "适合国际化门店",
+              "减少员工解释成本"
+            ]
+          },
+          "category": {
+            "title": "清晰的菜品分类",
+            "items": [
+              "热销、新品快速入口",
+              "饮品、套餐、小吃分类",
+              "顾客更快找到商品"
+            ]
+          },
+          "product": {
+            "title": "商品详情与规格选择",
+            "items": [
+              "展示图片、价格与描述",
+              "支持规格、加料、备注",
+              "支持套餐搭配推荐"
+            ]
+          },
+          "offer": {
+            "title": "活动优惠自动展示",
+            "items": [
+              "支持图片/视频 Banner",
+              "折扣价与划线价展示",
+              "满减、满赠自动应用"
+            ]
+          },
+          "member": {
+            "title": "会员登录与积分",
+            "items": [
+              "支持会员登录识别",
+              "积分累计与使用",
+              "优惠券与会员权益"
+            ]
+          },
+          "payment": {
+            "title": "灵活支付方式",
+            "items": [
+              "支持线上支付",
+              "支持刷卡与扫码支付",
+              "可选择到柜台付款"
+            ]
+          }
         }
       },
-      "hardware": {
-        "pillLabel": "Terminal S1",
-        "title": "全金属一体",
-        "subtitle": "防油防尘不惧意外",
-        "description": "采用全金属一体化设计，具备防油防尘功能，适应各种恶劣环境，确保设备稳定运行。",
-        "buttonLabel": "去购买",
-        "imageAlt": "PalmNet Terminal S1 硬件展示"
+      "terminals": {
+        "title": "适合不同门店空间的自助点单终端",
+        "subtitleLine1": "从紧凑型柜台设备到大屏自助终端，Palmnet Kiosk 可根据门店空间、",
+        "subtitleLine2": "客流量和点单方式灵活配置，帮助顾客独立完成点单与支付",
+        "learnMore": "了解产品",
+        "quote": "获取报价",
+        "k01": {
+          "title": "PALMKit K01 大屏自助点单终端",
+          "description": "K01 适合高客流门店、快餐、茶饮和连锁门店，让顾客通过大屏浏览菜单、选择套餐、完成支付并同步订单",
+          "alt": "PALMKit K01 大屏自助点单终端"
+        },
+        "mk01": {
+          "title": "PALMKit MK01 紧凑型自助点单终端",
+          "description": "MK01 适合空间有限的柜台、取餐区或辅助点单区域，让顾客快速完成自助点单、扫码识别和支付流程",
+          "alt": "PALMKit MK01 紧凑型自助点单终端"
+        }
       },
-      "hardwareSecondary": {
-        "pillLabel": "Terminal S1",
-        "title": "全金属一体",
-        "subtitle": "防油防尘不惧意外",
-        "description": "采用全金属一体化设计，具备防油防尘功能，适应各种恶劣环境，确保设备稳定运行。",
-        "buttonLabel": "去购买",
-        "imageAlt": "PalmNet Terminal S1 硬件展示"
+      "consultCta": {
+        "title": "让顾客自己完成点单与支付",
+        "description": "根据门店空间、客流量和收款方式，Palmnet 可为你推荐合适的自助点单终端与系统配置",
+        "button": "咨询 Kiosk 方案"
+      },
+      "brands": {
+        "title": "众多领先品牌选择PALMNET"
+      },
+      "cta": {
+        "titleLine1": "你创造了独特的餐厅。",
+        "titleLine2": "我们帮你继续增长。",
+        "button": "联系我们"
       }
     },
     "online": {
       "meta": {
-        "title": "在线点餐系统 - PalmNet",
-        "description": "便捷的在线点餐系统，让顾客随时随地轻松下单"
+        "title": "移动点餐系统 - PalmNet",
+        "description": "PalmNet Ordering 数字化移动点餐系统，支持扫码点餐、门店定位、会员优惠、线上支付和订单同步。"
       },
       "hero": {
-        "pillLabel": "PalmNet Online",
-        "title": "便捷下单 随时随地",
-        "description": "顾客通过线上平台自主点餐，无需排队等待，配合线上营销玩法，显著提升点餐效率和用户体验。",
-        "primaryButton": {
-          "label": "预约演示"
-        },
-        "secondaryButton": {
-          "label": "查看全部产品"
-        },
-        "imageAlt": "PalmNet 在线点餐系统效果图"
+        "eyebrow": "PALMKIT Ordering",
+        "title": "数字化移动点餐系统",
+        "description": "顾客通过扫码或链接进入点餐页面，无需下载 App，即可浏览菜单、选择规格、登录会员并完成下单与支付。适合堂食、外带、外卖和多门店连锁场景。",
+        "primaryButton": "开始 Demo 演示",
+        "secondaryButton": "联系我们",
+        "imageAlt": "Palmkit Ordering 移动点餐系统手机界面"
       },
-      "highlights": {
+      "intro": {
+        "title": "让顾客用自己的手机完成点单",
+        "description": "Palmnet Ordering 将菜单、会员、优惠、支付和门店定位连接到移动端，让顾客随时进入点餐流程，门店减少人工接单压力。",
+        "imageAlt": "顾客在餐桌使用手机浏览菜单并点单"
+      },
+      "benefits": {
+        "entry": {
+          "title": "多渠道进入点单",
+          "description": "顾客可通过桌面二维码、门店海报、社交媒体链接或官网入口进入点餐页面。"
+        },
+        "store": {
+          "title": "自动选择门店",
+          "description": "系统可根据顾客位置推荐附近门店，也可让顾客手动选择门店，适合多城市、多门店运营。"
+        },
+        "member": {
+          "title": "会员与优惠连接",
+          "description": "顾客登录后可查看会员等级、积分、优惠券和专属活动，提升复购和转化。"
+        },
         "sync": {
-          "title": "自动订单同步",
-          "subtitle": "客户在家、在办公室、在路上都能够随时点单，店铺在收银端接收订单，无惧丢单漏单"
-        },
-        "devices": {
-          "title": "多终端支持",
-          "subtitle": "手机、平板、电脑均可访问点餐系统，支持自定义域名，灵活适配不同场景"
-        },
-        "menu": {
-          "title": "实时菜单展示",
-          "subtitle": "菜单与库存实时更新，避免超售，确保顾客点到现有商品"
-        },
-        "payments": {
-          "title": "在线支付集成",
-          "subtitle": "支持微信、支付宝、Visa、Mastercard等国际支付方式，结账更便捷"
+          "title": "订单同步到门店",
+          "description": "移动端订单可同步到 POS、KDS 或后台，减少人工录单，让门店更快处理订单。"
         }
       },
-      "hardware": {
-        "pillLabel": "Terminal S1",
-        "title": "全金属一体",
-        "subtitle": "防油防尘不惧意外",
-        "description": "采用全金属一体化设计，具备防油防尘特性，适应恶劣环境，确保稳定运行。",
-        "buttonLabel": "立即购买",
-        "imageAlt": "PalmNet Terminal S1 硬件展示"
+      "flow": {
+        "title": "更清晰的点单流程",
+        "description": "从浏览菜单、选择规格到支付、优惠和会员积分，Palmnet Ordering 帮助顾客独立完成完整点单流程，减少排队并提升门店出单效率。",
+        "imageAlt": "Palmnet Ordering 手机点单流程界面",
+        "learnMore": "了解产品",
+        "tabs": {
+          "entrance": "入口",
+          "location": "定位",
+          "menu": "菜单",
+          "product": "商品",
+          "member": "会员",
+          "payment": "支付"
+        },
+        "cards": {
+          "entrance": {
+            "title": "扫码或链接进入点单",
+            "items": [
+              "无需下载 App",
+              "扫码进入 H5 页面",
+              "支持桌码、海报、社媒链接"
+            ]
+          },
+          "location": {
+            "title": "自动识别附近门店",
+            "items": [
+              "支持卫星定位",
+              "自动推荐附近门店",
+              "适合多门店连锁"
+            ]
+          },
+          "menu": {
+            "title": "移动端菜单浏览",
+            "items": [
+              "支持多语言菜单",
+              "分类清晰易浏览",
+              "图片、价格、描述完整展示"
+            ]
+          },
+          "product": {
+            "title": "规格与套餐选择",
+            "items": [
+              "支持规格、加料、备注",
+              "支持套餐搭配",
+              "活动价与划线价展示"
+            ]
+          },
+          "member": {
+            "title": "便捷会员登录",
+            "items": [
+              "支持 Google / Apple / 邮箱登录",
+              "查看会员等级与积分",
+              "使用优惠券和会员权益"
+            ]
+          },
+          "payment": {
+            "title": "线上下单与支付",
+            "items": [
+              "支持在线支付",
+              "支持到店付款",
+              "订单自动同步门店系统"
+            ]
+          }
+        }
       },
-      "hardwareSecondary": {
-        "pillLabel": "Terminal S1",
-        "title": "全金属一体",
-        "subtitle": "防油防尘不惧意外",
-        "description": "采用全金属一体化设计，具备防油防尘特性，适应恶劣环境，确保稳定运行。",
-        "buttonLabel": "立即购买",
-        "imageAlt": "PalmNet Terminal S1 硬件展示"
+      "consultCta": {
+        "title": "把移动点单接入你的门店经营",
+        "description": "无论是单店、连锁、多品牌还是外带场景，Palmnet 可为你配置移动点单、会员、支付和门店同步方案。",
+        "button": "咨询 Ordering 方案"
       },
-      "hardwareTertiary": {
-        "pillLabel": "Terminal S1",
-        "title": "全金属一体",
-        "subtitle": "防油防尘不惧意外",
-        "description": "采用全金属一体化设计，具备防油防尘特性，适应恶劣环境，确保稳定运行。",
-        "buttonLabel": "立即购买",
-        "imageAlt": "PalmNet Terminal S1 硬件展示"
+      "brands": {
+        "title": "众多领先品牌选择PALMNET"
+      },
+      "cta": {
+        "titleLine1": "你创造了独特的餐厅。",
+        "titleLine2": "我们帮你继续增长。",
+        "button": "联系我们"
       }
     },
     "pos": {
@@ -227,6 +352,138 @@
           "subtitle": "云后台可推送门店活动及广告，促进二次消费与会员转化。"
         }
       },
+      "tabs": {
+        "pos": "POS",
+        "ordering": "Ordering",
+        "kiosk": "Kiosk",
+        "kds": "Kitchen display system",
+        "ads": "ADS",
+        "marketing": "Marketing"
+      },
+      "newHero": {
+        "titleLine1": "Palm POS",
+        "titleLine2": "一套覆盖门店前台经营",
+        "description": "从点单、收银、支付到库存、会员、报表和税务合规，Palmnet POS帮助门店把日常经营流程连接起来",
+        "primaryButton": "开始Demo演示",
+        "secondaryButton": "联系我们",
+        "imageAlt": "Palm POS 前台经营系统展示"
+      },
+      "benefits": {
+        "wait": {
+          "title": "减少等待",
+          "description": "通过允许客户自行处理和支付订单的解决方案，最大限度地减少等待并优化员工速度，提供更卓越的服务。"
+        },
+        "staff": {
+          "title": "优化员工时间",
+          "description": "通过减少排队，员工将能够专注于提供卓越的服务。"
+        },
+        "revenue": {
+          "title": "产生更多收入",
+          "description": "在所有订单中增加补充和其他选项，而不会给您的客户带来不舒服的情况。"
+        },
+        "sync": {
+          "title": "同步一切",
+          "description": "系统会自动更新，订单会发送到 PALMNET KDS，以便餐厅和厨房始终同步。"
+        }
+      },
+      "featuresTitle": "强大且稳定的POS系统",
+      "featureCards": {
+        "checkout": {
+          "title": "点单与收银",
+          "description": "让员工更快完成点单、改价、折扣、结账和小票打印，减少高峰期等待。",
+          "items": [
+            "全平台订单聚合",
+            "个性化票据样式",
+            "灵活的商品管理"
+          ],
+          "alt": "点单与收银功能界面"
+        },
+        "tables": {
+          "title": "订单及桌台管理",
+          "description": "适合堂食门店管理桌台、加菜、转台、并单、拆单和订单状态。",
+          "items": [
+            "订单状态清晰同步",
+            "多业态自助及人工预约",
+            "桌台占用及流转可视化"
+          ],
+          "alt": "订单及桌台管理界面"
+        },
+        "members": {
+          "title": "会员连接",
+          "description": "在收银环节识别会员、累计积分、发放优惠，把顾客沉淀到会员系统。",
+          "items": [
+            "会员识别与消费记录",
+            "积分、优惠券和储值",
+            "订单状态清晰同步"
+          ],
+          "alt": "会员连接界面"
+        },
+        "inventory": {
+          "title": "商品及库存管理",
+          "description": "商品、套餐、原料和库存数据与销售同步，帮助门店减少人工统计。",
+          "items": [
+            "商品与套餐管理",
+            "库存变化自动同步",
+            "支持原料与库存预警"
+          ],
+          "alt": "商品及库存管理界面"
+        },
+        "reports": {
+          "title": "数据报表",
+          "description": "实时查看销售、热销商品、员工表现和支付数据，帮助老板快速做经营判断。",
+          "items": [
+            "销售额与订单趋势",
+            "热销商品和支付方式",
+            "员工表现与门店数据"
+          ],
+          "alt": "数据报表界面"
+        }
+      },
+      "solutionCards": {
+        "tax": {
+          "title": "税务合规",
+          "description": "支持电子票据、VAT/IVA、税务合规和不同国家规则适配。",
+          "link": "了解税务合规"
+        },
+        "payment": {
+          "title": "支付解决方案",
+          "description": "支持全球主流国家支付方式。",
+          "link": "了解支付方案"
+        }
+      },
+      "terminals": {
+        "title": "适配不同门店的 POS 终端",
+        "subtitle": "从主收银台到移动收款，Palmnet 提供适合不同门店规模和服务场景的收银设备",
+        "learnMore": "了解产品",
+        "quote": "获取报价",
+        "d3": {
+          "title": "Palm D3",
+          "description": "适合作为门店主收银终端，支持点单、收银、支付、会员识别和票据打印",
+          "alt": "Palm D3 终端"
+        },
+        "mpos": {
+          "title": "Palm mPOS",
+          "description": "适合桌边点单、移动收款、排队点单和外场服务，让员工随时完成下单与支付",
+          "alt": "Palm mPOS 移动终端"
+        }
+      },
+      "toolkit": {
+        "titleLine1": "完整的POS",
+        "titleLine2": "工具包",
+        "description": "套件包括 PALMNET 设备、现金箱、收据打印机和纸张。",
+        "button": "获取报价",
+        "accessories": "查看完整配件",
+        "compatibility": "获取所有配件兼容",
+        "alt": "Palmnet POS 工具包"
+      },
+      "brands": {
+        "title": "众多领先品牌选择PALMNET"
+      },
+      "cta": {
+        "titleLine1": "你创造了独特的餐厅。",
+        "titleLine2": "我们帮你继续增长。",
+        "button": "联系我们"
+      },
       "hardware": {
         "pillLabel": "Terminal S1",
         "title": "全金属一体 防油防尘不惧意外",
@@ -239,6 +496,234 @@
         },
         "buttonLabel": "去购买",
         "imageAlt": "Terminal S1 硬件展示"
+      }
+    },
+    "kds": {
+      "meta": {
+        "title": "后厨 KDS - PalmNet",
+        "description": "智能厨房显示系统，让前台、扫码点单、自助点单和外卖订单自动进入后厨屏幕，帮助厨房清晰接单、分单和出餐"
+      },
+      "hero": {
+        "eyebrow": "PALMNET KDS",
+        "title": "智能厨房显示系统",
+        "description": "让前台、扫码点单、自助点单和外卖订单自动进入后厨屏幕，帮助厨房清晰接单、分单和出餐",
+        "primaryButton": "开始Demo演示",
+        "secondaryButton": "联系我们",
+        "imageAlt": "Palm KDS 后厨显示系统展示"
+      },
+      "benefits": {
+        "display": {
+          "title": "清晰的订单展示",
+          "lines": [
+            "所有订单信息统一显示",
+            "减少漏单、降低配错餐品风险",
+            "减少沟通成本"
+          ]
+        },
+        "speed": {
+          "title": "更快的订单处理",
+          "lines": [
+            "订单生成后立即显示在厨房屏幕",
+            "无需等待纸质小票",
+            "提高整体出餐速度"
+          ]
+        },
+        "collaboration": {
+          "title": "高效厨房协作",
+          "lines": [
+            "支持多个厨房工位同步协作",
+            "每个工位仅查看属于自己的任务",
+            "提高工作效率"
+          ]
+        },
+        "paperless": {
+          "title": "告别纸质订单",
+          "lines": [
+            "减少纸张浪费",
+            "避免票据丢失",
+            "更加环保、高效"
+          ]
+        }
+      },
+      "featuresTitle": "从接单到出餐，后厨流程更清楚",
+      "featuresSubtitle": "订单不再依赖前台喊单或纸质小票，厨房可以按顺序、档口和状态管理每一张订单",
+      "featureCards": {
+        "sync": {
+          "title": "实时订单同步",
+          "description": "所有订单来源统一进入 KDS，后厨无需等待前台传单。",
+          "items": [
+            "POS 订单同步",
+            "扫码点单同步",
+            "Kiosk 与外卖订单同步"
+          ],
+          "alt": "实时订单同步功能展示"
+        },
+        "routing": {
+          "title": "智能订单分配",
+          "description": "不同菜品可自动进入对应档口，让每个岗位只看到自己需要处理的订单。",
+          "items": [
+            "按菜品分类分单",
+            "按厨房档口分单",
+            "支持多屏协作"
+          ],
+          "alt": "智能订单分配功能展示"
+        },
+        "status": {
+          "title": "订单状态管理",
+          "description": "厨房可实时更新制作状态，前台和出餐口更清楚每张订单进度。",
+          "items": [
+            "待制作 / 制作中 / 已完成",
+            "减少前后台沟通",
+            "方便催单与出餐"
+          ],
+          "alt": "订单状态管理功能展示"
+        },
+        "priority": {
+          "title": "优先级管理",
+          "description": "高峰期可按下单时间、订单类型或紧急程度安排制作顺序。",
+          "items": [
+            "按时间排序",
+            "支持优先订单",
+            "减少高峰混乱"
+          ],
+          "alt": "优先级管理功能展示"
+        },
+        "timing": {
+          "title": "出餐时间统计",
+          "description": "记录订单等待和制作时间，帮助老板发现后厨瓶颈。",
+          "items": [
+            "查看平均制作时间",
+            "分析高峰出餐效率",
+            "优化人员安排"
+          ],
+          "alt": "出餐时间统计功能展示"
+        }
+      },
+      "terminals": {
+        "title": "适合后厨协作的显示终端",
+        "subtitle": "订单可实时显示在厨房或出餐口屏幕上，帮助员工查看桌号、备注、下单时间和制作状态，减少漏单与沟通成本",
+        "learnMore": "了解产品",
+        "quote": "获取报价",
+        "x1": {
+          "title": "PALMKIT X1后厨显示屏",
+          "description": "实时显示订单内容、桌号、备注、下单时间和制作状态，适合厨房和出餐口使用",
+          "alt": "PALMKIT X1 后厨显示屏"
+        },
+        "sSeries": {
+          "title": "PALMNET S系列",
+          "description": "点单、收银、交接班、打印配置、支付、报表、库存、税控",
+          "alt": "PALMNET S 系列终端"
+        }
+      },
+      "consultCta": {
+        "title": "让后厨接单更清楚，出餐更高效",
+        "description": "根据你的门店类型、厨房分区和订单来源，Palmnet 可为你配置适合的 KDS 后厨显示方案",
+        "button": "咨询 KDS 配置"
+      },
+      "brands": {
+        "title": "为什么众多领先品牌选择PALMNET"
+      },
+      "cta": {
+        "titleLine1": "你创造了独特的餐厅。",
+        "titleLine2": "我们帮你继续增长。",
+        "button": "联系我们"
+      }
+    },
+    "ads": {
+      "meta": {
+        "title": "智能广告屏 ADS - PalmNet",
+        "description": "Palmnet ADS 快速同步广告内容到显示设备，让门店轻松管理广告、菜单展示和叫号信息"
+      },
+      "hero": {
+        "eyebrow": "PALMNET ADS",
+        "title": "智能广告屏显示系统",
+        "description": "Palmnet ADS 快速同步广告内容到显示设备，让门店轻松管理广告、菜单展示和叫号信息",
+        "primaryButton": "开始Demo演示",
+        "secondaryButton": "联系我们",
+        "imageAlt": "Palm ADS 智能广告屏展示"
+      },
+      "highlights": {
+        "publish": {
+          "title": "内容快速上线",
+          "description": "门店可在 POS 后台上传广告图片、活动视频或菜单内容，保存后快速同步到指定屏幕"
+        },
+        "devices": {
+          "title": "适配多种显示设备",
+          "description": "电视广告机、电子菜单屏、平板或其他显示设备，只要安装 Palmnet ADS 软件，即可接入内容发布系统"
+        },
+        "modes": {
+          "title": "广告与叫号模式灵活切换",
+          "description": "日常可用于播放广告、展示菜单和活动内容；高峰期也可切换为叫号屏，与 KDS 联动显示已完成订单"
+        }
+      },
+      "contentIntro": {
+        "title": "让门店屏幕内容随时更新",
+        "description": "无论是新品广告、活动海报、电子菜单，还是出餐叫号，Palmnet ADS 都可以通过后台集中管理并快速同步到不同屏幕"
+      },
+      "showcaseAlt": "门店广告屏与菜单屏展示场景",
+      "featureColumns": {
+        "upload": {
+          "title": "后台上传图片与视频",
+          "items": [
+            "支持图片广告",
+            "支持视频内容",
+            "通过 POS 后台管理"
+          ]
+        },
+        "sync": {
+          "title": "快速同步到屏幕",
+          "items": [
+            "内容更新延迟低",
+            "多屏幕同步展示",
+            "门店无需手动换图"
+          ]
+        },
+        "displayModes": {
+          "title": "广告屏与菜单屏模式",
+          "items": [
+            "适合电视广告机",
+            "适合电子菜单屏",
+            "展示新品、套餐和活动"
+          ]
+        },
+        "queue": {
+          "title": "出餐叫号显示",
+          "items": [
+            "可切换叫号模式",
+            "搭配 KDS 使用",
+            "制作完成后自动叫号"
+          ]
+        }
+      },
+      "terminals": {
+        "title": "适合门店多种屏幕的显示系统",
+        "subtitleLine1": "Palmnet ADS 不限制单一设备形态，可根据门店空间和展示需求，",
+        "subtitleLine2": "部署在电视屏、菜单屏、广告机和平板等设备上",
+        "learnMore": "了解产品",
+        "quote": "获取报价",
+        "a132": {
+          "title": "A132 挂式广告屏 32''",
+          "description": "适合安装在墙面、取餐区或门店醒目位置，用于展示品牌广告、新品推荐、活动海报，也可切换为菜单屏或叫号屏",
+          "alt": "A132 挂式广告屏"
+        },
+        "a123": {
+          "title": "A123 柜台式菜单屏 24''",
+          "description": "适合放置在柜台或点单区域，用于展示菜单、套餐、价格和活动内容，也可播放图片或视频广告",
+          "alt": "A123 柜台式菜单屏"
+        }
+      },
+      "consultCta": {
+        "title": "让每一块屏幕都成为经营工具",
+        "description": "通过 Palmnet ADS，门店可以集中发布广告、菜单和叫号内容，让屏幕展示更灵活、更容易管理",
+        "button": "咨询 ADS 方案"
+      },
+      "brands": {
+        "title": "为什么众多领先品牌选择PALMNET"
+      },
+      "cta": {
+        "titleLine1": "你创造了独特的餐厅。",
+        "titleLine2": "我们帮你继续增长。",
+        "button": "联系我们"
       }
     },
     "waiter": {
@@ -289,6 +774,120 @@
           "title": "简单、直观、高效",
           "description": "专为繁忙餐厅环境设计的简洁界面，实现快速准确的点餐体验"
         }
+      }
+    },
+    "marketing": {
+      "meta": {
+        "title": "会员营销与复购系统 - PalmNet",
+        "description": "Palmnet Marketing 连接会员账户、积分、优惠券和集章卡，帮助餐饮门店提升复购与会员活跃。"
+      },
+      "hero": {
+        "eyebrow": "PALMKIT Marketing",
+        "title": "会员营销与复购系统",
+        "description": "Palmnet Marketing 连接移动点餐、会员账户、积分、优惠券和集章卡，帮助门店把一次性顾客转化为可持续复购的会员。",
+        "primaryButton": "开始 Demo 演示",
+        "secondaryButton": "联系我们",
+        "imageAlt": "Palmkit Marketing 会员营销手机界面"
+      },
+      "intro": {
+        "title": "把每一次点单，变成下一次复购",
+        "description": "顾客可在 Ordering H5 中完成登录、查看会员等级、领取优惠券、兑换积分和使用集章卡，门店可根据会员等级与活动规则设置更精准的营销策略。",
+        "imageAlt": "餐饮门店柜台场景与会员营销系统"
+      },
+      "benefits": {
+        "login": {
+          "title": "多方式登录",
+          "description": "顾客可通过 Google、Apple 或邮箱快速注册登录，无需复杂流程即可进入会员体系。"
+        },
+        "level": {
+          "title": "建立会员等级",
+          "description": "系统可根据消费金额、订单次数或活动规则累计积分，推动会员等级成长。"
+        },
+        "coupon": {
+          "title": "优惠券与兑换",
+          "description": "积分可兑换优惠券，优惠券可用于商品兑换、折扣减免或指定活动，提高复购率。"
+        },
+        "wallet": {
+          "title": "集章卡与 Wallet",
+          "description": "门店可创建集章卡，引导顾客多次消费，并支持添加到 Wallet，增强品牌留存。"
+        }
+      },
+      "flow": {
+        "title": "更清晰的会员营销流程",
+        "description": "从登录、会员等级、积分累计到优惠券、集章与权益，Palmnet Marketing 帮助门店把顾客行为转化为可运营的会员资产。",
+        "imageAlt": "Palmnet Marketing 手机会员营销流程界面",
+        "learnMore": "了解产品",
+        "tabs": {
+          "login": "登录",
+          "member": "会员",
+          "points": "积分",
+          "coupon": "优惠券",
+          "stamp": "集章",
+          "benefits": "权益"
+        },
+        "cards": {
+          "login": {
+            "title": "登录",
+            "items": [
+              "支持 Google / Apple / 邮箱登录",
+              "快速进入会员体系",
+              "下单前后均可识别顾客"
+            ]
+          },
+          "member": {
+            "title": "会员",
+            "items": [
+              "查看会员等级状态",
+              "展示积分与成长值",
+              "沉淀顾客复购数据"
+            ]
+          },
+          "points": {
+            "title": "积分",
+            "items": [
+              "消费自动累计积分",
+              "支持积分兑换规则",
+              "提高顾客再次下单意愿"
+            ]
+          },
+          "coupon": {
+            "title": "优惠券",
+            "items": [
+              "支持折扣券与商品券",
+              "可兑换商品或折扣",
+              "下单时自动使用优惠"
+            ]
+          },
+          "stamp": {
+            "title": "集章",
+            "items": [
+              "消费后自动集章",
+              "满章兑换奖励",
+              "支持添加到 Wallet"
+            ]
+          },
+          "benefits": {
+            "title": "权益",
+            "items": [
+              "按会员等级配置权益",
+              "设置限时商品优惠",
+              "提升复购与会员活跃"
+            ]
+          }
+        }
+      },
+      "consultCta": {
+        "title": "让顾客不只完成一次下单",
+        "description": "连接会员、积分、优惠券、集章卡和移动点单，Palmnet Marketing 帮助门店建立可持续复购链路。",
+        "button": "咨询营销方案"
+      },
+      "brands": {
+        "title": "众多领先品牌选择PALMNET"
+      },
+      "cta": {
+        "titleLine1": "你创造了独特的餐厅。",
+        "titleLine2": "我们帮你继续增长。",
+        "button": "联系我们"
       }
     }
   },
@@ -406,11 +1005,914 @@
       "viewCareers": "查看职位"
     }
   },
+  "homeLanding": {
+    "hero": {
+      "titleLine1": "一个系统，",
+      "titleLine2": "连接餐厅所有运营。",
+      "primaryCta": "开始使用",
+      "secondaryCta": "联系销售团队",
+      "imageAlt": "PalmNet 餐厅运营系统在平板上的展示"
+    },
+    "solutions": {
+      "title": "更智能的餐饮科技，适配你的业务",
+      "subtitle": "无论门店处在哪个运营阶段，PalmNet 都能提供帮你提升效率的数字化方案。"
+    },
+    "products": {
+      "learnMore": "了解更多",
+      "pos": {
+        "title": "POS",
+        "description": "云端收银系统，让门店管理更高效。",
+        "alt": "PalmNet POS 产品展示"
+      },
+      "ads": {
+        "title": "ADS",
+        "description": "实时叫号和语音提醒，提升取餐效率。",
+        "alt": "PalmNet ADS 产品展示"
+      },
+      "kds": {
+        "title": "KDS",
+        "description": "智能后厨显示系统，让厨房协作更清晰。",
+        "alt": "PalmNet KDS 产品展示"
+      },
+      "ordering": {
+        "title": "Ordering",
+        "description": "全渠道点餐能力，连接堂食、外卖和自助点餐。",
+        "alt": "PalmNet Ordering 产品展示"
+      }
+    },
+    "scenes": {
+      "title": "适合各种餐饮业态的一体化方案",
+      "subtitle": "为不同类型门店提供可落地的数字化运营能力。",
+      "restaurant": {
+        "title": "正餐餐厅",
+        "description": "新一代 POS 系统，提升桌台、订单和收银效率。",
+        "cta": "了解餐厅方案",
+        "alt": "正餐餐厅场景"
+      },
+      "fastFood": {
+        "title": "快餐",
+        "description": "高峰时段管理、自助点餐和取餐叫号一体化。",
+        "alt": "快餐门店场景"
+      },
+      "teaCafe": {
+        "title": "茶饮与咖啡",
+        "description": "多渠道点单、会员留存、库存与配方管理。",
+        "alt": "茶饮咖啡门店场景"
+      },
+      "buffetSushi": {
+        "title": "自助餐与寿司",
+        "description": "时段管理、追加点单和会员积分体系。",
+        "alt": "自助餐与寿司场景"
+      }
+    },
+    "pricingCta": {
+      "title": "更好的价格，更好的体验",
+      "subtitle": "用现代化工具降低运营成本，同时保持服务品质。",
+      "button": "预约 Demo",
+      "alt": "PalmNet 终端设备背景"
+    },
+    "brands": {
+      "title": "欧洲数千家品牌的共同选择",
+      "alt": "PalmNet 合作餐饮品牌墙"
+    },
+    "faq": {
+      "title": "FAQ",
+      "storeTypes": "PalmNet 适合哪些类型门店？",
+      "singleStore": "是否适合单店？",
+      "chainBrands": "是否适合连锁品牌？",
+      "multiLanguage": "是否支持多语言？",
+      "taxCompliance": "是否支持欧洲税务合规？",
+      "deliveryPlatforms": "是否可以对接外卖平台？",
+      "installationTraining": "是否提供安装和培训？",
+      "pricing": "价格如何计算？",
+      "customization": "是否可以定制功能？",
+      "gettingStarted": "如何开始使用？"
+    },
+    "footerLead": {
+      "titleLine1": "你创造了独特的餐厅。",
+      "titleLine2": "我们帮你继续增长。",
+      "button": "联系我们"
+    }
+  },
   "footer": {
     "contact": "联系",
     "newsletter": "订阅",
     "subscribe": "订阅",
-    "about": "让你的家更独特，品质与现代感并存。",
-    "rights": "保留所有权利。"
+    "about": "让你的餐厅更独特，品质与现代感并存。",
+    "language": "语言",
+    "selectLanguage": "选择语言",
+    "columns": {
+      "products": "产品",
+      "scenes": "用餐场景",
+      "solutions": "解决方案",
+      "more": "更多",
+      "contact": "联系我们"
+    },
+    "links": {
+      "posCheckout": "POS 收银",
+      "onlineOrdering": "在线点餐",
+      "kioskDisplay": "点餐大屏",
+      "queue": "排队叫号",
+      "waiterOrdering": "跑堂点餐",
+      "kitchenDisplay": "后厨 KDS",
+      "smartAds": "广告管理",
+      "padOrdering": "平板点餐",
+      "fastFood": "快餐",
+      "teaCoffee": "茶饮咖啡",
+      "buffet": "自助餐",
+      "bakery": "蛋糕烘焙",
+      "hotPot": "火锅",
+      "fullServiceDining": "中西正餐",
+      "delivery": "外卖&配送",
+      "barBistro": "酒吧&Bistro",
+      "deliveryAggregation": "外卖聚合",
+      "payment": "收单支付",
+      "taxCompliance": "本国税务合规",
+      "cashChanger": "自动找零机",
+      "kitchenEquipment": "智能厨用设备",
+      "blogs": "动态&博客",
+      "about": "关于我们",
+      "careers": "加入我们",
+      "contact": "联系我们"
+    },
+    "legal": {
+      "cookies": "Cookies政策",
+      "privacy": "隐私条款",
+      "terms": "服务政策"
+    },
+    "rights": "All Right Reserved"
+  },
+  "legal": {
+    "lastUpdated": "最后更新：{date}",
+    "notFound": "未找到文档"
+  },
+  "solutionsPage": {
+    "meta": {
+      "title": "茶饮咖啡门店解决方案 - PalmNet",
+      "description": "Palmnet 为茶饮咖啡门店提供点单、收银、制作、出餐和会员复购的一体化数字化解决方案。"
+    },
+    "hero": {
+      "titleLine1": "茶饮咖啡门店",
+      "titleLine2": "数字化解决方案",
+      "descriptionLine1": "从点单、收银、制作、出餐到会员复购，",
+      "descriptionLine2": "Palmnet 帮助茶饮咖啡门店提升高峰期效率，",
+      "descriptionLine3": "减少人工错误，并沉淀长期顾客。",
+      "button": "咨询方案",
+      "imageAlt": "茶饮咖啡门店员工与自助点单设备"
+    },
+    "challenges": {
+      "title": "茶饮咖啡门店常见经营挑战",
+      "items": {
+        "queue": {
+          "title": "高峰排队压力大",
+          "description": "高峰期顾客集中下单，前台接单和收银容易拥堵。"
+        },
+        "complexity": {
+          "title": "规格加料组合复杂",
+          "description": "人工确认口味、备注和订单信息，容易出现漏选或误传。"
+        },
+        "mistakes": {
+          "title": "员工点单容易出错",
+          "description": "甜度、冰量、加料、套餐选择多，点单流程需要更清晰。"
+        },
+        "retention": {
+          "title": "会员复购难沉淀",
+          "description": "顾客消费后难以持续触达，优惠和积分难形成复购。"
+        }
+      }
+    },
+    "growth": {
+      "title": "了解 Palmnet 如何帮助你的门店成长",
+      "description": "选择下方经营环节，查看 Palmnet 如何连接点单、收银、制作、出餐与会员复购。"
+    },
+    "tabs": {
+      "ordering": {
+        "label": "点单",
+        "title": "多入口点单，减少排队等待",
+        "description": "支持柜台点单、自助点单、扫码点单和手机 H5 点单，顾客可根据场景选择更方便的下单方式。",
+        "items": [
+          "支持 POS、Kiosk、Ordering",
+          "适配甜度、冰量、加料和备注",
+          "堂食、外带、线上点单统一接入"
+        ],
+        "imageAlt": "茶饮门店多入口点单场景"
+      },
+      "cashier": {
+        "label": "收银",
+        "title": "快速收银与支付，提升前台效率",
+        "description": "订单可同步到 POS 收银系统，支持多种支付方式、小票打印和订单确认，减少人工重复操作。",
+        "items": [
+          "点单与收银流程连接",
+          "支持刷卡、扫码和线上支付",
+          "订单、小票和支付状态同步"
+        ],
+        "imageAlt": "茶饮门店收银支付场景"
+      },
+      "making": {
+        "label": "制作",
+        "title": "订单同步后厨，制作流程更清楚",
+        "description": "顾客下单后，订单可进入 KDS 后厨显示系统，让厨房清楚查看商品、规格、备注和制作状态。",
+        "items": [
+          "订单实时同步到后厨",
+          "减少漏单、错单和口头沟通",
+          "支持制作状态管理"
+        ],
+        "imageAlt": "茶饮后厨制作流程场景"
+      },
+      "pickup": {
+        "label": "出餐",
+        "title": "出餐叫号与屏幕展示",
+        "description": "制作完成后，可通过叫号屏或广告屏显示取餐信息，同时展示菜单、活动和新品内容。",
+        "items": [
+          "支持叫号模式",
+          "可联动 KDS 出餐状态",
+          "菜单屏与广告屏灵活切换"
+        ],
+        "imageAlt": "茶饮门店出餐屏幕场景"
+      },
+      "retention": {
+        "label": "复购",
+        "title": "会员营销，带动再次消费",
+        "description": "顾客可通过 H5 登录会员，查看积分、等级和优惠券，门店可通过集章卡、活动和会员权益促进复购。",
+        "items": [
+          "支持会员等级与积分",
+          "优惠券、集章卡促进复购",
+          "活动触达沉淀长期顾客"
+        ],
+        "imageAlt": "茶饮会员复购场景"
+      }
+    },
+    "products": {
+      "title": "茶饮店必备产品",
+      "subtitle": "提升顾客就餐体验，助力餐厅降本增效",
+      "learnMore": "了解产品",
+      "items": {
+        "pos": {
+          "title": "PalmPOS",
+          "description": "云端 POS 收银系统，让门店管理更高效。",
+          "imageAlt": "PalmPOS 产品图"
+        },
+        "kiosk": {
+          "title": "PalmKIOSK",
+          "description": "自助点单终端，分担高峰期前台压力。",
+          "imageAlt": "PalmKIOSK 产品图"
+        },
+        "ads": {
+          "title": "PalmADS",
+          "description": "菜单屏、叫号屏和广告展示，提升取餐效率。",
+          "imageAlt": "PalmADS 产品图"
+        },
+        "marketing": {
+          "title": "Palm MARKETING",
+          "description": "会员、积分、优惠券和集章，帮助门店沉淀复购。",
+          "imageAlt": "Palm Marketing 产品图"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "让顾客不只完成一次下单",
+      "description": "通过会员等级、积分、优惠券和集章卡，Palmnet Marketing 帮助门店建立自己的复购体系。",
+      "button": "咨询会员营销方案"
+    },
+    "cta": {
+      "titleLine1": "你创造了独特的餐厅。",
+      "titleLine2": "我们帮你继续增长。",
+      "button": "联系我们"
+    }
+  },
+  "solutionsChinesePage": {
+    "meta": {
+      "title": "中餐正餐门店解决方案 - PalmNet",
+      "description": "Palmnet 为中餐正餐门店连接桌台、点单、后厨、结账和经营数据，提升堂食服务效率。"
+    },
+    "hero": {
+      "titleLine1": "中餐正餐门店",
+      "titleLine2": "数字化解决方案",
+      "description": "从桌台点单、前台收银、后厨制作到出餐、结账和经营管理，Palmnet 帮助中餐正餐门店提升服务效率，减少沟通错误，让堂食经营更顺畅。",
+      "button": "咨询方案",
+      "imageAlt": "中餐正餐门店堂食场景"
+    },
+    "challenges": {
+      "title": "中餐正餐门店常见经营挑战",
+      "items": {
+        "tables": {
+          "title": "桌台与订单管理复杂",
+          "description": "堂食桌台多，开台、转台、并单、拆单和加菜流程容易混乱。"
+        },
+        "communication": {
+          "title": "前厅后厨沟通成本高",
+          "description": "服务员口头传单或纸质小票容易漏单、错单，影响出餐效率。"
+        },
+        "peak": {
+          "title": "高峰期服务响应慢",
+          "description": "客流集中时，点单、催菜、结账和支付容易堆积，影响顾客体验。"
+        },
+        "checkout": {
+          "title": "结账与对账压力大",
+          "description": "堂食订单常涉及加菜、退菜、拆单和多方式支付，结账与对账容易耗时。"
+        }
+      }
+    },
+    "intro": {
+      "title": "让中餐门店的前厅与后厨协作更清楚",
+      "description": "中餐正餐门店通常涉及桌台管理、多人点单、加菜退菜、后厨分单、出餐节奏、结账拆单和经营统计等复杂流程。Palmnet 将点单、收银、厨房和数据系统连接起来，帮助门店减少人工沟通，提高翻台与服务效率。"
+    },
+    "growth": {
+      "title": "了解 Palmnet 如何帮助中餐门店",
+      "description": "选择下方经营环节，查看 Palmnet 如何连接桌台、点单、后厨、结账与经营数据。"
+    },
+    "tabs": {
+      "table": {
+        "label": "桌台",
+        "title": "桌台管理更清晰",
+        "description": "用数字化桌台视图管理堂食服务，帮助前厅快速掌握开台、占用、转台和结账状态。",
+        "items": [
+          "支持开台、转台、并单、拆单",
+          "实时查看桌台状态",
+          "适合堂食与包间管理"
+        ],
+        "imageAlt": "中餐门店桌台管理场景"
+      },
+      "ordering": {
+        "label": "点单",
+        "title": "服务员与顾客多方式点单",
+        "description": "支持服务员手持点单、顾客扫码点单和追加点单，订单自动同步到前台与后厨。",
+        "items": [
+          "支持服务员手持点单",
+          "支持扫码点单与加菜",
+          "订单自动同步前台与后厨"
+        ],
+        "imageAlt": "中餐门店桌边点单场景"
+      },
+      "kitchen": {
+        "label": "后厨",
+        "title": "后厨接单与分单更高效",
+        "description": "订单进入 KDS 后厨屏后，可按菜品或档口分单，减少漏单、错单和前厅后厨反复沟通。",
+        "items": [
+          "订单同步到 KDS 后厨屏",
+          "按菜品或档口分单制作",
+          "减少漏单、错单和反复沟通"
+        ],
+        "imageAlt": "中餐后厨接单场景"
+      },
+      "checkout": {
+        "label": "结账",
+        "title": "收银结账更灵活",
+        "description": "支持整单、拆单和多方式支付，连接订单、小票、发票和支付状态，提升高峰期结账效率。",
+        "items": [
+          "支持整单、拆单和多方式支付",
+          "小票、发票和订单状态同步",
+          "提升高峰期结账效率"
+        ],
+        "imageAlt": "中餐门店收银结账场景"
+      },
+      "data": {
+        "label": "数据",
+        "title": "经营数据更清楚",
+        "description": "通过销售额、订单、菜品和时段数据，帮助老板了解门店表现，优化菜单、排班和经营决策。",
+        "items": [
+          "查看销售额与订单数据",
+          "分析热销菜品和时段表现",
+          "帮助老板优化门店经营"
+        ],
+        "imageAlt": "中餐门店经营数据场景"
+      }
+    },
+    "products": {
+      "title": "中餐正餐门店推荐产品组合",
+      "subtitle": "根据门店面积、桌台数量和后厨分区，可灵活配置前台收银、手持点单、后厨显示、扫码点单和会员营销系统。",
+      "learnMore": "了解产品",
+      "items": {
+        "pos": {
+          "title": "POS 收银系统",
+          "description": "适合前台收银、订单管理、支付和账单处理。",
+          "imageAlt": "POS 收银系统产品图"
+        },
+        "handheld": {
+          "title": "手持点单设备",
+          "description": "适合服务员桌边点单、加菜、催菜和移动收款。",
+          "imageAlt": "手持点单设备产品图"
+        },
+        "kds": {
+          "title": "KDS 后厨显示系统",
+          "description": "适合厨房分单、制作状态管理和出餐协作。",
+          "imageAlt": "KDS 后厨显示系统产品图"
+        },
+        "ordering": {
+          "title": "Ordering 扫码点单",
+          "description": "适合顾客自助加菜、查看菜单和减少服务员压力。",
+          "imageAlt": "Ordering 扫码点单产品图"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "为你的中餐门店配置一套合适系统",
+      "description": "告诉我们你的桌台数量、后厨分区、点单方式和支付需求，Palmnet 可为你推荐适合的中餐正餐数字化方案。",
+      "button": "咨询中餐门店方案"
+    },
+    "cta": {
+      "titleLine1": "你创造了独特的餐厅。",
+      "titleLine2": "我们帮你继续增长。",
+      "button": "联系我们"
+    }
+  },
+  "solutionsBuffetPage": {
+    "meta": {
+      "title": "自助餐门店解决方案 - PalmNet",
+      "description": "Palmnet 为自助餐门店连接入场计费、桌台、加点、后厨和数据报表，提升接待与翻台效率。"
+    },
+    "hero": {
+      "titleLine1": "自助餐门店",
+      "titleLine2": "数字化解决方案",
+      "description": "从入场计费、桌台管理、自助加点到后厨补餐、取餐叫号和经营数据，Palmnet 帮助自助餐门店提升高峰接待效率，让前厅、后厨与顾客体验更顺畅。",
+      "button": "咨询方案",
+      "imageAlt": "自助餐门店用餐场景"
+    },
+    "challenges": {
+      "title": "自助餐门店常见经营挑战",
+      "items": {
+        "pricing": {
+          "title": "入场计费规则复杂",
+          "description": "人数、儿童价、时段价和套餐规则多，前台确认和收银容易耗时。"
+        },
+        "replenishment": {
+          "title": "加点与补餐不及时",
+          "description": "顾客加点、厨房补餐和服务员传递依赖人工，容易延迟或遗漏。"
+        },
+        "turnover": {
+          "title": "高峰期桌台周转压力大",
+          "description": "客流集中时，开台、换台、结账和清台流程容易影响翻台效率。"
+        },
+        "data": {
+          "title": "经营数据难统一查看",
+          "description": "客流、套餐销量、加点订单和支付数据分散，老板难以及时判断经营情况。"
+        }
+      }
+    },
+    "intro": {
+      "title": "让自助餐门店的接待、加点和出餐更高效",
+      "description": "自助餐门店通常涉及人数计费、用餐时段、桌台状态、加点项目、厨房补餐、取餐叫号和经营统计等流程。Palmnet 将收银、扫码点单、后厨显示、广告叫号和数据报表连接起来，帮助门店减少人工沟通，提高接待与翻台效率。"
+    },
+    "growth": {
+      "title": "了解 Palmnet 如何帮助自助餐门店",
+      "description": "选择下方经营环节，查看 Palmnet 如何连接入场、桌台、加点、后厨与经营数据。"
+    },
+    "tabs": {
+      "entry": {
+        "label": "入场",
+        "title": "入场计费更清楚",
+        "description": "通过 POS 统一管理人数、时段和套餐计费规则，减少前台反复确认，让开台与收银流程更顺畅。",
+        "items": [
+          "支持人数、时段和套餐计费",
+          "适配成人价、儿童价等规则",
+          "收银与开台流程同步"
+        ],
+        "imageAlt": "自助餐入场计费场景"
+      },
+      "table": {
+        "label": "桌台",
+        "title": "桌台与用餐状态实时管理",
+        "description": "前厅可实时查看桌台占用、空闲、用餐和结账状态，帮助团队提升高峰期翻台效率。",
+        "items": [
+          "查看桌台占用与空闲状态",
+          "支持开台、换台和结账",
+          "帮助前厅提升翻台效率"
+        ],
+        "imageAlt": "自助餐桌台管理场景"
+      },
+      "addon": {
+        "label": "加点",
+        "title": "顾客扫码加点更方便",
+        "description": "顾客可在桌边扫码完成酒水、锅底、刺身或套餐外商品加点，订单自动同步前台与后厨。",
+        "items": [
+          "支持桌边扫码点单",
+          "适合酒水、锅底、刺身等加点",
+          "订单自动同步前台与后厨"
+        ],
+        "imageAlt": "自助餐扫码加点场景"
+      },
+      "kitchen": {
+        "label": "后厨",
+        "title": "后厨补餐与制作更有序",
+        "description": "加点订单可进入 KDS 后厨屏，并按档口分配制作任务，减少人工传单和漏单。",
+        "items": [
+          "加点订单同步到 KDS",
+          "按档口分配制作任务",
+          "减少漏单和人工传单"
+        ],
+        "imageAlt": "自助餐后厨补餐场景"
+      },
+      "data": {
+        "label": "数据",
+        "title": "经营数据更清晰",
+        "description": "统一查看客流、套餐销量、加点订单、支付和高峰时段数据，帮助老板优化运营。",
+        "items": [
+          "统一查看客流与销售数据",
+          "分析高峰时段与桌台周转",
+          "帮助老板优化门店运营"
+        ],
+        "imageAlt": "自助餐经营数据场景"
+      }
+    },
+    "products": {
+      "title": "自助餐门店推荐产品组合",
+      "subtitle": "根据门店类型、桌台数量、加点方式和后厨分区，可灵活配置收银、扫码点单、后厨显示、广告叫号和数据报表系统。",
+      "learnMore": "了解产品",
+      "items": {
+        "pos": {
+          "title": "POS 收银系统",
+          "description": "适合入场开台、人数计费、套餐选择和结账收银。",
+          "imageAlt": "POS 收银系统产品图"
+        },
+        "ordering": {
+          "title": "Ordering 扫码点单",
+          "description": "适合桌边加点、酒水下单、套餐外商品下单。",
+          "imageAlt": "Ordering 扫码点单产品图"
+        },
+        "kds": {
+          "title": "KDS 后厨显示系统",
+          "description": "适合厨房接收加点订单、档口分单和制作状态管理。",
+          "imageAlt": "KDS 后厨显示系统产品图"
+        },
+        "ads": {
+          "title": "ADS 广告",
+          "description": "适合展示特色菜品、不同时段套餐信息。",
+          "imageAlt": "ADS 广告产品图"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "为你的自助餐门店配置一套合适系统",
+      "description": "告诉我们你的桌台数量、用餐模式、加点方式和后厨分区，Palmnet 可为你推荐适合的自助餐数字化方案。",
+      "button": "咨询自助餐方案"
+    },
+    "cta": {
+      "titleLine1": "你创造了独特的餐厅。",
+      "titleLine2": "我们帮你继续增长。",
+      "button": "联系我们"
+    }
+  },
+  "solutionsChainPage": {
+    "meta": {
+      "title": "连锁品牌数字化解决方案 - PalmNet",
+      "description": "Palmnet 帮助连锁餐饮品牌统一收银、点单、会员、商品、营销和数据管理。"
+    },
+    "hero": {
+      "titleLine1": "连锁品牌",
+      "titleLine2": "数字化解决方案",
+      "description": "从单店运营到多门店管理，Palmnet 帮助连锁品牌统一收银、点单、会员、商品、营销和数据，让总部管理更清晰，门店执行更标准。",
+      "button": "咨询方案",
+      "imageAlt": "连锁品牌餐厅门店场景"
+    },
+    "challenges": {
+      "title": "连锁品牌常见经营挑战",
+      "items": {
+        "stores": {
+          "title": "多门店管理不统一",
+          "description": "不同门店的商品、价格、活动和操作流程不一致，总部难以统一管控。"
+        },
+        "data": {
+          "title": "数据分散难决策",
+          "description": "销售、订单、会员、支付和库存数据分散，管理层难以及时掌握经营情况。"
+        },
+        "members": {
+          "title": "会员体系难打通",
+          "description": "会员积分、等级、优惠券和权益如果无法统一，顾客跨店消费体验容易断层。"
+        },
+        "expansion": {
+          "title": "门店扩张成本高",
+          "description": "新店开业需要快速复制系统、菜单、权限和运营规则，人工配置容易耗时出错。"
+        }
+      }
+    },
+    "intro": {
+      "title": "让总部与门店连接得更紧密",
+      "description": "连锁品牌通常需要同时管理多家门店、多个城市、不同设备、统一菜单价格、会员权益、营销活动和经营数据。Palmnet 将门店 POS、移动点单、会员营销、商品库存和总部后台连接起来，帮助品牌提升管理效率和扩张能力。"
+    },
+    "growth": {
+      "title": "了解 Palmnet 如何帮助连锁品牌",
+      "description": "选择下方管理环节，查看 Palmnet 如何连接总部、门店、会员、商品和经营数据。"
+    },
+    "tabs": {
+      "headquarters": {
+        "label": "总部",
+        "title": "总部统一管控更清晰",
+        "description": "总部可统一管理门店权限、系统配置、菜单价格和运营规则，让多区域、多门店管理更可控。",
+        "items": [
+          "统一管理门店权限与配置",
+          "同步菜单、价格和运营规则",
+          "支持多区域、多门店管理"
+        ],
+        "imageAlt": "连锁品牌总部管理场景"
+      },
+      "stores": {
+        "label": "门店",
+        "title": "门店执行更标准",
+        "description": "通过统一系统与标准流程，帮助各门店保持一致的收银、点单、营销和服务执行。",
+        "items": [
+          "统一门店操作流程",
+          "减少新店配置与培训成本",
+          "提升门店执行一致性"
+        ],
+        "imageAlt": "连锁品牌门店执行场景"
+      },
+      "products": {
+        "label": "商品",
+        "title": "商品与价格统一管理",
+        "description": "统一维护商品、套餐和规格，同时支持不同门店的价格策略和活动同步。",
+        "items": [
+          "统一维护商品、套餐和规格",
+          "支持不同门店价格策略",
+          "新品和活动可快速同步"
+        ],
+        "imageAlt": "连锁品牌商品管理场景"
+      },
+      "members": {
+        "label": "会员",
+        "title": "统一会员体系与权益",
+        "description": "支持会员等级、积分、优惠券、集章卡和跨店身份识别，帮助品牌提升复购。",
+        "items": [
+          "支持会员等级、积分和优惠券",
+          "跨门店识别会员身份",
+          "通过营销活动提升复购"
+        ],
+        "imageAlt": "连锁品牌会员营销场景"
+      },
+      "data": {
+        "label": "数据",
+        "title": "经营数据实时汇总",
+        "description": "总部可查看多门店销售、订单、热销商品和门店表现，辅助经营决策。",
+        "items": [
+          "查看多门店销售与订单",
+          "分析热销商品和门店表现",
+          "辅助总部做经营决策"
+        ],
+        "imageAlt": "连锁品牌经营数据场景"
+      }
+    },
+    "products": {
+      "title": "连锁品牌推荐产品组合",
+      "subtitle": "根据品牌规模、门店数量和运营模式，可灵活配置门店收银、移动点单、自助终端、会员营销、广告屏和总部数据系统。",
+      "learnMore": "了解产品",
+      "items": {
+        "pos": {
+          "title": "POS 收银系统",
+          "description": "适合各门店前台收银、订单管理、支付和日常经营。",
+          "imageAlt": "POS 收银系统产品图"
+        },
+        "ordering": {
+          "title": "Ordering 扫码点单",
+          "description": "适合品牌自有 H5 点单入口、扫码点单和线上引流。",
+          "imageAlt": "Ordering 扫码点单产品图"
+        },
+        "marketing": {
+          "title": "Marketing 会员营销",
+          "description": "适合统一会员等级、积分、优惠券、集章卡和复购活动。",
+          "imageAlt": "Marketing 会员营销产品图"
+        },
+        "ads": {
+          "title": "ADS 广告屏系统",
+          "description": "适合统一发布菜单、广告、活动和门店屏幕内容。",
+          "imageAlt": "ADS 广告屏系统产品图"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "为你的连锁品牌搭建统一数字化系统",
+      "description": "告诉我们你的门店数量、所在地区、经营业态和会员需求，Palmnet 可为你设计适合连锁品牌扩张的数字化方案。",
+      "button": "咨询连锁品牌方案"
+    },
+    "cta": {
+      "titleLine1": "你创造了独特的餐厅。",
+      "titleLine2": "我们帮你继续增长。",
+      "button": "联系我们"
+    }
+  },
+  "solutionsFastFoodPage": {
+    "meta": {
+      "title": "快餐门店解决方案 - PalmNet",
+      "description": "Palmnet 为快餐门店连接自助点单、收银、后厨、叫号和会员营销，提升高峰期出单效率。"
+    },
+    "hero": {
+      "titleLine1": "快餐",
+      "titleLine2": "数字化解决方案",
+      "description": "从自助点单、前台收银、后厨制作到取餐叫号、会员营销和连锁管理，Palmnet 帮助快餐门店提升高峰出单效率，减少排队等待，让门店运营更标准。",
+      "button": "咨询方案",
+      "imageAlt": "快餐门店用餐场景"
+    },
+    "challenges": {
+      "title": "快餐门店常见经营挑战",
+      "items": {
+        "queue": {
+          "title": "高峰排队压力大",
+          "description": "午餐、晚餐和周末客流集中，前台点单与收银容易形成排队。"
+        },
+        "combo": {
+          "title": "套餐选择与加购复杂",
+          "description": "汉堡、饮品、小吃和套餐组合多，人工确认容易影响点单速度。"
+        },
+        "kitchen": {
+          "title": "后厨制作节奏容易混乱",
+          "description": "订单来源多、制作速度快，如果后厨接单不清晰，容易漏单或延迟。"
+        },
+        "membership": {
+          "title": "会员复购与连锁管理难统一",
+          "description": "多门店需要统一会员、活动、菜单和数据，否则品牌运营容易分散。"
+        }
+      }
+    },
+    "intro": {
+      "title": "让快餐门店在高峰期也能稳定出单",
+      "description": "快餐门店通常面临客流集中、点单速度要求高、套餐组合多、后厨制作节奏快、取餐叫号频繁和多门店标准化管理等需求。Palmnet 将 POS、Kiosk、Ordering、KDS、ADS 和会员营销系统连接起来，帮助门店提升效率并支持连锁扩张。"
+    },
+    "growth": {
+      "title": "了解 Palmnet 如何帮助快餐门店",
+      "description": "选择下方经营环节，查看 Palmnet 如何连接自助点单、收银、后厨、叫号和会员复购。"
+    },
+    "tabs": {
+      "ordering": {
+        "label": "点单",
+        "title": "多入口点单分流排队",
+        "description": "支持 Kiosk 自助点单、扫码点单和手机 H5 点单，帮助顾客更快完成下单。",
+        "items": [
+          "支持 Kiosk 自助点单",
+          "支持扫码点单与手机 H5",
+          "适合堂食、外带和线上下单"
+        ],
+        "imageAlt": "快餐自助点单场景"
+      },
+      "cashier": {
+        "label": "收银",
+        "title": "快速收银与多方式支付",
+        "description": "订单自动进入 POS，支持刷卡、扫码和线上支付，减少前台重复录单。",
+        "items": [
+          "订单自动进入 POS",
+          "支持刷卡、扫码和线上支付",
+          "减少前台重复录单"
+        ],
+        "imageAlt": "快餐收银支付场景"
+      },
+      "kitchen": {
+        "label": "后厨",
+        "title": "订单同步后厨制作",
+        "description": "订单实时同步到 KDS，并按餐品类型分配制作，减少漏单和制作混乱。",
+        "items": [
+          "订单实时同步到 KDS",
+          "按餐品类型分配制作",
+          "减少漏单和制作混乱"
+        ],
+        "imageAlt": "快餐后厨制作场景"
+      },
+      "pickup": {
+        "label": "叫号",
+        "title": "取餐叫号更清楚",
+        "description": "制作完成后自动叫号，并通过 ADS 屏幕展示取餐号，适合高峰期快速取餐。",
+        "items": [
+          "制作完成后自动叫号",
+          "支持 ADS 屏幕展示取餐号",
+          "适合高峰期快速取餐"
+        ],
+        "imageAlt": "快餐取餐叫号场景"
+      },
+      "member": {
+        "label": "会员",
+        "title": "会员营销带动复购",
+        "description": "顾客可通过 H5 登录会员，查看积分、等级和优惠券，门店可通过活动和会员权益促进复购。",
+        "items": [
+          "支持会员登录与积分",
+          "优惠券和活动促进再次下单",
+          "适合连锁品牌统一运营"
+        ],
+        "imageAlt": "快餐会员营销场景"
+      }
+    },
+    "products": {
+      "title": "快餐门店推荐产品组合",
+      "subtitle": "根据门店客流量、点单方式和连锁规模，可灵活配置自助点单、前台收银、后厨显示、叫号屏、移动点单和会员营销系统。",
+      "learnMore": "了解产品",
+      "items": {
+        "kiosk": {
+          "title": "Kiosk 自助点单",
+          "description": "适合高峰期分流顾客，减少前台排队。",
+          "imageAlt": "Kiosk 自助点单产品图"
+        },
+        "kds": {
+          "title": "KDS 后厨显示系统",
+          "description": "适合厨房接收订单、分配制作和管理出餐状态。",
+          "imageAlt": "KDS 后厨显示系统产品图"
+        },
+        "ads": {
+          "title": "ADS 广告与叫号屏",
+          "description": "适合展示菜单、活动广告和取餐号码。",
+          "imageAlt": "ADS 广告与叫号屏产品图"
+        },
+        "marketing": {
+          "title": "Marketing 会员营销",
+          "description": "适合积分、优惠券、会员等级和复购活动。",
+          "imageAlt": "Marketing 会员营销产品图"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "为你的快餐门店配置一套高效系统",
+      "description": "告诉我们你的门店类型、客流量、点单方式和连锁规模，Palmnet 可为你推荐适合的快餐数字化方案。",
+      "button": "咨询快餐方案"
+    },
+    "cta": {
+      "titleLine1": "你创造了独特的餐厅。",
+      "titleLine2": "我们帮你继续增长。",
+      "button": "联系我们"
+    }
+  },
+  "aboutNew": {
+    "meta": {
+      "title": "关于我们 - PalmNet",
+      "description": "了解 PalmNet 如何垂直深耕餐饮，用数字科技赋能全球商户可持续增长。"
+    },
+    "hero": {
+      "title": "垂直深耕餐饮，用数字科技赋能全球商户可持续增长",
+      "imageAlt": "PalmNet 产品设备展示"
+    },
+    "story": {
+      "kicker": "关于 PALMNET",
+      "title": "重塑餐饮边界，让增长自然发生",
+      "paragraphs": [
+        "我们在西班牙巴塞罗那起步，专为餐饮业开发了首套真正实现“前厅-后厨-供应链-营销”全链路实时无缝流转的软硬件一体化生态。",
+        "虽然我们以极致稳定的点餐与收银系统切入市场，我们陆续推出了 BOM 级智能库存、全渠道会员营销以及多店集中管控后台，构建起覆盖餐饮全场景的工具与解决方案。",
+        "如今，PALMKIT 已成为跨越欧洲与东南亚、深受餐饮品牌信赖的商业技术平台。",
+        "无论是欧洲街角的温馨小店，还是跨国扩张的连锁品牌，PALMKIT 操作系统让他们能够随时随地进行销售、高效协同后厨、精准控制库存损耗，并与顾客建立深度连接。",
+        "简化餐饮，放大增长。我们消灭了繁琐，正为全球餐饮人开辟无限的商业可能。"
+      ]
+    },
+    "capabilities": {
+      "learnMore": "了解产品",
+      "payments": {
+        "title": "接受付款",
+        "description": "台式收银到桌边扫码，随时随地安全收款，让结账流畅无比。",
+        "imageAlt": "餐厅收银支付场景"
+      },
+      "operations": {
+        "title": "掌控你的门店",
+        "description": "一键打通前厅、后厨、库存与多店数据，让最繁忙的营业日也井然有序。",
+        "imageAlt": "餐厅门店管理场景"
+      },
+      "retention": {
+        "title": "留住你的顾客",
+        "description": "内置 SMS/WhatsApp 智能营销与专属会员系统，让一次性食客变成常客。",
+        "imageAlt": "会员营销场景"
+      }
+    },
+    "mission": {
+      "title": "我们致力于打造全球领先的餐饮全场景数字化生态系统",
+      "description": "通过软硬件一体化的智能解决方案，帮助每一位餐饮商户降低运营复杂度，在激烈的市场竞争中实现确定性的、可持续的利润增长。",
+      "imageAlt": "餐厅数字化系统展示"
+    },
+    "offices": {
+      "title": "全球布局，本地服务",
+      "items": {
+        "europe": {
+          "title": "欧洲总部",
+          "location": "（西班牙·巴塞罗那）",
+          "description": "深耕全服务正餐、大型自助餐、火锅烧烤等复杂餐饮业态。\n\n覆盖地区：西班牙、法国、德国、意大利、葡萄牙等。"
+        },
+        "asia": {
+          "title": "东南亚运营中心",
+          "location": "（泰国·曼谷）",
+          "description": "深耕茶饮咖啡、西式快餐、精品烘焙等高频、高吞吐业态。\n\n覆盖地区：泰国、马来西亚、新加坡等。"
+        },
+        "tech": {
+          "title": "全球技术中心",
+          "location": "（中国·杭州）",
+          "description": "负责 PALMKIT 底层高并发云架构研发、数据安全及全球系统迭代。"
+        }
+      }
+    },
+    "resources": {
+      "title": "了解更多餐饮资讯",
+      "subtitle": "我们准备了丰富的餐饮资讯：涵盖餐厅成功故事、行业前沿科技、最新趋势等文章。",
+      "learnMore": "了解更多",
+      "items": {
+        "tech": {
+          "title": "2026年最新餐饮科技和工具",
+          "imageAlt": "餐饮科技资讯封面"
+        },
+        "pos": {
+          "title": "最好的苹果餐饮 POS 系统",
+          "imageAlt": "POS 系统资讯封面"
+        },
+        "offline": {
+          "title": "POS系统离线模式助力稳定运营",
+          "imageAlt": "离线 POS 资讯封面"
+        }
+      }
+    },
+    "brands": {
+      "title": "众多领先品牌选择 PALMNET"
+    },
+    "cta": {
+      "titleLine1": "你创造了独特的餐厅。",
+      "titleLine2": "我们帮你继续增长。",
+      "button": "联系我们"
+    }
   }
 }

@@ -44,14 +44,15 @@
       "fullServiceDining": "FULL SERVICE DINING",
       "takeout": "TAKEOUT",
       "delivery": "DELIVERY",
-      "bar": "BAR"
+      "bar": "BAR",
+      "chainBrands": "CHAIN BRANDS"
     }
   },
   "hero": {
-    "title1": "NEW ARRIVAL 2016",
+    "title1": "We know business",
     "text1": "Best Collection — Make your interior unique",
-    "title2": "MODERN INTERIOR",
-    "text2": "Timeless design with classic comfort"
+    "title2": "We master tech",
+    "text2": "Focus on providing digital solutions for European business"
   },
   "features": {
     "items": [
@@ -66,130 +67,254 @@
     "kiosk": {
       "meta": {
         "title": "Self-Service Kiosk - PalmNet",
-        "description": "Smart self-service kiosk enhancing customer experience and reducing wait times"
+        "description": "Palmnet Kiosk lets guests browse menus, choose combos, add items and pay by themselves, helping stores reduce queues and improve peak-hour throughput"
       },
       "hero": {
-        "pillLabel": "PalmNet Kiosk",
-        "title": "Self-Order, Higher Throughput",
-        "description": "Smart self-service kiosks streamline ordering, reduce queues, and elevate the guest experience.",
-        "primaryButton": {
-          "label": "Book a Demo"
-        },
-        "secondaryButton": {
-          "label": "See Full Solution"
-        },
+        "eyebrow": "PALMNET Kiosk",
+        "title": "Smart self-service kiosk",
+        "description": "Palmnet Kiosk lets guests browse menus, choose combos, add items and pay in store by themselves, helping restaurants reduce queues, lower front-counter pressure and improve peak-hour throughput",
+        "primaryButton": "Start Demo",
+        "secondaryButton": "Contact Us",
         "imageAlt": "PalmNet self-service kiosk product showcase"
       },
-      "highlights": {
-        "qr": {
-          "title": "Order & Pay by QR",
-          "subtitle": "Support multiple payment methods and QR-based flows to cut queue times."
+      "intro": {
+        "title": "A smarter ordering experience",
+        "line1": "Palm KIOSK is designed for modern restaurants, letting guests browse menus, place orders and pay without staff assistance.",
+        "line2": "Fast food stores, tea shops, cafes and restaurant chains can all offer a faster and more convenient ordering experience."
+      },
+      "benefits": {
+        "wait": {
+          "title": "Shorter queues",
+          "description": "Guests do not need to wait for staff ordering. They complete orders by themselves, keeping peak-hour service smooth."
         },
-        "multilingual": {
-          "title": "Multilingual UI",
-          "subtitle": "Offer an intuitive multi-language interface for diverse customer groups."
+        "revenue": {
+          "title": "Higher revenue",
+          "description": "Smart combo recommendations, add-ons and upgrade options help increase average order value on every transaction."
         },
-        "waitTimes": {
-          "title": "Reduced Wait Times",
-          "subtitle": "Handle peak-hour traffic with fast, concurrent self-ordering."
+        "staff": {
+          "title": "Lower labor pressure",
+          "description": "Share ordering and checkout work with kiosks so staff can focus on food prep and customer service."
         },
-        "compliance": {
-          "title": "Security & Compliance",
-          "subtitle": "Payments and data meet local compliance standards for privacy and safety."
+        "accuracy": {
+          "title": "Fewer order mistakes",
+          "description": "Guests confirm items, options and quantities themselves, reducing communication errors and improving accuracy."
+        },
+        "sync": {
+          "title": "Connected restaurant systems",
+          "description": "Sync with POS, KDS, membership and online ordering in real time for unified orders, inventory and data."
+        },
+        "easy": {
+          "title": "Simple to use",
+          "description": "An intuitive interface with images, multilingual switching and clear category navigation makes ordering easy for every guest."
         }
       },
-      "featureCards": {
-        "smartOrdering": {
-          "title": "Smart Ordering Experience",
-          "description": "Intuitive touch interface with multi-language support for seamless customer ordering.",
-          "imageAlt": "Smart ordering interface showcase"
+      "flow": {
+        "title": "A clearer ordering flow",
+        "description": "From menu browsing and option selection to payment, offers and loyalty points, Palmnet Kiosk helps guests complete the full ordering flow independently.",
+        "tabs": {
+          "language": "Language",
+          "category": "Categories",
+          "product": "Items",
+          "offer": "Offers",
+          "member": "Members",
+          "payment": "Payment"
         },
-        "paymentOptions": {
-          "title": "Multiple Payment Options",
-          "description": "Support for cash, cards, and mobile payments to meet diverse customer preferences.",
-          "imageAlt": "Multiple payment methods showcase"
-        },
-        "realTimeOrders": {
-          "title": "Real-time Order Management",
-          "description": "Orders sync instantly to kitchen systems, reducing errors and improving efficiency.",
-          "imageAlt": "Real-time order management showcase"
+        "imageAlt": "Palmnet Kiosk ordering flow interface",
+        "learnMore": "Learn more",
+        "cards": {
+          "language": {
+            "title": "Multilingual menu browsing",
+            "items": [
+              "Switch languages easily",
+              "Ideal for international stores",
+              "Reduce staff explanation time"
+            ]
+          },
+          "category": {
+            "title": "Clear menu categories",
+            "items": [
+              "Fast access to popular and new items",
+              "Drinks, combos and snacks grouped clearly",
+              "Guests find items faster"
+            ]
+          },
+          "product": {
+            "title": "Item details and option selection",
+            "items": [
+              "Show images, prices and descriptions",
+              "Support sizes, add-ons and notes",
+              "Recommend combo pairings"
+            ]
+          },
+          "offer": {
+            "title": "Automatic promo display",
+            "items": [
+              "Support image/video banners",
+              "Show sale and original prices",
+              "Apply discounts and gifts automatically"
+            ]
+          },
+          "member": {
+            "title": "Member login and points",
+            "items": [
+              "Recognize member login",
+              "Earn and redeem points",
+              "Use coupons and member benefits"
+            ]
+          },
+          "payment": {
+            "title": "Flexible payment methods",
+            "items": [
+              "Support online payments",
+              "Support card and QR payments",
+              "Choose counter payment when needed"
+            ]
+          }
         }
       },
-      "hardware": {
-        "pillLabel": "Terminal S1",
-        "title": "All-Metal Design",
-        "subtitle": "Oil & Dust Resistant",
-        "description": "Featuring an all-metal integrated design with oil and dust resistance, adapting to harsh environments while ensuring stable operation.",
-        "buttonLabel": "Buy Now",
-        "imageAlt": "PalmNet Terminal S1 hardware showcase"
+      "terminals": {
+        "title": "Self-ordering terminals for different store spaces",
+        "subtitleLine1": "From compact counter devices to large self-service terminals, Palmnet Kiosk can be configured around store space,",
+        "subtitleLine2": "traffic and ordering style so guests can complete ordering and payment independently",
+        "learnMore": "Learn more",
+        "quote": "Get a quote",
+        "k01": {
+          "title": "PALMKit K01 large self-ordering terminal",
+          "description": "K01 is ideal for high-traffic stores, fast food, tea shops and chains, helping guests browse menus, choose combos, pay and sync orders from a large screen",
+          "alt": "PALMKit K01 large self-ordering terminal"
+        },
+        "mk01": {
+          "title": "PALMKit MK01 compact self-ordering terminal",
+          "description": "MK01 fits counters, pickup areas and auxiliary ordering zones with limited space, helping guests finish ordering, scan identification and pay quickly",
+          "alt": "PALMKit MK01 compact self-ordering terminal"
+        }
       },
-      "hardwareSecondary": {
-        "pillLabel": "Terminal S1",
-        "title": "All-Metal Design",
-        "subtitle": "Oil & Dust Resistant",
-        "description": "Featuring an all-metal integrated design with oil and dust resistance, adapting to harsh environments while ensuring stable operation.",
-        "buttonLabel": "Buy Now",
-        "imageAlt": "PalmNet Terminal S1 hardware showcase"
+      "consultCta": {
+        "title": "Let guests complete ordering and payment by themselves",
+        "description": "Based on your store space, traffic and payment methods, Palmnet can recommend the right self-ordering terminal and system setup",
+        "button": "Consult Kiosk setup"
+      },
+      "brands": {
+        "title": "Leading brands choose PALMNET"
+      },
+      "cta": {
+        "titleLine1": "You created something unique.",
+        "titleLine2": "We help you keep growing.",
+        "button": "Contact us"
       }
     },
     "online": {
       "meta": {
-        "title": "Online Ordering System - PalmNet",
-        "description": "Convenient online ordering system allowing customers to place orders anytime, anywhere"
+        "title": "Mobile Ordering System - PalmNet",
+        "description": "PalmNet Ordering helps restaurants accept QR and link-based orders with store location, member offers, online payment, and order sync."
       },
       "hero": {
-        "pillLabel": "PalmNet Online",
-        "title": "Omnichannel online ordering for delivery and pickup",
-        "description": "Supports QR table ordering, delivery aggregators and mini-apps. Orders and inventory sync automatically for unified operations.",
-        "primaryButton": {
-          "label": "Book a Demo"
-        },
-        "secondaryButton": {
-          "label": "See All Products"
-        },
-        "imageAlt": "PalmNet Online Ordering System"
+        "eyebrow": "PALMKIT Ordering",
+        "title": "Digital mobile ordering system",
+        "description": "Guests enter the ordering page by QR code or link. No app download is required: they can browse the menu, choose modifiers, sign in as members, and complete ordering and payment for dine-in, takeaway, delivery, and multi-store scenarios.",
+        "primaryButton": "Start demo",
+        "secondaryButton": "Contact us",
+        "imageAlt": "Palmkit Ordering mobile ordering phone screens"
       },
-      "highlights": {
+      "intro": {
+        "title": "Let guests order from their own phones",
+        "description": "Palmnet Ordering connects menus, memberships, offers, payments, and store selection on mobile, helping guests start ordering anytime while reducing manual order taking for the team.",
+        "imageAlt": "Guest using a phone to order at a restaurant table"
+      },
+      "benefits": {
+        "entry": {
+          "title": "Multiple ordering entry points",
+          "description": "Guests can start from table QR codes, in-store posters, social links, or the restaurant website."
+        },
+        "store": {
+          "title": "Automatic store selection",
+          "description": "Recommend nearby stores from the guest location or let them choose manually for multi-city and multi-store operations."
+        },
+        "member": {
+          "title": "Membership and offers connected",
+          "description": "After sign-in, guests can view tiers, points, coupons, and exclusive campaigns to increase repeat visits."
+        },
         "sync": {
-          "title": "Automatic Order Sync",
-          "subtitle": "Customers can order anywhere; the store receives orders at the register with no lost orders."
-        },
-        "devices": {
-          "title": "Multi-device Support",
-          "subtitle": "Phone, tablet and desktop access with optional custom domain for stronger branding."
-        },
-        "menu": {
-          "title": "Live Menu Display",
-          "subtitle": "Menu and inventory update in real time to prevent overselling."
-        },
-        "payments": {
-          "title": "Integrated Online Payments",
-          "subtitle": "Supports WeChat, Alipay, Visa, Mastercard and more for faster checkout."
+          "title": "Orders sync to the store",
+          "description": "Mobile orders sync to POS, KDS, or the back office, reducing manual entry and speeding up fulfillment."
         }
       },
-      "hardware": {
-        "pillLabel": "Terminal S1",
-        "title": "All-Metal Design",
-        "subtitle": "Oil & Dust Resistant",
-        "description": "Featuring an all-metal integrated design with oil and dust resistance, adapting to harsh environments while ensuring stable operation.",
-        "buttonLabel": "Buy Now",
-        "imageAlt": "PalmNet Terminal S1 hardware showcase"
+      "flow": {
+        "title": "A clearer ordering flow",
+        "description": "From browsing the menu and selecting modifiers to payment, offers, and loyalty points, Palmnet Ordering helps guests complete the full order flow independently.",
+        "imageAlt": "Palmnet Ordering mobile order flow screens",
+        "learnMore": "Learn more",
+        "tabs": {
+          "entrance": "Entry",
+          "location": "Location",
+          "menu": "Menu",
+          "product": "Item",
+          "member": "Member",
+          "payment": "Payment"
+        },
+        "cards": {
+          "entrance": {
+            "title": "Enter by QR code or link",
+            "items": [
+              "No app download required",
+              "Open the H5 ordering page by QR code",
+              "Supports table codes, posters, and social links"
+            ]
+          },
+          "location": {
+            "title": "Recognize nearby stores automatically",
+            "items": [
+              "Supports geolocation",
+              "Recommends nearby stores",
+              "Built for multi-store chains"
+            ]
+          },
+          "menu": {
+            "title": "Browse the mobile menu",
+            "items": [
+              "Supports multilingual menus",
+              "Clear categories for quick browsing",
+              "Shows images, prices, and descriptions"
+            ]
+          },
+          "product": {
+            "title": "Choose modifiers and sets",
+            "items": [
+              "Supports options, add-ons, and notes",
+              "Supports combo recommendations",
+              "Shows campaign prices and strikethrough prices"
+            ]
+          },
+          "member": {
+            "title": "Simple member sign-in",
+            "items": [
+              "Supports Google, Apple, and email sign-in",
+              "Displays member tier and points",
+              "Use coupons and member benefits"
+            ]
+          },
+          "payment": {
+            "title": "Order and pay online",
+            "items": [
+              "Supports online payments",
+              "Supports pay-at-store",
+              "Orders sync automatically to store systems"
+            ]
+          }
+        }
       },
-      "hardwareSecondary": {
-        "pillLabel": "Terminal S1",
-        "title": "All-Metal Design",
-        "subtitle": "Oil & Dust Resistant",
-        "description": "Featuring an all-metal integrated design with oil and dust resistance, adapting to harsh environments while ensuring stable operation.",
-        "buttonLabel": "Buy Now",
-        "imageAlt": "PalmNet Terminal S1 hardware showcase"
+      "consultCta": {
+        "title": "Bring mobile ordering into your restaurant operations",
+        "description": "For single stores, chains, multi-brand setups, or takeaway flows, Palmnet can configure ordering, membership, payments, and store sync around your needs.",
+        "button": "Talk to us"
       },
-      "hardwareTertiary": {
-        "pillLabel": "Terminal S1",
-        "title": "All-Metal Design",
-        "subtitle": "Oil & Dust Resistant",
-        "description": "Featuring an all-metal integrated design with oil and dust resistance, adapting to harsh environments while ensuring stable operation.",
-        "buttonLabel": "Buy Now",
-        "imageAlt": "PalmNet Terminal S1 hardware showcase"
+      "brands": {
+        "title": "Leading brands choose PALMNET"
+      },
+      "cta": {
+        "titleLine1": "You created a unique restaurant.",
+        "titleLine2": "We help you keep growing.",
+        "button": "Contact us"
       }
     },
     "pos": {
@@ -227,6 +352,138 @@
           "subtitle": "Cloud backend pushes store activities and ads, driving repeat purchases and member conversion."
         }
       },
+      "tabs": {
+        "pos": "POS",
+        "ordering": "Ordering",
+        "kiosk": "Kiosk",
+        "kds": "Kitchen display system",
+        "ads": "ADS",
+        "marketing": "Marketing"
+      },
+      "newHero": {
+        "titleLine1": "Palm POS",
+        "titleLine2": "One system for front-of-house operations",
+        "description": "From ordering, checkout and payment to inventory, membership, reporting and tax compliance, Palmnet POS connects daily restaurant operations.",
+        "primaryButton": "Start Demo",
+        "secondaryButton": "Contact Us",
+        "imageAlt": "Palm POS front-of-house operations system"
+      },
+      "benefits": {
+        "wait": {
+          "title": "Reduce waiting",
+          "description": "Let guests process and pay for orders faster while helping staff move with greater speed and confidence."
+        },
+        "staff": {
+          "title": "Optimize staff time",
+          "description": "With shorter queues, your team can focus on delivering better service."
+        },
+        "revenue": {
+          "title": "Generate more revenue",
+          "description": "Add modifiers, bundles and options to every order without creating pressure at the counter."
+        },
+        "sync": {
+          "title": "Sync everything",
+          "description": "Orders, updates and kitchen workflows stay connected with PALMNET KDS, so restaurant and kitchen teams stay aligned."
+        }
+      },
+      "featuresTitle": "A powerful and stable POS system",
+      "featureCards": {
+        "checkout": {
+          "title": "Ordering and checkout",
+          "description": "Help staff complete ordering, price changes, discounts, checkout and receipt printing faster during peak hours.",
+          "items": [
+            "Aggregate orders from every channel",
+            "Personalized receipt styles",
+            "Flexible product management"
+          ],
+          "alt": "Ordering and checkout interface"
+        },
+        "tables": {
+          "title": "Order and table management",
+          "description": "Manage tables, add-ons, transfers, merges, splits and order status for dine-in restaurants.",
+          "items": [
+            "Clear order status sync",
+            "Self-service and staff booking flows",
+            "Visual table occupancy and turnover"
+          ],
+          "alt": "Order and table management interface"
+        },
+        "members": {
+          "title": "Membership connection",
+          "description": "Identify members at checkout, collect points, issue offers and bring guests into your loyalty system.",
+          "items": [
+            "Member recognition and history",
+            "Points, coupons and stored value",
+            "Clear order status sync"
+          ],
+          "alt": "Membership connection interface"
+        },
+        "inventory": {
+          "title": "Product and inventory management",
+          "description": "Sync products, combos, ingredients and stock data with sales to reduce manual counting.",
+          "items": [
+            "Product and bundle management",
+            "Automatic stock updates",
+            "Ingredient and stock alerts"
+          ],
+          "alt": "Product and inventory management interface"
+        },
+        "reports": {
+          "title": "Data reports",
+          "description": "View sales, best sellers, staff performance and payment data in real time for faster decisions.",
+          "items": [
+            "Sales and order trends",
+            "Top products and payment methods",
+            "Staff performance and store data"
+          ],
+          "alt": "Data reporting interface"
+        }
+      },
+      "solutionCards": {
+        "tax": {
+          "title": "Tax compliance",
+          "description": "Support for e-receipts, VAT/IVA, tax compliance and country-specific rules.",
+          "link": "Explore tax compliance"
+        },
+        "payment": {
+          "title": "Payment solutions",
+          "description": "Support for mainstream payment methods across global markets.",
+          "link": "Explore payment solutions"
+        }
+      },
+      "terminals": {
+        "title": "POS terminals for different store types",
+        "subtitle": "From main checkout counters to mobile payments, Palmnet provides cashier devices for different store sizes and service scenarios.",
+        "learnMore": "Learn more",
+        "quote": "Get quote",
+        "d3": {
+          "title": "Palm D3",
+          "description": "Designed as the main cashier terminal for ordering, checkout, payment, member recognition and receipt printing.",
+          "alt": "Palm D3 terminal"
+        },
+        "mpos": {
+          "title": "Palm mPOS",
+          "description": "Ideal for tableside ordering, mobile payment, queue ordering and outdoor service, helping staff complete orders and payments anywhere.",
+          "alt": "Palm mPOS mobile terminal"
+        }
+      },
+      "toolkit": {
+        "titleLine1": "Complete POS",
+        "titleLine2": "Toolkit",
+        "description": "The kit includes PALMNET devices, cash drawer, receipt printer and paper.",
+        "button": "Get quote",
+        "accessories": "View complete accessories",
+        "compatibility": "Check all accessory compatibility",
+        "alt": "Palmnet POS toolkit"
+      },
+      "brands": {
+        "title": "Leading brands choose PALMNET"
+      },
+      "cta": {
+        "titleLine1": "You have created something unique.",
+        "titleLine2": "We help you grow.",
+        "button": "Contact"
+      },
       "hardware": {
         "pillLabel": "Terminal S1",
         "title": "All-metal integrated design Oil and dust resistant, worry-free",
@@ -239,6 +496,234 @@
         },
         "buttonLabel": "Buy Now",
         "imageAlt": "Terminal S1 hardware showcase"
+      }
+    },
+    "kds": {
+      "meta": {
+        "title": "Kitchen Display System (KDS) - PalmNet",
+        "description": "Smart kitchen display system that routes dine-in, QR, kiosk and delivery orders to kitchen screens for clearer prep, routing and handoff"
+      },
+      "hero": {
+        "eyebrow": "PALMNET KDS",
+        "title": "Smart Kitchen Display System",
+        "description": "Route front-of-house, QR, self-service and delivery orders to kitchen screens so your team can accept, split and serve with clarity",
+        "primaryButton": "Start Demo",
+        "secondaryButton": "Contact Us",
+        "imageAlt": "Palm KDS kitchen display showcase"
+      },
+      "benefits": {
+        "display": {
+          "title": "Clear order visibility",
+          "lines": [
+            "All order details shown in one place",
+            "Reduce missed items and wrong dishes",
+            "Cut down on verbal back-and-forth"
+          ]
+        },
+        "speed": {
+          "title": "Faster order handling",
+          "lines": [
+            "Orders appear on screen instantly",
+            "No waiting for paper tickets",
+            "Improve overall service speed"
+          ]
+        },
+        "collaboration": {
+          "title": "Efficient kitchen teamwork",
+          "lines": [
+            "Multiple stations work in sync",
+            "Each station sees only its own tasks",
+            "Boost kitchen productivity"
+          ]
+        },
+        "paperless": {
+          "title": "Go paperless",
+          "lines": [
+            "Reduce paper waste",
+            "Avoid lost tickets",
+            "More sustainable and efficient"
+          ]
+        }
+      },
+      "featuresTitle": "From order to serve — a clearer kitchen workflow",
+      "featuresSubtitle": "No more shouting or paper tickets. Manage every order by sequence, station and status.",
+      "featureCards": {
+        "sync": {
+          "title": "Real-time order sync",
+          "description": "All order sources flow into KDS — the kitchen never waits for front-of-house handoffs.",
+          "items": [
+            "POS order sync",
+            "QR ordering sync",
+            "Kiosk & delivery order sync"
+          ],
+          "alt": "Real-time order sync feature"
+        },
+        "routing": {
+          "title": "Smart order routing",
+          "description": "Dishes route automatically to the right station so each role only sees relevant orders.",
+          "items": [
+            "Route by dish category",
+            "Route by kitchen station",
+            "Multi-screen collaboration"
+          ],
+          "alt": "Smart order routing feature"
+        },
+        "status": {
+          "title": "Order status management",
+          "description": "Update prep status in real time so front-of-house and pickup know exactly where each order stands.",
+          "items": [
+            "Pending / In progress / Done",
+            "Less front-back communication",
+            "Easier expediting"
+          ],
+          "alt": "Order status management feature"
+        },
+        "priority": {
+          "title": "Priority management",
+          "description": "During rush hours, sequence orders by time, type or urgency.",
+          "items": [
+            "Sort by time",
+            "Support priority orders",
+            "Reduce peak-hour chaos"
+          ],
+          "alt": "Priority management feature"
+        },
+        "timing": {
+          "title": "Service time analytics",
+          "description": "Track wait and prep times to spot kitchen bottlenecks.",
+          "items": [
+            "View average prep time",
+            "Analyze peak efficiency",
+            "Optimize staffing"
+          ],
+          "alt": "Service time analytics feature"
+        }
+      },
+      "terminals": {
+        "title": "Display terminals built for kitchen collaboration",
+        "subtitle": "Orders appear on kitchen or pickup screens with table numbers, notes, order time and prep status — reducing missed orders and miscommunication",
+        "learnMore": "Learn more",
+        "quote": "Get a quote",
+        "x1": {
+          "title": "PALMKIT X1 Kitchen Display",
+          "description": "Shows order details, table numbers, notes, order time and prep status — ideal for kitchen and pickup areas",
+          "alt": "PALMKIT X1 kitchen display"
+        },
+        "sSeries": {
+          "title": "PALMNET S Series",
+          "description": "Ordering, checkout, shift handoff, print setup, payments, reports, inventory and tax compliance",
+          "alt": "PALMNET S Series terminal"
+        }
+      },
+      "consultCta": {
+        "title": "Clearer kitchen orders, faster service",
+        "description": "Based on your store type, kitchen layout and order sources, Palmnet can configure the right KDS display setup for you",
+        "button": "Consult KDS setup"
+      },
+      "brands": {
+        "title": "Why leading brands choose PALMNET"
+      },
+      "cta": {
+        "titleLine1": "You created something unique.",
+        "titleLine2": "We help you keep growing.",
+        "button": "Contact us"
+      }
+    },
+    "ads": {
+      "meta": {
+        "title": "Smart Display System (ADS) - PalmNet",
+        "description": "Palmnet ADS syncs ad content to display devices quickly, making it easy to manage promotions, menu boards and queue displays"
+      },
+      "hero": {
+        "eyebrow": "PALMNET ADS",
+        "title": "Smart display system",
+        "description": "Palmnet ADS syncs ad content to display devices quickly, making it easy to manage promotions, menu boards and queue displays",
+        "primaryButton": "Start a demo",
+        "secondaryButton": "Contact us",
+        "imageAlt": "Palm ADS smart display showcase"
+      },
+      "highlights": {
+        "publish": {
+          "title": "Publish content fast",
+          "description": "Upload ad images, promo videos or menu content from the POS back office and sync to selected screens after saving"
+        },
+        "devices": {
+          "title": "Works with many display types",
+          "description": "TV ad screens, digital menu boards, tablets and other displays—install Palmnet ADS software to join the content network"
+        },
+        "modes": {
+          "title": "Flexible ad and queue modes",
+          "description": "Run ads, menus and promos day to day; switch to queue display at peak hours and show completed orders with KDS"
+        }
+      },
+      "contentIntro": {
+        "title": "Keep every screen up to date",
+        "description": "Whether it's new product ads, event posters, digital menus or pickup numbers, Palmnet ADS centralizes content and syncs it to different screens"
+      },
+      "showcaseAlt": "In-store ad and menu screen display scene",
+      "featureColumns": {
+        "upload": {
+          "title": "Upload images and video",
+          "items": [
+            "Image ads supported",
+            "Video content supported",
+            "Managed from POS back office"
+          ]
+        },
+        "sync": {
+          "title": "Fast screen sync",
+          "items": [
+            "Low update latency",
+            "Multi-screen sync",
+            "No manual swaps at the store"
+          ]
+        },
+        "displayModes": {
+          "title": "Ad and menu modes",
+          "items": [
+            "For TV ad screens",
+            "For digital menu boards",
+            "Show new items, combos and promos"
+          ]
+        },
+        "queue": {
+          "title": "Pickup queue display",
+          "items": [
+            "Switch to queue mode",
+            "Works with KDS",
+            "Auto call when orders are ready"
+          ]
+        }
+      },
+      "terminals": {
+        "title": "A display system for every screen in your store",
+        "subtitleLine1": "Palmnet ADS is not limited to one device type—deploy on TVs, menu boards, ad screens and tablets",
+        "subtitleLine2": "based on your store layout and display needs",
+        "learnMore": "Learn more",
+        "quote": "Get a quote",
+        "a132": {
+          "title": "A132 Wall-mount ad screen 32''",
+          "description": "Mount on walls, pickup areas or high-visibility spots for brand ads, new items and promos—or switch to menu or queue mode",
+          "alt": "A132 wall-mount ad screen"
+        },
+        "a123": {
+          "title": "A123 Counter menu screen 24''",
+          "description": "Place at counters or ordering areas to show menus, combos, prices and promos—or play image and video ads",
+          "alt": "A123 counter menu screen"
+        }
+      },
+      "consultCta": {
+        "title": "Turn every screen into a business tool",
+        "description": "With Palmnet ADS, stores can publish ads, menus and queue content from one place—more flexible and easier to manage",
+        "button": "Consult ADS setup"
+      },
+      "brands": {
+        "title": "Why leading brands choose PALMNET"
+      },
+      "cta": {
+        "titleLine1": "You created something unique.",
+        "titleLine2": "We help you keep growing.",
+        "button": "Contact us"
       }
     },
     "waiter": {
@@ -289,6 +774,120 @@
           "title": "Simple, Intuitive, Efficient",
           "description": "Streamlined interface designed for quick and accurate order taking in busy restaurant environments"
         }
+      }
+    },
+    "marketing": {
+      "meta": {
+        "title": "Membership Marketing and Retention System - PalmNet",
+        "description": "Palmnet Marketing connects memberships, points, coupons, and stamp cards to help restaurants increase repeat visits."
+      },
+      "hero": {
+        "eyebrow": "PALMKIT Marketing",
+        "title": "Membership marketing and retention system",
+        "description": "Palmnet Marketing connects mobile ordering, member accounts, points, coupons, and stamp cards to turn one-time guests into repeat customers.",
+        "primaryButton": "Start demo",
+        "secondaryButton": "Contact us",
+        "imageAlt": "Palmkit Marketing mobile membership screens"
+      },
+      "intro": {
+        "title": "Turn every order into the next visit",
+        "description": "Guests can sign in, view tiers, claim coupons, redeem points, and use stamp cards inside the Ordering H5 flow, while the store sets targeted campaigns by member tier and activity rules.",
+        "imageAlt": "Restaurant counter scene with membership marketing system"
+      },
+      "benefits": {
+        "login": {
+          "title": "Multiple sign-in methods",
+          "description": "Guests can register or sign in with Google, Apple, or email and enter the membership flow quickly."
+        },
+        "level": {
+          "title": "Build member tiers",
+          "description": "Accumulate points by spend, order count, or campaign rules to support member level growth."
+        },
+        "coupon": {
+          "title": "Coupons and redemption",
+          "description": "Points can be exchanged for coupons used for item redemption, discounts, or campaign offers."
+        },
+        "wallet": {
+          "title": "Stamp cards and Wallet",
+          "description": "Create stamp cards that encourage repeat visits and support adding cards to Wallet for stronger retention."
+        }
+      },
+      "flow": {
+        "title": "A clearer membership marketing flow",
+        "description": "From sign-in, tiers, and points to coupons, stamp cards, and benefits, Palmnet Marketing turns guest behavior into operable member assets.",
+        "imageAlt": "Palmnet Marketing mobile membership flow screens",
+        "learnMore": "Learn more",
+        "tabs": {
+          "login": "Sign-in",
+          "member": "Member",
+          "points": "Points",
+          "coupon": "Coupon",
+          "stamp": "Stamp",
+          "benefits": "Benefits"
+        },
+        "cards": {
+          "login": {
+            "title": "Sign-in",
+            "items": [
+              "Supports Google, Apple, and email sign-in",
+              "Quickly enter the member system",
+              "Identify guests before or after ordering"
+            ]
+          },
+          "member": {
+            "title": "Member",
+            "items": [
+              "Show member tier status",
+              "Display points and growth value",
+              "Collect repeat-visit data"
+            ]
+          },
+          "points": {
+            "title": "Points",
+            "items": [
+              "Accumulate points after purchases",
+              "Supports point redemption rules",
+              "Encourage the next order"
+            ]
+          },
+          "coupon": {
+            "title": "Coupons",
+            "items": [
+              "Supports discount and item coupons",
+              "Redeem items or discounts",
+              "Apply offers automatically at checkout"
+            ]
+          },
+          "stamp": {
+            "title": "Stamp card",
+            "items": [
+              "Stamp automatically after purchases",
+              "Redeem rewards after completing a card",
+              "Supports adding to Wallet"
+            ]
+          },
+          "benefits": {
+            "title": "Benefits",
+            "items": [
+              "Configure benefits by member tier",
+              "Set limited-time item offers",
+              "Increase repeat purchases and member activity"
+            ]
+          }
+        }
+      },
+      "consultCta": {
+        "title": "Make each guest order lead to the next one",
+        "description": "Connect memberships, points, coupons, stamp cards, and mobile ordering so Palmnet Marketing can help your store build repeat-visit loops.",
+        "button": "Talk to us"
+      },
+      "brands": {
+        "title": "Leading brands choose PALMNET"
+      },
+      "cta": {
+        "titleLine1": "You created a unique restaurant.",
+        "titleLine2": "We help you keep growing.",
+        "button": "Contact us"
       }
     }
   },
@@ -359,7 +958,7 @@
         "description": "Our headquarters and main development center, where we develop cutting-edge restaurant technology solutions."
       },
       "hangzhou": {
-        "name": "Hangzhou Office", 
+        "name": "Hangzhou Office",
         "description": "Our innovation lab focused on AI and machine learning applications for restaurant operations."
       },
       "barcelona": {
@@ -375,7 +974,7 @@
       "title": "Our Global Impact",
       "subtitle": "Numbers that reflect our commitment to excellence and growth",
       "totalOffices": "Total Offices",
-      "teamMembers": "Team Members", 
+      "teamMembers": "Team Members",
       "countriesServed": "Countries Served",
       "yearsExperience": "Years of Experience",
       "acrossContinents": "Across 3 continents",
@@ -386,7 +985,7 @@
     "features": {
       "support24": "24/7 Support",
       "support24Desc": "Round-the-clock technical support across all time zones",
-      "localExpertise": "Local Expertise", 
+      "localExpertise": "Local Expertise",
       "localExpertiseDesc": "Native teams with deep understanding of local markets",
       "fastImplementation": "Fast Implementation",
       "fastImplementationDesc": "Quick deployment with minimal disruption to operations",
@@ -406,11 +1005,914 @@
       "viewCareers": "View Careers"
     }
   },
+  "homeLanding": {
+    "hero": {
+      "titleLine1": "One system.",
+      "titleLine2": "Your whole operation connected.",
+      "primaryCta": "Get Started",
+      "secondaryCta": "Contact Sales",
+      "imageAlt": "PalmNet restaurant operations system shown on a tablet"
+    },
+    "solutions": {
+      "title": "Smarter restaurant technology that adapts to your business",
+      "subtitle": "Whatever your operation needs, PalmNet gives you digital tools that help every team move faster."
+    },
+    "products": {
+      "learnMore": "Learn more",
+      "pos": {
+        "title": "POS",
+        "description": "Cloud POS that makes daily store management more efficient.",
+        "alt": "PalmNet POS product display"
+      },
+      "ads": {
+        "title": "ADS",
+        "description": "Real-time voice and screen alerts that speed up pickup flows.",
+        "alt": "PalmNet ADS product display"
+      },
+      "kds": {
+        "title": "KDS",
+        "description": "Smart kitchen display for clearer back-of-house coordination.",
+        "alt": "PalmNet KDS product display"
+      },
+      "ordering": {
+        "title": "Ordering",
+        "description": "Omnichannel ordering across dine-in, delivery and self-service.",
+        "alt": "PalmNet Ordering product display"
+      }
+    },
+    "scenes": {
+      "title": "The best solution for every type of restaurant",
+      "subtitle": "Digital solutions adapted to each business model.",
+      "restaurant": {
+        "title": "Restaurant",
+        "description": "Next-generation POS that improves table, order and checkout efficiency.",
+        "cta": "Explore restaurant solutions",
+        "alt": "Full-service restaurant scene"
+      },
+      "fastFood": {
+        "title": "Fast food",
+        "description": "Peak-hour management, self-service ordering and pickup calling in one flow.",
+        "alt": "Fast-food restaurant scene"
+      },
+      "teaCafe": {
+        "title": "Tea, coffee and bubble tea",
+        "description": "Multichannel orders, customer loyalty, inventory and recipe management.",
+        "alt": "Tea and coffee shop scene"
+      },
+      "buffetSushi": {
+        "title": "Buffet and sushi",
+        "description": "Time-slot management, add-on orders and loyalty programs.",
+        "alt": "Buffet and sushi restaurant scene"
+      }
+    },
+    "pricingCta": {
+      "title": "Better price, better experience",
+      "subtitle": "Modern tools that reduce operating costs without compromising service quality.",
+      "button": "Book a Demo",
+      "alt": "PalmNet terminal device background"
+    },
+    "brands": {
+      "title": "Chosen by thousands of brands across Europe",
+      "alt": "PalmNet restaurant brand wall"
+    },
+    "faq": {
+      "title": "FAQ",
+      "storeTypes": "What types of stores is PalmNet suitable for?",
+      "singleStore": "Is it suitable for a single store?",
+      "chainBrands": "Is it suitable for chain brands?",
+      "multiLanguage": "Does it support multiple languages?",
+      "taxCompliance": "Does it support European tax compliance?",
+      "deliveryPlatforms": "Can it connect to delivery platforms?",
+      "installationTraining": "Do you provide installation and training?",
+      "pricing": "How is pricing calculated?",
+      "customization": "Can features be customized?",
+      "gettingStarted": "How do I get started?"
+    },
+    "footerLead": {
+      "titleLine1": "You have created something unique.",
+      "titleLine2": "We help you grow.",
+      "button": "Contact"
+    }
+  },
   "footer": {
     "contact": "Contact",
     "newsletter": "Newsletter",
     "subscribe": "Subscribe",
-    "about": "Make your interior unique. Quality products and modern style.",
-    "rights": "All rights reserved."
+    "about": "Make your restaurant unique with quality and modern technology.",
+    "language": "Language",
+    "selectLanguage": "Select Language",
+    "columns": {
+      "products": "Products",
+      "scenes": "Dining Scenarios",
+      "solutions": "Solutions",
+      "more": "More",
+      "contact": "Contact Us"
+    },
+    "links": {
+      "posCheckout": "POS Checkout",
+      "onlineOrdering": "Online Ordering",
+      "kioskDisplay": "Ordering Kiosk",
+      "queue": "Queue Calling",
+      "waiterOrdering": "Waiter Ordering",
+      "kitchenDisplay": "Kitchen KDS",
+      "smartAds": "Ads Management",
+      "padOrdering": "Pad Ordering",
+      "fastFood": "Fast Food",
+      "teaCoffee": "Tea & Coffee",
+      "buffet": "Buffet",
+      "bakery": "Cake & Bakery",
+      "hotPot": "Hot Pot",
+      "fullServiceDining": "Full-Service Dining",
+      "delivery": "Takeout & Delivery",
+      "barBistro": "Bar & Bistro",
+      "deliveryAggregation": "Delivery Aggregation",
+      "payment": "Payment Acquiring",
+      "taxCompliance": "Local Tax Compliance",
+      "cashChanger": "Automatic Cash Changer",
+      "kitchenEquipment": "Smart Kitchen Equipment",
+      "blogs": "News & Blog",
+      "about": "About Us",
+      "careers": "Careers",
+      "contact": "Contact Us"
+    },
+    "legal": {
+      "cookies": "Cookies Policy",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "rights": "All Right Reserved"
+  },
+  "legal": {
+    "lastUpdated": "Last updated: {date}",
+    "notFound": "Document not found"
+  },
+  "solutionsPage": {
+    "meta": {
+      "title": "Tea and Coffee Store Solution - PalmNet",
+      "description": "Palmnet provides an integrated digital solution for tea and coffee stores across ordering, checkout, production, pickup, and repeat visits."
+    },
+    "hero": {
+      "titleLine1": "Tea and coffee stores",
+      "titleLine2": "Digital solution",
+      "descriptionLine1": "From ordering, checkout, production and pickup",
+      "descriptionLine2": "to member retention, Palmnet helps stores move faster",
+      "descriptionLine3": "during peak hours with fewer manual mistakes.",
+      "button": "Talk to us",
+      "imageAlt": "Tea and coffee store staff with self-ordering device"
+    },
+    "challenges": {
+      "title": "Common challenges for tea and coffee stores",
+      "items": {
+        "queue": {
+          "title": "Peak-hour queues",
+          "description": "Orders concentrate during busy hours, creating pressure at the front counter and checkout."
+        },
+        "complexity": {
+          "title": "Complex modifiers",
+          "description": "Flavors, toppings, notes and order details are easy to miss when handled manually."
+        },
+        "mistakes": {
+          "title": "Order mistakes",
+          "description": "Sweetness, ice level, toppings and sets require a clearer ordering flow."
+        },
+        "retention": {
+          "title": "Hard to retain guests",
+          "description": "After purchase, stores often lack ways to reach guests and turn offers into repeat visits."
+        }
+      }
+    },
+    "growth": {
+      "title": "See how Palmnet helps your store grow",
+      "description": "Choose an operation stage below to see how Palmnet connects ordering, checkout, production, pickup and repeat visits."
+    },
+    "tabs": {
+      "ordering": {
+        "label": "Ordering",
+        "title": "Multiple ordering entry points reduce queues",
+        "description": "Support counter ordering, self-ordering, QR ordering and mobile H5 ordering so guests can choose the most convenient path.",
+        "items": [
+          "Supports POS, Kiosk and Ordering",
+          "Handles sweetness, ice, toppings and notes",
+          "Unifies dine-in, takeaway and online orders"
+        ],
+        "imageAlt": "Tea store multi-channel ordering scene"
+      },
+      "cashier": {
+        "label": "Checkout",
+        "title": "Fast checkout and payment improves front desk efficiency",
+        "description": "Orders sync to POS checkout with multiple payment methods, receipts and order confirmation to reduce repeated manual work.",
+        "items": [
+          "Ordering and checkout connected",
+          "Supports card, QR and online payments",
+          "Syncs order, receipt and payment status"
+        ],
+        "imageAlt": "Tea store checkout payment scene"
+      },
+      "making": {
+        "label": "Making",
+        "title": "Orders sync to the kitchen for clearer production",
+        "description": "After a guest places an order, it can enter the KDS so the kitchen sees items, modifiers, notes and production status clearly.",
+        "items": [
+          "Orders sync to kitchen in real time",
+          "Reduces missed orders and verbal communication",
+          "Supports production status management"
+        ],
+        "imageAlt": "Tea store production workflow scene"
+      },
+      "pickup": {
+        "label": "Pickup",
+        "title": "Pickup calling and screen display",
+        "description": "When items are ready, number calling or display screens can show pickup information alongside menus, offers and new products.",
+        "items": [
+          "Supports number calling mode",
+          "Can connect with KDS pickup status",
+          "Switch between menu and ad screens"
+        ],
+        "imageAlt": "Tea store pickup display scene"
+      },
+      "retention": {
+        "label": "Retention",
+        "title": "Membership marketing drives the next purchase",
+        "description": "Guests can sign in through H5 to view points, tiers and coupons, while stores use stamp cards, campaigns and member benefits.",
+        "items": [
+          "Supports member tiers and points",
+          "Coupons and stamp cards drive repeat visits",
+          "Campaigns help retain long-term guests"
+        ],
+        "imageAlt": "Tea store member retention scene"
+      }
+    },
+    "products": {
+      "title": "Essential products for tea stores",
+      "subtitle": "Improve guest experience and reduce operating costs",
+      "learnMore": "Learn more",
+      "items": {
+        "pos": {
+          "title": "PalmPOS",
+          "description": "Cloud POS checkout for more efficient store management.",
+          "imageAlt": "PalmPOS product image"
+        },
+        "kiosk": {
+          "title": "PalmKIOSK",
+          "description": "Self-ordering terminals reduce front counter pressure at peak hours.",
+          "imageAlt": "PalmKIOSK product image"
+        },
+        "ads": {
+          "title": "PalmADS",
+          "description": "Menu, pickup and advertising screens improve pickup efficiency.",
+          "imageAlt": "PalmADS product image"
+        },
+        "marketing": {
+          "title": "Palm MARKETING",
+          "description": "Memberships, points, coupons and stamp cards help build repeat visits.",
+          "imageAlt": "Palm Marketing product image"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "Make each order lead to the next one",
+      "description": "With member tiers, points, coupons and stamp cards, Palmnet Marketing helps stores build their own retention system.",
+      "button": "Ask about membership marketing"
+    },
+    "cta": {
+      "titleLine1": "You created a unique restaurant.",
+      "titleLine2": "We help you keep growing.",
+      "button": "Contact us"
+    }
+  },
+  "solutionsChinesePage": {
+    "meta": {
+      "title": "Full-Service Chinese Restaurant Solution - PalmNet",
+      "description": "Palmnet connects tables, ordering, kitchen, checkout and business data for full-service Chinese restaurants."
+    },
+    "hero": {
+      "titleLine1": "Full-service Chinese restaurants",
+      "titleLine2": "Digital solution",
+      "description": "From table ordering and front desk checkout to kitchen production, pickup, payment and management, Palmnet helps full-service restaurants improve service efficiency, reduce communication mistakes and run smoother dine-in operations.",
+      "button": "Talk to us",
+      "imageAlt": "Full-service Chinese restaurant dining scene"
+    },
+    "challenges": {
+      "title": "Common challenges for full-service restaurants",
+      "items": {
+        "tables": {
+          "title": "Complex table and order management",
+          "description": "With many dine-in tables, opening, moving, merging, splitting and adding orders can quickly become confusing."
+        },
+        "communication": {
+          "title": "High front-to-kitchen communication cost",
+          "description": "Verbal orders or paper tickets can cause missed or wrong orders and slow down kitchen output."
+        },
+        "peak": {
+          "title": "Slow response during peak hours",
+          "description": "Ordering, dish chasing, checkout and payment pile up when customer flow is concentrated."
+        },
+        "checkout": {
+          "title": "Checkout and reconciliation pressure",
+          "description": "Dine-in orders often include add-ons, returns, split bills and multiple payments, making checkout time-consuming."
+        }
+      }
+    },
+    "intro": {
+      "title": "Clearer collaboration between front house and kitchen",
+      "description": "Full-service restaurants involve table management, multi-person ordering, add-ons and returns, kitchen routing, serving rhythm, split checkout and operating reports. Palmnet connects ordering, checkout, kitchen and data systems to reduce manual communication and improve table turnover and service efficiency."
+    },
+    "growth": {
+      "title": "See how Palmnet helps full-service restaurants",
+      "description": "Choose an operation stage below to see how Palmnet connects tables, ordering, kitchen, checkout and business data."
+    },
+    "tabs": {
+      "table": {
+        "label": "Tables",
+        "title": "Clearer table management",
+        "description": "Use a digital table view to manage dine-in service so the front team can quickly see table, occupancy, transfer and checkout status.",
+        "items": [
+          "Open, transfer, merge and split tables",
+          "View table status in real time",
+          "Fits dining rooms and private rooms"
+        ],
+        "imageAlt": "Restaurant table management scene"
+      },
+      "ordering": {
+        "label": "Ordering",
+        "title": "Multiple ordering methods for staff and guests",
+        "description": "Support handheld staff ordering, guest QR ordering and add-on orders, with orders synced automatically to the front desk and kitchen.",
+        "items": [
+          "Supports handheld staff ordering",
+          "Supports QR ordering and add-ons",
+          "Orders sync to front desk and kitchen"
+        ],
+        "imageAlt": "Restaurant tableside ordering scene"
+      },
+      "kitchen": {
+        "label": "Kitchen",
+        "title": "Faster kitchen receiving and routing",
+        "description": "Orders enter KDS kitchen screens and can be routed by dish or station, reducing missed orders, wrong orders and repeated communication.",
+        "items": [
+          "Orders sync to KDS kitchen screens",
+          "Route by dish or kitchen station",
+          "Reduce missed orders and repeated communication"
+        ],
+        "imageAlt": "Restaurant kitchen order scene"
+      },
+      "checkout": {
+        "label": "Checkout",
+        "title": "More flexible checkout",
+        "description": "Support whole-bill, split-bill and multi-method payment while connecting orders, receipts, invoices and payment status.",
+        "items": [
+          "Whole-bill, split-bill and multiple payments",
+          "Receipt, invoice and order status sync",
+          "Improve peak-hour checkout efficiency"
+        ],
+        "imageAlt": "Restaurant checkout scene"
+      },
+      "data": {
+        "label": "Data",
+        "title": "Clearer business data",
+        "description": "Sales, orders, dishes and time-slot data help owners understand performance and optimize menus, staffing and operations.",
+        "items": [
+          "View sales and order data",
+          "Analyze best-selling dishes and time slots",
+          "Help owners optimize operations"
+        ],
+        "imageAlt": "Restaurant business data scene"
+      }
+    },
+    "products": {
+      "title": "Recommended product mix for full-service restaurants",
+      "subtitle": "Based on store size, table count and kitchen stations, configure front desk POS, handheld ordering, KDS, QR ordering and member marketing flexibly.",
+      "learnMore": "Learn more",
+      "items": {
+        "pos": {
+          "title": "POS Cashier System",
+          "description": "For front desk checkout, order management, payment and bill handling.",
+          "imageAlt": "POS cashier product image"
+        },
+        "handheld": {
+          "title": "Handheld Ordering Device",
+          "description": "For tableside ordering, add-ons, dish chasing and mobile payment.",
+          "imageAlt": "Handheld ordering device product image"
+        },
+        "kds": {
+          "title": "KDS Kitchen Display",
+          "description": "For kitchen routing, production status and serving collaboration.",
+          "imageAlt": "KDS kitchen display product image"
+        },
+        "ordering": {
+          "title": "Ordering QR Menu",
+          "description": "For guest self-service add-ons, menu browsing and reducing staff pressure.",
+          "imageAlt": "Ordering QR menu product image"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "Configure the right system for your restaurant",
+      "description": "Tell us your table count, kitchen stations, ordering methods and payment needs. Palmnet can recommend a digital solution for your full-service restaurant.",
+      "button": "Ask about this solution"
+    },
+    "cta": {
+      "titleLine1": "You created a unique restaurant.",
+      "titleLine2": "We help you keep growing.",
+      "button": "Contact us"
+    }
+  },
+  "solutionsBuffetPage": {
+    "meta": {
+      "title": "Buffet Restaurant Solution - PalmNet",
+      "description": "Palmnet connects entry pricing, table management, add-on ordering, kitchen operations and reports for buffet restaurants."
+    },
+    "hero": {
+      "titleLine1": "Buffet restaurants",
+      "titleLine2": "Digital solution",
+      "description": "From entry pricing, table management and self-service add-ons to kitchen replenishment, pickup calling and business data, Palmnet helps buffet restaurants serve peak traffic more efficiently and improve the experience across front house, kitchen and guests.",
+      "button": "Talk to us",
+      "imageAlt": "Buffet restaurant dining scene"
+    },
+    "challenges": {
+      "title": "Common challenges for buffet restaurants",
+      "items": {
+        "pricing": {
+          "title": "Complex entry pricing rules",
+          "description": "Guest count, child pricing, time-based pricing and packages make front desk confirmation and checkout time-consuming."
+        },
+        "replenishment": {
+          "title": "Delayed add-ons and replenishment",
+          "description": "Guest add-ons, kitchen replenishment and staff handoff often depend on manual communication and can be delayed or missed."
+        },
+        "turnover": {
+          "title": "High table turnover pressure",
+          "description": "During peak traffic, opening tables, moving tables, checkout and cleaning can affect turnover efficiency."
+        },
+        "data": {
+          "title": "Scattered business data",
+          "description": "Traffic, package sales, add-on orders and payments are scattered, making it hard for owners to judge performance quickly."
+        }
+      }
+    },
+    "intro": {
+      "title": "Make reception, add-ons and serving more efficient",
+      "description": "Buffet restaurants involve guest-count pricing, dining periods, table status, add-on items, kitchen replenishment, pickup calling and operating reports. Palmnet connects POS, QR ordering, KDS, ADS calling and reports to reduce manual communication and improve reception and table turnover."
+    },
+    "growth": {
+      "title": "See how Palmnet helps buffet restaurants",
+      "description": "Choose an operation stage below to see how Palmnet connects entry, tables, add-ons, kitchen and business data."
+    },
+    "tabs": {
+      "entry": {
+        "label": "Entry",
+        "title": "Clearer entry pricing",
+        "description": "Manage guest count, time periods and package pricing rules through POS to reduce repeated front desk confirmation.",
+        "items": [
+          "Supports guest count, time and package pricing",
+          "Fits adult, child and other pricing rules",
+          "Checkout and table opening stay in sync"
+        ],
+        "imageAlt": "Buffet entry pricing scene"
+      },
+      "table": {
+        "label": "Tables",
+        "title": "Real-time table and dining status",
+        "description": "The front team can view occupied, available, dining and checkout status in real time to improve turnover during peaks.",
+        "items": [
+          "View occupied and available table status",
+          "Support table opening, moving and checkout",
+          "Improve front-house turnover efficiency"
+        ],
+        "imageAlt": "Buffet table management scene"
+      },
+      "addon": {
+        "label": "Add-ons",
+        "title": "QR add-ons make ordering easier",
+        "description": "Guests can scan at the table to order drinks, soup bases, sashimi or extra items, with orders synced to the front desk and kitchen.",
+        "items": [
+          "Supports tableside QR ordering",
+          "Fits drinks, soup bases and sashimi add-ons",
+          "Orders sync to front desk and kitchen"
+        ],
+        "imageAlt": "Buffet QR add-on ordering scene"
+      },
+      "kitchen": {
+        "label": "Kitchen",
+        "title": "More organized kitchen replenishment",
+        "description": "Add-on orders enter KDS screens and can be assigned by station, reducing manual tickets and missed orders.",
+        "items": [
+          "Add-on orders sync to KDS",
+          "Assign production tasks by station",
+          "Reduce missed orders and manual handoff"
+        ],
+        "imageAlt": "Buffet kitchen replenishment scene"
+      },
+      "data": {
+        "label": "Data",
+        "title": "Clearer business data",
+        "description": "View traffic, package sales, add-on orders, payments and peak-hour data in one place to optimize operations.",
+        "items": [
+          "View traffic and sales data together",
+          "Analyze peak hours and table turnover",
+          "Help owners optimize store operations"
+        ],
+        "imageAlt": "Buffet business data scene"
+      }
+    },
+    "products": {
+      "title": "Recommended product mix for buffet restaurants",
+      "subtitle": "Based on store type, table count, add-on method and kitchen stations, configure POS, QR ordering, KDS, ADS calling and reporting flexibly.",
+      "learnMore": "Learn more",
+      "items": {
+        "pos": {
+          "title": "POS Cashier System",
+          "description": "For entry, table opening, guest-count pricing, package selection and checkout.",
+          "imageAlt": "POS cashier product image"
+        },
+        "ordering": {
+          "title": "Ordering QR Menu",
+          "description": "For tableside add-ons, drinks and extra package items.",
+          "imageAlt": "Ordering QR product image"
+        },
+        "kds": {
+          "title": "KDS Kitchen Display",
+          "description": "For receiving add-on orders, station routing and production status.",
+          "imageAlt": "KDS product image"
+        },
+        "ads": {
+          "title": "ADS Display",
+          "description": "For featured dishes and time-based package information.",
+          "imageAlt": "ADS product image"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "Configure the right system for your buffet restaurant",
+      "description": "Tell us your table count, dining model, add-on method and kitchen stations. Palmnet can recommend a suitable buffet digital solution.",
+      "button": "Ask about buffet solutions"
+    },
+    "cta": {
+      "titleLine1": "You created a unique restaurant.",
+      "titleLine2": "We help you keep growing.",
+      "button": "Contact us"
+    }
+  },
+  "solutionsChainPage": {
+    "meta": {
+      "title": "Chain Brand Digital Solution - PalmNet",
+      "description": "Palmnet helps restaurant chains unify POS, ordering, membership, products, marketing and business data."
+    },
+    "hero": {
+      "titleLine1": "Chain brands",
+      "titleLine2": "Digital solution",
+      "description": "From single-store operations to multi-store management, Palmnet helps chain brands unify POS, ordering, membership, products, marketing and data so headquarters manage clearly and stores execute consistently.",
+      "button": "Talk to us",
+      "imageAlt": "Chain restaurant store scene"
+    },
+    "challenges": {
+      "title": "Common challenges for chain brands",
+      "items": {
+        "stores": {
+          "title": "Inconsistent multi-store management",
+          "description": "Products, pricing, campaigns and workflows differ by store, making centralized control difficult."
+        },
+        "data": {
+          "title": "Scattered data slows decisions",
+          "description": "Sales, orders, members, payments and inventory are scattered, so management cannot see performance quickly."
+        },
+        "members": {
+          "title": "Disconnected membership system",
+          "description": "If points, tiers, coupons and benefits are not unified, cross-store guest experience becomes fragmented."
+        },
+        "expansion": {
+          "title": "High expansion cost",
+          "description": "New stores need systems, menus, permissions and rules copied quickly, and manual configuration is slow and error-prone."
+        }
+      }
+    },
+    "intro": {
+      "title": "Connect headquarters and stores more tightly",
+      "description": "Chain brands need to manage many stores, cities, devices, menu prices, member benefits, campaigns and operating data at the same time. Palmnet connects store POS, mobile ordering, member marketing, product inventory and headquarters back office to improve management efficiency and expansion capability."
+    },
+    "growth": {
+      "title": "See how Palmnet helps chain brands",
+      "description": "Choose a management stage below to see how Palmnet connects headquarters, stores, products, members and business data."
+    },
+    "tabs": {
+      "headquarters": {
+        "label": "HQ",
+        "title": "Clearer headquarters control",
+        "description": "Headquarters can centrally manage store permissions, system settings, menu prices and operating rules across regions and stores.",
+        "items": [
+          "Manage store permissions and settings centrally",
+          "Sync menus, prices and operating rules",
+          "Support multi-region and multi-store management"
+        ],
+        "imageAlt": "Chain brand headquarters management scene"
+      },
+      "stores": {
+        "label": "Stores",
+        "title": "More consistent store execution",
+        "description": "Unified systems and workflows help every store execute checkout, ordering, marketing and service consistently.",
+        "items": [
+          "Unify store workflows",
+          "Reduce new-store setup and training cost",
+          "Improve execution consistency"
+        ],
+        "imageAlt": "Chain brand store execution scene"
+      },
+      "products": {
+        "label": "Products",
+        "title": "Unified product and price management",
+        "description": "Maintain products, packages and modifiers centrally while supporting store-specific pricing and campaign sync.",
+        "items": [
+          "Maintain products, packages and modifiers centrally",
+          "Support store-specific pricing strategies",
+          "Sync new products and campaigns quickly"
+        ],
+        "imageAlt": "Chain brand product management scene"
+      },
+      "members": {
+        "label": "Members",
+        "title": "Unified membership and benefits",
+        "description": "Support member tiers, points, coupons, stamp cards and cross-store identity recognition to improve repeat visits.",
+        "items": [
+          "Support tiers, points and coupons",
+          "Recognize members across stores",
+          "Drive repeat visits through campaigns"
+        ],
+        "imageAlt": "Chain brand member marketing scene"
+      },
+      "data": {
+        "label": "Data",
+        "title": "Real-time business data summary",
+        "description": "Headquarters can view multi-store sales, orders, best-selling products and store performance for better decisions.",
+        "items": [
+          "View multi-store sales and orders",
+          "Analyze best sellers and store performance",
+          "Support headquarters decisions"
+        ],
+        "imageAlt": "Chain brand business data scene"
+      }
+    },
+    "products": {
+      "title": "Recommended product mix for chain brands",
+      "subtitle": "Based on brand scale, store count and operation model, configure store POS, mobile ordering, self-service terminals, member marketing, ADS displays and HQ data systems.",
+      "learnMore": "Learn more",
+      "items": {
+        "pos": {
+          "title": "POS Cashier System",
+          "description": "For store checkout, order management, payment and daily operations.",
+          "imageAlt": "POS cashier product image"
+        },
+        "ordering": {
+          "title": "Ordering QR Menu",
+          "description": "For branded H5 ordering, QR ordering and online traffic acquisition.",
+          "imageAlt": "Ordering QR product image"
+        },
+        "marketing": {
+          "title": "Marketing Membership",
+          "description": "For unified tiers, points, coupons, stamp cards and repeat-purchase campaigns.",
+          "imageAlt": "Marketing product image"
+        },
+        "ads": {
+          "title": "ADS Display System",
+          "description": "For centrally publishing menus, ads, campaigns and store screen content.",
+          "imageAlt": "ADS display product image"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "Build a unified digital system for your chain brand",
+      "description": "Tell us your store count, regions, business model and membership needs. Palmnet can design a digital solution for chain expansion.",
+      "button": "Ask about chain solutions"
+    },
+    "cta": {
+      "titleLine1": "You created a unique restaurant.",
+      "titleLine2": "We help you keep growing.",
+      "button": "Contact us"
+    }
+  },
+  "solutionsFastFoodPage": {
+    "meta": {
+      "title": "Fast Food Restaurant Solution - PalmNet",
+      "description": "Palmnet connects self-ordering, checkout, kitchen, pickup calling and membership marketing for fast food restaurants."
+    },
+    "hero": {
+      "titleLine1": "Fast food",
+      "titleLine2": "Digital solution",
+      "description": "From self-ordering and checkout to kitchen production, pickup calling, member marketing and chain management, Palmnet helps fast food restaurants improve peak-hour output, reduce queues and standardize operations.",
+      "button": "Talk to us",
+      "imageAlt": "Fast food restaurant scene"
+    },
+    "challenges": {
+      "title": "Common challenges for fast food restaurants",
+      "items": {
+        "queue": {
+          "title": "Peak-hour queue pressure",
+          "description": "Lunch, dinner and weekend traffic concentrates quickly, creating queues at ordering and checkout."
+        },
+        "combo": {
+          "title": "Complex combos and add-ons",
+          "description": "Burgers, drinks, sides and combo options slow down manual confirmation."
+        },
+        "kitchen": {
+          "title": "Kitchen rhythm gets messy",
+          "description": "With many order sources and fast production, unclear kitchen receiving can cause missed or delayed orders."
+        },
+        "membership": {
+          "title": "Hard to unify retention and chain operations",
+          "description": "Multiple stores need unified members, campaigns, menus and data, or brand operations become fragmented."
+        }
+      }
+    },
+    "intro": {
+      "title": "Keep fast food output stable during peak hours",
+      "description": "Fast food restaurants face concentrated traffic, speed demands, many combos, fast kitchen rhythms, frequent pickup calling and multi-store standardization. Palmnet connects POS, Kiosk, Ordering, KDS, ADS and membership marketing to improve efficiency and support expansion."
+    },
+    "growth": {
+      "title": "See how Palmnet helps fast food restaurants",
+      "description": "Choose a stage below to see how Palmnet connects self-ordering, checkout, kitchen, pickup calling and repeat visits."
+    },
+    "tabs": {
+      "ordering": {
+        "label": "Ordering",
+        "title": "Multiple ordering entry points reduce queues",
+        "description": "Support Kiosk self-ordering, QR ordering and mobile H5 ordering so guests place orders faster.",
+        "items": [
+          "Supports Kiosk self-ordering",
+          "Supports QR and mobile H5 ordering",
+          "Fits dine-in, takeaway and online orders"
+        ],
+        "imageAlt": "Fast food self-ordering scene"
+      },
+      "cashier": {
+        "label": "Checkout",
+        "title": "Fast checkout and multiple payments",
+        "description": "Orders enter POS automatically, with card, QR and online payments to reduce repeated front desk input.",
+        "items": [
+          "Orders enter POS automatically",
+          "Supports card, QR and online payments",
+          "Reduces repeated manual entry"
+        ],
+        "imageAlt": "Fast food checkout scene"
+      },
+      "kitchen": {
+        "label": "Kitchen",
+        "title": "Orders sync to kitchen production",
+        "description": "Orders sync to KDS in real time and can be routed by item type, reducing missed orders and confusion.",
+        "items": [
+          "Orders sync to KDS in real time",
+          "Route by item type",
+          "Reduce missed orders and confusion"
+        ],
+        "imageAlt": "Fast food kitchen scene"
+      },
+      "pickup": {
+        "label": "Pickup",
+        "title": "Clearer pickup calling",
+        "description": "When production is complete, numbers can be called automatically and shown on ADS screens for fast pickup.",
+        "items": [
+          "Auto call when ready",
+          "Show pickup numbers on ADS screens",
+          "Fits peak-hour fast pickup"
+        ],
+        "imageAlt": "Fast food pickup calling scene"
+      },
+      "member": {
+        "label": "Members",
+        "title": "Membership marketing drives repeat visits",
+        "description": "Guests can log in through H5 to view points, tiers and coupons, while stores use campaigns and benefits for retention.",
+        "items": [
+          "Supports member login and points",
+          "Coupons and campaigns drive repeat orders",
+          "Fits unified chain operations"
+        ],
+        "imageAlt": "Fast food member marketing scene"
+      }
+    },
+    "products": {
+      "title": "Recommended product mix for fast food restaurants",
+      "subtitle": "Based on traffic, ordering method and chain scale, configure self-ordering, POS, KDS, pickup screens, mobile ordering and membership marketing.",
+      "learnMore": "Learn more",
+      "items": {
+        "kiosk": {
+          "title": "Kiosk Self-Ordering",
+          "description": "Diverts guests during peak hours and reduces front counter queues.",
+          "imageAlt": "Kiosk product image"
+        },
+        "kds": {
+          "title": "KDS Kitchen Display",
+          "description": "For receiving orders, routing production and managing pickup status.",
+          "imageAlt": "KDS product image"
+        },
+        "ads": {
+          "title": "ADS Display and Calling",
+          "description": "For menus, campaigns and pickup numbers.",
+          "imageAlt": "ADS product image"
+        },
+        "marketing": {
+          "title": "Marketing Membership",
+          "description": "For points, coupons, tiers and repeat-purchase campaigns.",
+          "imageAlt": "Marketing product image"
+        }
+      }
+    },
+    "consultCta": {
+      "title": "Configure an efficient system for your fast food store",
+      "description": "Tell us your store type, traffic, ordering method and chain scale. Palmnet can recommend a fast food digital solution.",
+      "button": "Ask about fast food solutions"
+    },
+    "cta": {
+      "titleLine1": "You created a unique restaurant.",
+      "titleLine2": "We help you keep growing.",
+      "button": "Contact us"
+    }
+  },
+  "aboutNew": {
+    "meta": {
+      "title": "About Us - PalmNet",
+      "description": "Learn how PalmNet empowers restaurants worldwide with vertical restaurant technology."
+    },
+    "hero": {
+      "title": "Deeply focused on restaurants, empowering sustainable growth through digital technology",
+      "imageAlt": "PalmNet product devices"
+    },
+    "story": {
+      "kicker": "About PALMNET",
+      "title": "Redefining restaurant boundaries so growth happens naturally",
+      "paragraphs": [
+        "We started in Barcelona, Spain, building an integrated software and hardware ecosystem for restaurants that connects front of house, kitchen, supply chain and marketing in real time.",
+        "Starting from stable ordering and POS systems, we expanded into BOM-level smart inventory, omnichannel member marketing and centralized multi-store management.",
+        "Today, PALMKIT has become a trusted business technology platform across Europe and Southeast Asia.",
+        "From cozy neighborhood restaurants to international chain brands, PALMKIT helps merchants sell anywhere, coordinate kitchens efficiently, control inventory loss and build deeper customer relationships.",
+        "Simplify restaurants, amplify growth. We remove complexity and open new business possibilities for restaurant operators worldwide."
+      ]
+    },
+    "capabilities": {
+      "learnMore": "Learn more",
+      "payments": {
+        "title": "Accept payments",
+        "description": "From counter POS to tableside QR, collect payments securely anywhere and make checkout seamless.",
+        "imageAlt": "Restaurant payment scene"
+      },
+      "operations": {
+        "title": "Control your stores",
+        "description": "Connect front house, kitchen, inventory and multi-store data so busy days stay organized.",
+        "imageAlt": "Restaurant operations scene"
+      },
+      "retention": {
+        "title": "Retain your guests",
+        "description": "Built-in SMS/WhatsApp marketing and membership systems turn one-time guests into regulars.",
+        "imageAlt": "Membership marketing scene"
+      }
+    },
+    "mission": {
+      "title": "We are building a leading all-scenario digital ecosystem for restaurants",
+      "description": "Through integrated software and hardware, we help restaurant merchants reduce operational complexity and achieve predictable, sustainable profit growth.",
+      "imageAlt": "Restaurant digital system display"
+    },
+    "offices": {
+      "title": "Global reach, local service",
+      "items": {
+        "europe": {
+          "title": "European HQ",
+          "location": "Barcelona, Spain",
+          "description": "Focused on full-service dining, large buffet restaurants, hot pot, barbecue and other complex formats.\n\nCoverage: Spain, France, Germany, Italy, Portugal and more."
+        },
+        "asia": {
+          "title": "Southeast Asia Operations Center",
+          "location": "Bangkok, Thailand",
+          "description": "Focused on tea and coffee, western fast food, premium bakery and other high-frequency formats.\n\nCoverage: Thailand, Malaysia, Singapore and more."
+        },
+        "tech": {
+          "title": "Global Technology Center",
+          "location": "Hangzhou, China",
+          "description": "Responsible for PALMKIT high-concurrency cloud architecture, data security and global system iteration."
+        }
+      }
+    },
+    "resources": {
+      "title": "More Restaurant Insights",
+      "subtitle": "Explore restaurant success stories, frontier technology and the latest trends.",
+      "learnMore": "Learn more",
+      "items": {
+        "tech": {
+          "title": "The latest restaurant technology and tools for 2026",
+          "imageAlt": "Restaurant technology article cover"
+        },
+        "pos": {
+          "title": "The best Apple restaurant POS system",
+          "imageAlt": "POS article cover"
+        },
+        "offline": {
+          "title": "How offline POS mode keeps operations stable",
+          "imageAlt": "Offline POS article cover"
+        }
+      }
+    },
+    "brands": {
+      "title": "Leading brands choose PALMNET"
+    },
+    "cta": {
+      "titleLine1": "You created a unique restaurant.",
+      "titleLine2": "We help you keep growing.",
+      "button": "Contact us"
+    }
   }
 }

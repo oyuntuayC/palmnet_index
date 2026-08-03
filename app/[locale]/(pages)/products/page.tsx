@@ -40,25 +40,29 @@ export default function ProductsPage(): React.ReactElement {
   ]
 
   return (
-    <div className="container mx-auto py-16">
-      <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">产品中心</h1>
-        <p className="text-lg text-gray-600">探索我们的完整产品解决方案</p>
-      </div>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {products.map((product) => (
-          <Link 
-            key={product.key}
-            href={`/products/${product.key}`}
-            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6"
-          >
-            <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
-            <p className="text-gray-600 mb-4">{product.description}</p>
-            <div className="text-primary font-medium">了解更多 →</div>
-          </Link>
-        ))}
-      </div>
-    </div>
+    <main className="bg-white text-[#0a0a0a]">
+      <section className="section-space">
+        <div className="layout-page">
+          <div className="section-head-gap text-center">
+            <h1 className="type-display-md text-black">产品中心</h1>
+            <p className="type-body text-[#71717b]">探索我们的完整产品解决方案</p>
+          </div>
+          
+          <div className="grid grid-cols-1 gap-[var(--space-xl)] md:grid-cols-2 lg:grid-cols-3">
+            {products.map((product) => (
+              <Link 
+                key={product.key}
+                href={`/products/${product.key}`}
+                className="block rounded-[var(--rounded-sm)] bg-white p-[var(--space-lg)] shadow-md transition-shadow duration-300 hover:shadow-lg"
+              >
+                <h3 className="type-tagline stack-title-body text-black">{product.name}</h3>
+                <p className="type-body stack-title-body text-[#71717b]">{product.description}</p>
+                <div className="type-caption-strong text-primary">了解更多 →</div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
   )
 }
